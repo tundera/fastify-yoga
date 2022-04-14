@@ -16,5 +16,8 @@
     "titleBar.inactiveBackground": "#21573299",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#215732"
+  "peacock.color": "#215732",
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-action.json": "file:///Users/tundera/code/examples/yoga/fastify/.github/workflows/deploy.yml"
+  }
 }
