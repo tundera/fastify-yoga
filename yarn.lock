@@ -295,7 +295,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pothos/core@npm:^3.6.0":
+"@pothos/core@npm:3.6.0":
   version: 3.6.0
   resolution: "@pothos/core@npm:3.6.0"
   peerDependencies:
@@ -304,7 +304,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pothos/plugin-prisma@npm:^3.4.0":
+"@pothos/plugin-prisma@npm:3.4.0":
   version: 3.4.0
   resolution: "@pothos/plugin-prisma@npm:3.4.0"
   dependencies:
@@ -320,7 +320,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pothos/plugin-relay@npm:^3.10.0":
+"@pothos/plugin-relay@npm:3.10.0":
   version: 3.10.0
   resolution: "@pothos/plugin-relay@npm:3.10.0"
   peerDependencies:
@@ -330,7 +330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:^3.12.0":
+"@prisma/client@npm:3.12.0":
   version: 3.12.0
   resolution: "@prisma/client@npm:3.12.0"
   dependencies:
@@ -471,7 +471,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^8.4.1":
+"@types/eslint@npm:8.4.1":
   version: 8.4.1
   resolution: "@types/eslint@npm:8.4.1"
   dependencies:
@@ -516,7 +516,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^17.0.23":
+"@types/node@npm:*, @types/node@npm:17.0.23":
   version: 17.0.23
   resolution: "@types/node@npm:17.0.23"
   checksum: 5c70285a5454aa1daa1f515c1b6df8ccdc85ba18c19d650355f32ac00f82494d9b0ec4c6f943bcc4081acc5662aa68ff84f4e91f35f0b23087b3ed4682f73ad4
@@ -533,7 +533,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/supertest@npm:^2.0.12":
+"@types/supertest@npm:2.0.12":
   version: 2.0.12
   resolution: "@types/supertest@npm:2.0.12"
   dependencies:
@@ -549,7 +549,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.19.0":
+"@typescript-eslint/eslint-plugin@npm:5.19.0":
   version: 5.19.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.19.0"
   dependencies:
@@ -572,7 +572,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.19.0":
+"@typescript-eslint/parser@npm:5.19.0":
   version: 5.19.0
   resolution: "@typescript-eslint/parser@npm:5.19.0"
   dependencies:
@@ -666,7 +666,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:^0.9.3":
+"@vitest/ui@npm:0.9.3":
   version: 0.9.3
   resolution: "@vitest/ui@npm:0.9.3"
   dependencies:
@@ -994,7 +994,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"c8@npm:^7.11.0":
+"c8@npm:7.11.0":
   version: 7.11.0
   resolution: "c8@npm:7.11.0"
   dependencies:
@@ -1441,7 +1441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.0.0":
+"dotenv@npm:16.0.0, dotenv@npm:^16.0.0":
   version: 16.0.0
   resolution: "dotenv@npm:16.0.0"
   checksum: 50c211ad5b0047d0e2ac10fcc5722979923a7dca6246569ccb41532f3e48b752d8ad5204a7f4c19e371276a4cd2c8beef5e79522fa6a3cc6856597944017f638
@@ -1499,7 +1499,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"env-schema@npm:^4.0.0":
+"env-schema@npm:4.0.0":
   version: 4.0.0
   resolution: "env-schema@npm:4.0.0"
   dependencies:
@@ -1815,7 +1815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.5.0":
+"eslint-config-prettier@npm:8.5.0":
   version: 8.5.0
   resolution: "eslint-config-prettier@npm:8.5.0"
   peerDependencies:
@@ -1826,7 +1826,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.6":
+"eslint-import-resolver-node@npm:0.3.6, eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6"
   dependencies:
@@ -1836,7 +1836,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:^2.7.1":
+"eslint-import-resolver-typescript@npm:2.7.1":
   version: 2.7.1
   resolution: "eslint-import-resolver-typescript@npm:2.7.1"
   dependencies:
@@ -1862,7 +1862,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.26.0":
+"eslint-plugin-import@npm:2.26.0":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
   dependencies:
@@ -1885,7 +1885,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
+"eslint-plugin-prettier@npm:4.0.0":
   version: 4.0.0
   resolution: "eslint-plugin-prettier@npm:4.0.0"
   dependencies:
@@ -1945,7 +1945,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.13.0":
+"eslint@npm:8.13.0":
   version: 8.13.0
   resolution: "eslint@npm:8.13.0"
   dependencies:
@@ -1990,7 +1990,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esno@npm:^0.14.1":
+"esno@npm:0.14.1":
   version: 0.14.1
   resolution: "esno@npm:0.14.1"
   dependencies:
@@ -2063,6 +2063,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"execa@npm:6.1.0":
+  version: 6.1.0
+  resolution: "execa@npm:6.1.0"
+  dependencies:
+    cross-spawn: ^7.0.3
+    get-stream: ^6.0.1
+    human-signals: ^3.0.1
+    is-stream: ^3.0.0
+    merge-stream: ^2.0.0
+    npm-run-path: ^5.1.0
+    onetime: ^6.0.0
+    signal-exit: ^3.0.7
+    strip-final-newline: ^3.0.0
+  checksum: 004ee32092af745766a1b0352fdba8701a4001bc3fe08e63101c04276d4c860bbe11bb8ab85f37acdff13d3da83d60e044041dcf24bd7e25e645a543828d9c41
+  languageName: node
+  linkType: hard
+
 "execa@npm:^5.0.0":
   version: 5.1.1
   resolution: "execa@npm:5.1.1"
@@ -2077,23 +2094,6 @@ __metadata:
     signal-exit: ^3.0.3
     strip-final-newline: ^2.0.0
   checksum: c8e615235e8de4c5addf2fa4c3da3e3aa59ce975a3e83533b4f6a71750fb816a2e79610dc5f1799b6e28976c9ae86747a36a606655bf8cb414a74d8d507b304f
-  languageName: node
-  linkType: hard
-
-"execa@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "execa@npm:6.1.0"
-  dependencies:
-    cross-spawn: ^7.0.3
-    get-stream: ^6.0.1
-    human-signals: ^3.0.1
-    is-stream: ^3.0.0
-    merge-stream: ^2.0.0
-    npm-run-path: ^5.1.0
-    onetime: ^6.0.0
-    signal-exit: ^3.0.7
-    strip-final-newline: ^3.0.0
-  checksum: 004ee32092af745766a1b0352fdba8701a4001bc3fe08e63101c04276d4c860bbe11bb8ab85f37acdff13d3da83d60e044041dcf24bd7e25e645a543828d9c41
   languageName: node
   linkType: hard
 
@@ -2183,43 +2183,43 @@ __metadata:
   resolution: "fastify-yoga@workspace:."
   dependencies:
     "@graphql-yoga/node": 2.2.1
-    "@pothos/core": ^3.6.0
-    "@pothos/plugin-prisma": ^3.4.0
-    "@pothos/plugin-relay": ^3.10.0
-    "@prisma/client": ^3.12.0
-    "@types/eslint": ^8.4.1
-    "@types/node": ^17.0.23
-    "@types/supertest": ^2.0.12
-    "@typescript-eslint/eslint-plugin": ^5.19.0
-    "@typescript-eslint/parser": ^5.19.0
-    "@vitest/ui": ^0.9.3
-    c8: ^7.11.0
-    dotenv: ^16.0.0
-    env-schema: ^4.0.0
-    eslint: ^8.13.0
-    eslint-config-prettier: ^8.5.0
-    eslint-import-resolver-node: ^0.3.6
-    eslint-import-resolver-typescript: ^2.7.1
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.0.0
-    esno: ^0.14.1
-    execa: ^6.1.0
+    "@pothos/core": 3.6.0
+    "@pothos/plugin-prisma": 3.4.0
+    "@pothos/plugin-relay": 3.10.0
+    "@prisma/client": 3.12.0
+    "@types/eslint": 8.4.1
+    "@types/node": 17.0.23
+    "@types/supertest": 2.0.12
+    "@typescript-eslint/eslint-plugin": 5.19.0
+    "@typescript-eslint/parser": 5.19.0
+    "@vitest/ui": 0.9.3
+    c8: 7.11.0
+    dotenv: 16.0.0
+    env-schema: 4.0.0
+    eslint: 8.13.0
+    eslint-config-prettier: 8.5.0
+    eslint-import-resolver-node: 0.3.6
+    eslint-import-resolver-typescript: 2.7.1
+    eslint-plugin-import: 2.26.0
+    eslint-plugin-prettier: 4.0.0
+    esno: 0.14.1
+    execa: 6.1.0
     fastify: 3.28.0
-    graphql: ^16.3.0
-    graphql-scalars: ^1.17.0
-    pino: ^7.10.0
-    pino-pretty: ^7.6.1
-    prettier: ^2.6.2
-    prettier-plugin-prisma: ^3.12.0
-    prisma: ^3.12.0
-    supertest: ^6.2.2
-    tasuku: ^1.0.2
+    graphql: 16.3.0
+    graphql-scalars: 1.17.0
+    pino: 7.10.0
+    pino-pretty: 7.6.1
+    prettier: 2.6.2
+    prettier-plugin-prisma: 3.12.0
+    prisma: 3.12.0
+    supertest: 6.2.2
+    tasuku: 1.0.2
     ts-node: 10.7.0
-    tsconfig-paths: ^3.14.1
-    tsup: ^5.12.5
+    tsconfig-paths: 3.14.1
+    tsup: 5.12.5
     typescript: 4.6.3
-    vite-tsconfig-paths: ^3.4.1
-    vitest: ^0.9.3
+    vite-tsconfig-paths: 3.4.1
+    vitest: 0.9.3
   languageName: unknown
   linkType: soft
 
@@ -2582,7 +2582,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-scalars@npm:^1.17.0":
+"graphql-scalars@npm:1.17.0":
   version: 1.17.0
   resolution: "graphql-scalars@npm:1.17.0"
   dependencies:
@@ -2593,7 +2593,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:^16.3.0":
+"graphql@npm:16.3.0":
   version: 16.3.0
   resolution: "graphql@npm:16.3.0"
   checksum: 71f205c16c93a5085c8a5dc3f9a1a27c022140208042d5be1dfacf04c1d3063ec2f62e3d08b0ed2cfb536c59cca65dd027556a22c47082fc348a5050c5535c71
@@ -3771,7 +3771,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino-pretty@npm:^7.6.1":
+"pino-pretty@npm:7.6.1":
   version: 7.6.1
   resolution: "pino-pretty@npm:7.6.1"
   dependencies:
@@ -3808,24 +3808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:^6.13.0":
-  version: 6.14.0
-  resolution: "pino@npm:6.14.0"
-  dependencies:
-    fast-redact: ^3.0.0
-    fast-safe-stringify: ^2.0.8
-    flatstr: ^1.0.12
-    pino-std-serializers: ^3.1.0
-    process-warning: ^1.0.0
-    quick-format-unescaped: ^4.0.3
-    sonic-boom: ^1.0.2
-  bin:
-    pino: bin.js
-  checksum: 5d3cb22c804e2bf2439ace64a46a7901d0a138cb75715ad8a8bbcf3ddb09dc5e33a9fc8a49527c3345d317619748c6de94d28481911ae931c21b953e24048425
-  languageName: node
-  linkType: hard
-
-"pino@npm:^7.10.0":
+"pino@npm:7.10.0":
   version: 7.10.0
   resolution: "pino@npm:7.10.0"
   dependencies:
@@ -3843,6 +3826,23 @@ __metadata:
   bin:
     pino: bin.js
   checksum: f4602a18f004cf258aa57662eb8d5237e8fe6dc9f9d9a84014e6b4530810e00532b7621daf64f08f689f0d2e8e6964c76839fab734891d42a2fca4553c6ba7f9
+  languageName: node
+  linkType: hard
+
+"pino@npm:^6.13.0":
+  version: 6.14.0
+  resolution: "pino@npm:6.14.0"
+  dependencies:
+    fast-redact: ^3.0.0
+    fast-safe-stringify: ^2.0.8
+    flatstr: ^1.0.12
+    pino-std-serializers: ^3.1.0
+    process-warning: ^1.0.0
+    quick-format-unescaped: ^4.0.3
+    sonic-boom: ^1.0.2
+  bin:
+    pino: bin.js
+  checksum: 5d3cb22c804e2bf2439ace64a46a7901d0a138cb75715ad8a8bbcf3ddb09dc5e33a9fc8a49527c3345d317619748c6de94d28481911ae931c21b953e24048425
   languageName: node
   linkType: hard
 
@@ -3898,7 +3898,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-prisma@npm:^3.12.0":
+"prettier-plugin-prisma@npm:3.12.0":
   version: 3.12.0
   resolution: "prettier-plugin-prisma@npm:3.12.0"
   dependencies:
@@ -3909,7 +3909,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.6.2":
+"prettier@npm:2.6.2":
   version: 2.6.2
   resolution: "prettier@npm:2.6.2"
   bin:
@@ -3918,7 +3918,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:^3.12.0":
+"prisma@npm:3.12.0":
   version: 3.12.0
   resolution: "prisma@npm:3.12.0"
   dependencies:
@@ -4514,7 +4514,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supertest@npm:^6.2.2":
+"supertest@npm:6.2.2":
   version: 6.2.2
   resolution: "supertest@npm:6.2.2"
   dependencies:
@@ -4563,7 +4563,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tasuku@npm:^1.0.2":
+"tasuku@npm:1.0.2":
   version: 1.0.2
   resolution: "tasuku@npm:1.0.2"
   dependencies:
@@ -4722,7 +4722,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-paths@npm:^3.14.1, tsconfig-paths@npm:^3.9.0":
+"tsconfig-paths@npm:3.14.1, tsconfig-paths@npm:^3.14.1, tsconfig-paths@npm:^3.9.0":
   version: 3.14.1
   resolution: "tsconfig-paths@npm:3.14.1"
   dependencies:
@@ -4748,7 +4748,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsup@npm:^5.12.5":
+"tsup@npm:5.12.5":
   version: 5.12.5
   resolution: "tsup@npm:5.12.5"
   dependencies:
@@ -4917,7 +4917,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-tsconfig-paths@npm:^3.4.1":
+"vite-tsconfig-paths@npm:3.4.1":
   version: 3.4.1
   resolution: "vite-tsconfig-paths@npm:3.4.1"
   dependencies:
@@ -4960,7 +4960,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:^0.9.3":
+"vitest@npm:0.9.3":
   version: 0.9.3
   resolution: "vitest@npm:0.9.3"
   dependencies:
