@@ -12,7 +12,8 @@ FROM base as deps
 
 WORKDIR /myapp
 
-ADD package.json yarn.lock .yarnrc.yml .yarn ./
+ADD .yarn/releases ./.yarn/releases
+ADD package.json yarn.lock .yarnrc.yml ./
 RUN yarn install --immutable
 
 # Setup production node_modules
@@ -20,9 +21,7 @@ FROM base as production-deps
 
 WORKDIR /myapp
 
-COPY --from=deps /myapp/node_modules /myapp/node_modules
-COPY --from=deps /myapp/.yarn /myapp/.yarn
-ADD package.json yarn.lock .yarnrc.yml ./
+COPY --from=deps /myapp /myapp
 
 # Build the app
 FROM base as build
@@ -32,7 +31,7 @@ WORKDIR /myapp
 COPY --from=deps /myapp/node_modules /myapp/node_modules
 COPY --from=deps /myapp/.yarn /myapp/.yarn
 
-ADD prisma .
+ADD prisma package.json ./
 RUN yarn prisma generate
 
 ADD . .
