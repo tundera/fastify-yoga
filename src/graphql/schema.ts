@@ -18,10 +18,7 @@ export const builder = new SchemaBuilder<{
   }
 }>({
   plugins: [PrismaPlugin, RelayPlugin],
-  relayOptions: {
-    clientMutationId: 'omit',
-    cursorType: 'String',
-  },
+  relayOptions: {},
   prisma: {
     client: prisma,
   },
@@ -79,7 +76,7 @@ builder.prismaNode('Player', {
 
 builder.prismaNode('ColorScheme', {
   findUnique: (id) => ({ id }),
-  id: { resolve: (player) => player.id },
+  id: { resolve: (colorScheme) => colorScheme.id },
   fields: (t) => ({
     primary: t.exposeString('primary'),
     secondary: t.exposeString('secondary'),

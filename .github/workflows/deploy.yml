@@ -81,50 +81,39 @@ jobs:
       - name: 🔎 Type check
         run: yarn typecheck
 
-  vitest:
-    name: ⚡ Vitest
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🛑 Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.9.1
+  # vitest:
+  #   name: ⚡ Vitest
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: 🛑 Cancel Previous Runs
+  #       uses: styfle/cancel-workflow-action@0.9.1
 
-      - name: ⬇️ Checkout repo
-        uses: actions/checkout@v3
+  #     - name: ⬇️ Checkout repo
+  #       uses: actions/checkout@v3
 
-      - name: ⎔ Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
+  #     - name: ⎔ Setup node
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 16
 
-      - name: 📁 Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+  #     - name: 📁 Get yarn cache directory path
+  #       id: yarn-cache-dir-path
+  #       run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
-      - name: ♻️ Cache yarn
-        uses: actions/cache@v3
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: yarn-1235-${{ hashFiles('yarn.lock') }} # Change `yarn-{randomString}` to bust the cache
-          restore-keys: |
-            yarn-1234
+  #     - name: ♻️ Cache yarn
+  #       uses: actions/cache@v3
+  #       id: yarn-cache
+  #       with:
+  #         path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+  #         key: yarn-1235-${{ hashFiles('yarn.lock') }} # Change `yarn-{randomString}` to bust the cache
+  #         restore-keys: |
+  #           yarn-1234
 
-      - name: 📥 Download deps
-        run: yarn install --immutable
+  #     - name: 📥 Download deps
+  #       run: yarn install --immutable
 
-      - name: 🐳 Docker compose
-        # the sleep is just there to give time for postgres to get started
-        run: docker-compose up -d && sleep 3
-        env:
-          DATABASE_URL: 'postgresql://postgres:postgres@localhost:5432/postgres'
-
-      - name: 🛠 Setup Database
-        run: yarn prisma migrate reset --force
-        env:
-          DATABASE_URL: 'postgresql://postgres:postgres@localhost:5432/postgres'
-
-      - name: ⚡ Run vitest
-        run: yarn test -- --coverage
+  #     - name: ⚡ Run vitest
+  #       run: yarn test -- --coverage
 
   build:
     name: 🐳 Build
