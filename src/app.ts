@@ -16,6 +16,16 @@ export function buildApp() {
     logging: app.log,
   })
 
+  // Heatlh Check route
+  app.route({
+    url: '/healthcheck',
+    method: ['GET'],
+    handler: async (req, reply) => {
+      return 'OK'
+    },
+  })
+
+  // GraphQL server route
   app.route({
     url: '/graphql',
     method: ['GET', 'POST', 'OPTIONS'],
