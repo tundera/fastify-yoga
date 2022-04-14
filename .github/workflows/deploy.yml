@@ -38,6 +38,9 @@ jobs:
       - name: 📥 Download deps
         run: yarn install --immutable
 
+      - name: 🌈 Generate Prisma Client
+        run: yarn prisma generate
+
       - name: 🔬 Lint
         run: yarn lint
 
@@ -72,8 +75,11 @@ jobs:
       - name: 📥 Download deps
         run: yarn install --immutable
 
+      - name: 🌈 Generate Prisma Client
+        run: yarn prisma generate
+
       - name: 🔎 Type check
-        run: yarn typecheck --if-present
+        run: yarn typecheck
 
   vitest:
     name: ⚡ Vitest
@@ -105,6 +111,9 @@ jobs:
 
       - name: 📥 Download deps
         run: yarn install --immutable
+
+      - name: 🌈 Generate Prisma Client
+        run: yarn prisma generate
 
       - name: ⚡ Run vitest
         run: yarn test -- --coverage
