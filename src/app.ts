@@ -16,7 +16,7 @@ export function buildApp() {
     logging: app.log,
   })
 
-  // Heatlh Check route
+  // Health check route
   app.route({
     url: '/healthcheck',
     method: ['GET'],
