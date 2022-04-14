@@ -168,9 +168,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-yoga/common@npm:2.2.1":
-  version: 2.2.1
-  resolution: "@graphql-yoga/common@npm:2.2.1"
+"@graphql-yoga/common@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@graphql-yoga/common@npm:2.3.0"
   dependencies:
     "@envelop/core": ^2.0.0
     "@envelop/disable-introspection": ^3.0.0
@@ -180,29 +180,28 @@ __metadata:
     "@graphql-tools/utils": ^8.6.0
     "@graphql-typed-document-node/core": ^3.1.1
     "@graphql-yoga/subscription": 2.0.0
-    chalk: 4.1.2
     cross-undici-fetch: ^0.2.5
     dset: ^3.1.1
     tslib: ^2.3.1
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: e16966d9da87262799d01258b1e94efe829c47e3bf41f2310c62cf344b05f8fa440e14aab8af91756358a3115c2cd49a4d9ebcc2f2ee309bb24bc3bc39268a1c
+  checksum: ee748e513ad4b59b6bd3cef4d897c2c4e79ac37537f477785eb32f33b79521539c5791deee8bc7ff04cda87862adc10544f183c3c1496a876bf20a61b37bcc18
   languageName: node
   linkType: hard
 
-"@graphql-yoga/node@npm:2.2.1":
-  version: 2.2.1
-  resolution: "@graphql-yoga/node@npm:2.2.1"
+"@graphql-yoga/node@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@graphql-yoga/node@npm:2.3.0"
   dependencies:
     "@envelop/core": ^2.0.0
     "@graphql-tools/utils": ^8.6.0
-    "@graphql-yoga/common": 2.2.1
+    "@graphql-yoga/common": 2.3.0
     "@graphql-yoga/subscription": 2.0.0
     cross-undici-fetch: ^0.2.5
     tslib: ^2.3.1
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: 0ef92e937162aabf01fd154d0532c236c504c00732474370ef32bffad9bce86d93e85e449545fd249e7520a5cec40e228d9cf857dbbd147f23ceb1934745a0e2
+  checksum: 0783ad16b8809a13dfbccbd392e4e339dfb127fba3caf0677ad8d743d73854f9e4260c12fd6d2504bdc9f9f005f6de2a5cc5a0c2582948b60b4bee85ad12d62f
   languageName: node
   linkType: hard
 
@@ -2182,7 +2181,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "fastify-yoga@workspace:."
   dependencies:
-    "@graphql-yoga/node": 2.2.1
+    "@graphql-yoga/node": 2.3.0
     "@pothos/core": 3.6.0
     "@pothos/plugin-prisma": 3.4.0
     "@pothos/plugin-relay": 3.10.0
