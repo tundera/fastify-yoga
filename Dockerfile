@@ -44,6 +44,7 @@ FROM base
 WORKDIR /myapp
 
 COPY --from=production-deps /myapp/node_modules /myapp/node_modules
+COPY --from=production-deps /myapp/.yarn /myapp/.yarn
 COPY --from=build /myapp/node_modules/.prisma /myapp/node_modules/.prisma
 
 COPY --from=build /myapp/dist /myapp/dist
