@@ -1,0 +1,70 @@
+{
+  "name": "fastify-yoga",
+  "private": true,
+  "version": "0.1.0",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.mjs",
+      "require": "./dist/*.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "prisma": {
+    "seed": "esno -r tsconfig-paths/register scripts/seed.ts"
+  },
+  "scripts": {
+    "watch": "tsup-node src/index.ts --format cjs,esm --watch",
+    "build": "tsup-node src/index.ts --format cjs,esm --dts-resolve --sourcemap",
+    "dev": "esno scripts/start.ts",
+    "start": "node dist/index.js",
+    "reset": "esno scripts/reset.ts",
+    "typecheck": "tsc --pretty --noEmit",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@graphql-yoga/node": "2.2.1",
+    "@pothos/core": "^3.6.0",
+    "@pothos/plugin-prisma": "^3.4.0",
+    "@pothos/plugin-relay": "^3.10.0",
+    "@prisma/client": "^3.12.0",
+    "env-schema": "^4.0.0",
+    "fastify": "3.28.0",
+    "graphql": "^16.3.0",
+    "graphql-scalars": "^1.17.0",
+    "pino": "^7.10.0",
+    "pino-pretty": "^7.6.1",
+    "ts-node": "10.7.0",
+    "typescript": "4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/supertest": "^2.0.12",
+    "@vitest/ui": "^0.9.3",
+    "c8": "^7.11.0",
+    "dotenv": "^16.0.0",
+    "esno": "^0.14.1",
+    "execa": "^6.1.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-prisma": "^3.12.0",
+    "prisma": "^3.12.0",
+    "supertest": "^6.2.2",
+    "tasuku": "^1.0.2",
+    "tsconfig-paths": "^3.14.1",
+    "tsup": "^5.12.5",
+    "vite-tsconfig-paths": "^3.4.1",
+    "vitest": "^0.9.3"
+  },
+  "packageManager": "yarn@3.2.0"
+}
