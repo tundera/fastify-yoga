@@ -8,11 +8,15 @@ const { PORT } = envSchema({
   dotenv: true,
   schema: {
     type: 'object',
-    required: ['PORT'],
+    required: ['PORT', 'DATABASE_URL'],
     properties: {
       PORT: {
         type: 'string',
         default: 4000,
+      },
+      DATABASE_URL: {
+        type: 'string',
+        default: 'postgres://postgres:postgres@localhost:5432/postgres',
       },
     },
   },
