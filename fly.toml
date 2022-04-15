@@ -4,6 +4,7 @@ kill_timeout = 5
 processes = [ ]
 
 [env]
+NODE_ENV = "production"
 PORT = "4000"
 
 [deploy]
@@ -14,7 +15,7 @@ allowed_public_ports = [ ]
 auto_rollback = true
 
 [[services]]
-internal_port = 8_080
+internal_port = 4000
 processes = [ "app" ]
 protocol = "tcp"
 script_checks = [ ]
