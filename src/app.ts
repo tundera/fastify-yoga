@@ -20,7 +20,7 @@ export function buildApp() {
   app.route({
     url: '/healthcheck',
     method: ['GET'],
-    handler: async (req, reply) => {
+    handler: async (_req, _reply) => {
       return 'OK'
     },
   })

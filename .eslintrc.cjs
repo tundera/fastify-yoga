@@ -11,6 +11,7 @@ module.exports = {
   ],
   plugins: ['import'],
   rules: {
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     'import/no-anonymous-default-export': 'warn',
   },
   parser: '@typescript-eslint/parser',
