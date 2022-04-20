@@ -233,10 +233,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@istanbuljs/schema@npm:^0.1.2":
+"@istanbuljs/schema@npm:^0.1.2, @istanbuljs/schema@npm:^0.1.3":
   version: 0.1.3
   resolution: "@istanbuljs/schema@npm:0.1.3"
   checksum: 61c5286771676c9ca3eb2bd8a7310a9c063fb6e0e9712225c8471c582d157392c88f5353581c8c9adbe0dff98892317d2fdfc56c3499aa42e0194405206a963a
+  languageName: node
+  linkType: hard
+
+"@jridgewell/resolve-uri@npm:^3.0.3":
+  version: 3.0.5
+  resolution: "@jridgewell/resolve-uri@npm:3.0.5"
+  checksum: 00e27376be6dcfccca1666326328ba47c4614002fb20b9c4f7a47d25ecf0b99061f201362109bf4ce547e8f246aaac35db67b3ab6bf07c3e0e3edabccd4bdb31
+  languageName: node
+  linkType: hard
+
+"@jridgewell/sourcemap-codec@npm:^1.4.10":
+  version: 1.4.11
+  resolution: "@jridgewell/sourcemap-codec@npm:1.4.11"
+  checksum: 92f81c79a268cb1cd8ec29831a69838b7af98e020d4c80a37dd5aa3b6c7868f9e97fa75c18c9100e3879b47472654fa013d44a79c280d7f2229bbfd64e3dd169
+  languageName: node
+  linkType: hard
+
+"@jridgewell/trace-mapping@npm:^0.3.7":
+  version: 0.3.8
+  resolution: "@jridgewell/trace-mapping@npm:0.3.8"
+  dependencies:
+    "@jridgewell/resolve-uri": ^3.0.3
+    "@jridgewell/sourcemap-codec": ^1.4.10
+  checksum: 811efacbf41eab9e1e4226618c107bd4234acc655d9597757e6be75c9a16524104846e7cf616d23626393796dc8a683dd9798f1e81136a7f29add8a0ad4e4113
   languageName: node
   linkType: hard
 
@@ -993,25 +1017,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"c8@npm:7.11.0":
-  version: 7.11.0
-  resolution: "c8@npm:7.11.0"
+"c8@npm:7.11.2":
+  version: 7.11.2
+  resolution: "c8@npm:7.11.2"
   dependencies:
     "@bcoe/v8-coverage": ^0.2.3
-    "@istanbuljs/schema": ^0.1.2
+    "@istanbuljs/schema": ^0.1.3
     find-up: ^5.0.0
     foreground-child: ^2.0.0
-    istanbul-lib-coverage: ^3.0.1
+    istanbul-lib-coverage: ^3.2.0
     istanbul-lib-report: ^3.0.0
-    istanbul-reports: ^3.0.2
-    rimraf: ^3.0.0
+    istanbul-reports: ^3.1.4
+    rimraf: ^3.0.2
     test-exclude: ^6.0.0
-    v8-to-istanbul: ^8.0.0
+    v8-to-istanbul: ^9.0.0
     yargs: ^16.2.0
-    yargs-parser: ^20.2.7
+    yargs-parser: ^20.2.9
   bin:
     c8: bin/c8.js
-  checksum: 00417d3fa03e7b16d000c9f1f7193053428c1af347c29bfdf32fa530a30d70b981ae6b6f15f585034e03922aafbdf6ebcbb746edbaf676a06b489a493cd0b9a5
+  checksum: 70da35a310fe8c1f413825610627d002ff8ed1814e7596c86784a539cdb4c9c5c6ef62bca667cfc409000fe45387fc7e16b5580d89e9b9f84c15a7f368fac609
   languageName: node
   linkType: hard
 
@@ -2192,7 +2216,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.19.0
     "@typescript-eslint/parser": 5.19.0
     "@vitest/ui": 0.9.3
-    c8: 7.11.0
+    c8: 7.11.2
     dotenv: 16.0.0
     env-schema: 4.0.0
     eslint: 8.13.0
@@ -2988,7 +3012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"istanbul-lib-coverage@npm:^3.0.0, istanbul-lib-coverage@npm:^3.0.1":
+"istanbul-lib-coverage@npm:^3.0.0, istanbul-lib-coverage@npm:^3.2.0":
   version: 3.2.0
   resolution: "istanbul-lib-coverage@npm:3.2.0"
   checksum: 10ecb00a50cac2f506af8231ce523ffa1ac1310db0435c8ffaabb50c1d72539906583aa13c84f8835dc103998b9989edc3c1de989d2e2a96a91a9ba44e5db6b9
@@ -3006,7 +3030,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"istanbul-reports@npm:^3.0.2":
+"istanbul-reports@npm:^3.1.4":
   version: 3.1.4
   resolution: "istanbul-reports@npm:3.1.4"
   dependencies:
@@ -4138,7 +4162,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^3.0.0, rimraf@npm:^3.0.2":
+"rimraf@npm:^3.0.2":
   version: 3.0.2
   resolution: "rimraf@npm:3.0.2"
   dependencies:
@@ -4898,14 +4922,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"v8-to-istanbul@npm:^8.0.0":
-  version: 8.1.1
-  resolution: "v8-to-istanbul@npm:8.1.1"
+"v8-to-istanbul@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "v8-to-istanbul@npm:9.0.0"
   dependencies:
+    "@jridgewell/trace-mapping": ^0.3.7
     "@types/istanbul-lib-coverage": ^2.0.1
     convert-source-map: ^1.6.0
-    source-map: ^0.7.3
-  checksum: c3c99c4aa1ffffb098cc85c0c13c21871e6cbb9a83537d4e0650aa61589c347b2add787ceac68b8ea7fa1b7f446e9059d8e374cd7e7ab13b170a6caf8ad29c30
+  checksum: 1d6b175f3379851e60c52c3850cd56e97490bc9ec127e047610495fc6a57037011793e84f29548a2c8f4331321f3e9ed50eaee8729c43546ba2472e0791cdd3d
   languageName: node
   linkType: hard
 
@@ -5100,7 +5124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:^20.2.2, yargs-parser@npm:^20.2.7":
+"yargs-parser@npm:^20.2.2, yargs-parser@npm:^20.2.9":
   version: 20.2.9
   resolution: "yargs-parser@npm:20.2.9"
   checksum: 0685a8e58bbfb57fab6aefe03c6da904a59769bd803a722bb098bd5b0f29d274a1357762c7258fb487512811b8063fb5d2824a3415a0a4540598335b3b086c72
