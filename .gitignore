@@ -26,3 +26,6 @@ logs
 
 # Docker temp files
 postgres-data
+
+# JetBrains
+.idea

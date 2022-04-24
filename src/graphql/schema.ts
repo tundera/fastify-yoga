@@ -80,7 +80,7 @@ builder.prismaNode('ColorScheme', {
   fields: (t) => ({
     primary: t.exposeString('primary'),
     secondary: t.exposeString('secondary'),
-    team: t.relation('team', { nullable: true }),
+    teams: t.relation('teams', { nullable: true }),
   }),
 })
 

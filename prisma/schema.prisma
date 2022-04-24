@@ -44,8 +44,7 @@ model ColorScheme {
   updatedAt DateTime @updatedAt
   primary   String
   secondary String
-  team      Team?    @relation(fields: [teamId], references: [id])
-  teamId    String?  @unique
+  teams     Team[]
 
   @@unique([primary, secondary], name: "ColorScheme_primary_secondary_key")
 }
@@ -67,5 +66,6 @@ model Team {
   winPercentage Float?
   players       Player[]
   coaches       Coach[]
-  colorScheme   ColorScheme?
+  colorScheme   ColorScheme? @relation(fields: [colorSchemeId], references: [id])
+  colorSchemeId String?
 }
