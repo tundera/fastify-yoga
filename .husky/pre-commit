@@ -4,4 +4,4 @@
 yarn lint-staged
 yarn pretty-quick --staged
 yarn typecheck
-# dotenv -e .env.local yarn test -- --run
+yarn test --run
