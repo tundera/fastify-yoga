@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import task from 'tasuku'
 
 import { PrismaClient } from '@prisma/client'
