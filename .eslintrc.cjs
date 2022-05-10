@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     'import/no-anonymous-default-export': 'warn',
+    'import/no-named-as-default': 'off',
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
