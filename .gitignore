@@ -25,7 +25,7 @@ logs
 .DS_Store
 
 # Docker temp files
-postgres-data
+.data
 
 # JetBrains
 .idea

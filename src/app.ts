@@ -1,5 +1,7 @@
+import fastify, { type FastifyReply, type FastifyRequest } from 'fastify'
 import { createServer } from '@graphql-yoga/node'
-import fastify, { FastifyReply, FastifyRequest } from 'fastify'
+import { useDepthLimit } from '@envelop/depth-limit'
+import { useResponseCache } from '@envelop/response-cache'
 
 import { schema } from 'src/graphql/schema'
 import { logger } from 'src/logger'
@@ -14,6 +16,13 @@ export function buildApp() {
     schema,
     // Integrate Fastify Logger to Yoga
     logging: app.log,
+    // Envelop plugins
+    plugins: [
+      useResponseCache(),
+      useDepthLimit({
+        maxDepth: 5,
+      }),
+    ],
   })
 
   // Health check route
