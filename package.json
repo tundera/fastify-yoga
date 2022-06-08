@@ -47,7 +47,7 @@
     "@graphql-yoga/node": "2.5.0",
     "@pothos/core": "3.10.1",
     "@pothos/plugin-prisma": "3.6.1",
-    "@pothos/plugin-relay": "3.10.2",
+    "@pothos/plugin-relay": "3.12.1",
     "@prisma/client": "3.14.0",
     "env-schema": "4.0.0",
     "fastify": "3.29.0",
