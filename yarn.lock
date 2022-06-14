@@ -316,16 +316,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@envelop/disable-introspection@npm:^3.0.0":
-  version: 3.3.1
-  resolution: "@envelop/disable-introspection@npm:3.3.1"
-  peerDependencies:
-    "@envelop/core": ^2.3.1
-    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 61fbaea09938d61416f1c3cec621996d8d0fb4c19c5c24cf90b6ab4eaaa19777931298efc32fa925f23adbe791f4f37fab7db6da2188229a082421db17e527af
-  languageName: node
-  linkType: hard
-
 "@envelop/parser-cache@npm:^4.0.0":
   version: 4.3.1
   resolution: "@envelop/parser-cache@npm:4.3.1"
@@ -470,12 +460,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-yoga/common@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@graphql-yoga/common@npm:2.5.0"
+"@graphql-yoga/common@npm:2.8.3":
+  version: 2.8.3
+  resolution: "@graphql-yoga/common@npm:2.8.3"
   dependencies:
     "@envelop/core": "npm:^2.0.0"
-    "@envelop/disable-introspection": "npm:^3.0.0"
     "@envelop/parser-cache": "npm:^4.0.0"
     "@envelop/validation-cache": "npm:^4.0.0"
     "@graphql-tools/schema": "npm:^8.3.1"
@@ -487,23 +476,23 @@ __metadata:
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: 9996185dc73c09397b380db5f97c4b2627f068fa7bec0e6793268f8442b4e79a4f2ef61d4bee902aa555c203a4d3e15e411d62f42683e695f288e0c95877a034
+  checksum: 41ed255e2b2b62749378e9ef8d9b4d515ddc309e17c2b97e8f232f236315a6cf7c3de8c28ceb5bbea0435394861d37aad7d4304be50a084bf6a7eea9e8829ddf
   languageName: node
   linkType: hard
 
-"@graphql-yoga/node@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@graphql-yoga/node@npm:2.5.0"
+"@graphql-yoga/node@npm:2.9.2":
+  version: 2.9.2
+  resolution: "@graphql-yoga/node@npm:2.9.2"
   dependencies:
     "@envelop/core": "npm:^2.0.0"
     "@graphql-tools/utils": "npm:^8.6.0"
-    "@graphql-yoga/common": "npm:2.5.0"
+    "@graphql-yoga/common": "npm:2.8.3"
     "@graphql-yoga/subscription": "npm:2.0.0"
     cross-undici-fetch: "npm:^0.4.2"
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: 89289cd6d48e83a54bcced059ad97ac210546c586a0696e68f36e50f2b94e79a01ff78dd53ee16b777ec1f9e27e71373bca252b36c912b6160688d57ee0feb58
+  checksum: 23d78b14eb6c91ec03bc33dc9c1a9c17960ff5f2240763479d36d1d6d86af9699dd1ff39ec01e73f061da835c7cbfa27d04f34fc1d3a842ede4658958eac9a7c
   languageName: node
   linkType: hard
 
@@ -3055,7 +3044,7 @@ __metadata:
     "@commitlint/lint": "npm:16.2.4"
     "@envelop/depth-limit": "npm:1.5.3"
     "@envelop/response-cache": "npm:2.3.1"
-    "@graphql-yoga/node": "npm:2.5.0"
+    "@graphql-yoga/node": "npm:2.9.2"
     "@pothos/core": "npm:3.10.1"
     "@pothos/plugin-prisma": "npm:3.10.0"
     "@pothos/plugin-relay": "npm:3.12.1"
