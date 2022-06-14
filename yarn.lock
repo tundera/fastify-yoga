@@ -39,13 +39,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:16.2.4":
-  version: 16.2.4
-  resolution: "@commitlint/cli@npm:16.2.4"
+"@commitlint/cli@npm:16.3.0":
+  version: 16.3.0
+  resolution: "@commitlint/cli@npm:16.3.0"
   dependencies:
     "@commitlint/format": "npm:^16.2.1"
     "@commitlint/lint": "npm:^16.2.4"
-    "@commitlint/load": "npm:^16.2.4"
+    "@commitlint/load": "npm:^16.3.0"
     "@commitlint/read": "npm:^16.2.1"
     "@commitlint/types": "npm:^16.2.1"
     lodash: "npm:^4.17.19"
@@ -54,7 +54,7 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: 49f43417439227f2f29ce7d76bf31dea72caa6ee6fe6c1dfa01a3e674c7a65eec03201402e0ac37f9ab0c53a9490ada355260e9f3a84c18a9fd982342184b4d9
+  checksum: 0111e3e04a89c807fa29f3cb3340a68bcd36fbcbd0b1ed8505e6d79ff887d21f345ac1007ee819d776e562ef51e1f118fa2d34b36d3b3031ee09c5ed629555b6
   languageName: node
   linkType: hard
 
@@ -148,9 +148,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^16.2.4":
-  version: 16.2.4
-  resolution: "@commitlint/load@npm:16.2.4"
+"@commitlint/load@npm:^16.3.0":
+  version: 16.3.0
+  resolution: "@commitlint/load@npm:16.3.0"
   dependencies:
     "@commitlint/config-validator": "npm:^16.2.1"
     "@commitlint/execute-rule": "npm:^16.2.1"
@@ -159,11 +159,11 @@ __metadata:
     "@types/node": "npm:>=12"
     chalk: "npm:^4.0.0"
     cosmiconfig: "npm:^7.0.0"
-    cosmiconfig-typescript-loader: "npm:^1.0.0"
+    cosmiconfig-typescript-loader: "npm:^2.0.0"
     lodash: "npm:^4.17.19"
     resolve-from: "npm:^5.0.0"
     typescript: "npm:^4.4.3"
-  checksum: d51caabf8b323db5499f090512663e3f370d9c2ab13bcc16556cc73565567ee189723f3a0a1d59f2d12f7943af781a5136fa551026b6dee5a23bf32915d8d11d
+  checksum: beedfeb60ddbd3c2f021cd263a6b7ed59cfe478c389dc07f08464d463577df9eba55f51e2620f7541566553cffd360a421468c9a488aa1a4099fc21988cccc81
   languageName: node
   linkType: hard
 
@@ -283,6 +283,15 @@ __metadata:
   dependencies:
     "@cspotcode/source-map-consumer": "npm:0.8.0"
   checksum: be290e5b9f49c1fa83997f80e02c29d5bece279fad08d8b7ee862c68aaf74be613cfcf396d19701273a5d47436f08905b36fdd286bef704767b493394a8ade39
+  languageName: node
+  linkType: hard
+
+"@cspotcode/source-map-support@npm:^0.8.0":
+  version: 0.8.1
+  resolution: "@cspotcode/source-map-support@npm:0.8.1"
+  dependencies:
+    "@jridgewell/trace-mapping": "npm:0.3.9"
+  checksum: 05c5368c13b662ee4c122c7bfbe5dc0b613416672a829f3e78bc49a357a197e0218d6e74e7c66cfcd04e15a179acab080bd3c69658c9fbefd0e1ccd950a07fc6
   languageName: node
   linkType: hard
 
@@ -545,7 +554,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.3.7":
+"@jridgewell/trace-mapping@npm:0.3.9, @jridgewell/trace-mapping@npm:^0.3.7":
   version: 0.3.9
   resolution: "@jridgewell/trace-mapping@npm:0.3.9"
   dependencies:
@@ -1975,17 +1984,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig-typescript-loader@npm:^1.0.0":
-  version: 1.0.9
-  resolution: "cosmiconfig-typescript-loader@npm:1.0.9"
+"cosmiconfig-typescript-loader@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "cosmiconfig-typescript-loader@npm:2.0.1"
   dependencies:
     cosmiconfig: "npm:^7"
-    ts-node: "npm:^10.7.0"
+    ts-node: "npm:^10.8.0"
   peerDependencies:
     "@types/node": "*"
     cosmiconfig: ">=7"
     typescript: ">=3"
-  checksum: cabad4f74654db12fa0623544956415b5d25ded8d6108ac56c8e6fc76cc00b0260d7e62c098078c153932a1d395f01e5e99c42309e61d585df9fac8eafc817d2
+  checksum: 5932d8ac800a677880371e2daf307cdb0ba84ee92c9439126cf9516af4f4aeacd93dbafa0db2e45893b8d5ef401fe87243b86fb20b46bc8ecd86ecda63609b32
   languageName: node
   linkType: hard
 
@@ -3046,7 +3055,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "fastify-yoga@workspace:."
   dependencies:
-    "@commitlint/cli": "npm:16.2.4"
+    "@commitlint/cli": "npm:16.3.0"
     "@commitlint/config-conventional": "npm:16.2.4"
     "@commitlint/lint": "npm:16.2.4"
     "@envelop/depth-limit": "npm:1.5.3"
@@ -6657,7 +6666,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:10.7.0, ts-node@npm:^10.7.0":
+"ts-node@npm:10.7.0":
   version: 10.7.0
   resolution: "ts-node@npm:10.7.0"
   dependencies:
@@ -6692,6 +6701,44 @@ __metadata:
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
   checksum: 32228e9ca871eff6a7d02a2d188047396179b0257f3a76577bd4572d8541f78e164899adcbbe0d2ae6ba3d0416a2ffadf1809032e5c3a92122fe9b9fb176797a
+  languageName: node
+  linkType: hard
+
+"ts-node@npm:^10.8.0":
+  version: 10.8.1
+  resolution: "ts-node@npm:10.8.1"
+  dependencies:
+    "@cspotcode/source-map-support": "npm:^0.8.0"
+    "@tsconfig/node10": "npm:^1.0.7"
+    "@tsconfig/node12": "npm:^1.0.7"
+    "@tsconfig/node14": "npm:^1.0.0"
+    "@tsconfig/node16": "npm:^1.0.2"
+    acorn: "npm:^8.4.1"
+    acorn-walk: "npm:^8.1.1"
+    arg: "npm:^4.1.0"
+    create-require: "npm:^1.1.0"
+    diff: "npm:^4.0.1"
+    make-error: "npm:^1.1.1"
+    v8-compile-cache-lib: "npm:^3.0.1"
+    yn: "npm:3.1.1"
+  peerDependencies:
+    "@swc/core": ">=1.2.50"
+    "@swc/wasm": ">=1.2.50"
+    "@types/node": "*"
+    typescript: ">=2.7"
+  peerDependenciesMeta:
+    "@swc/core":
+      optional: true
+    "@swc/wasm":
+      optional: true
+  bin:
+    ts-node: dist/bin.js
+    ts-node-cwd: dist/bin-cwd.js
+    ts-node-esm: dist/bin-esm.js
+    ts-node-script: dist/bin-script.js
+    ts-node-transpile-only: dist/bin-transpile.js
+    ts-script: dist/bin-script-deprecated.js
+  checksum: 47e23f5c11ce4a1a3f64c49ce8433ebb053e8ec3b1bdddc190f959df511af2c99d5964eaff848572cdce810ee6809fa4edc892cb15dc6997a25fde06756edfa4
   languageName: node
   linkType: hard
 
@@ -6960,7 +7007,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"v8-compile-cache-lib@npm:^3.0.0":
+"v8-compile-cache-lib@npm:^3.0.0, v8-compile-cache-lib@npm:^3.0.1":
   version: 3.0.1
   resolution: "v8-compile-cache-lib@npm:3.0.1"
   checksum: bdc36fb8095d3b41df197f5fb6f11e3a26adf4059df3213e3baa93810d8f0cc76f9a74aaefc18b73e91fe7e19154ed6f134eda6fded2e0f1c8d2272ed2d2d391
