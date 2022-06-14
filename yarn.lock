@@ -328,17 +328,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@envelop/response-cache@npm:2.3.1":
-  version: 2.3.1
-  resolution: "@envelop/response-cache@npm:2.3.1"
+"@envelop/response-cache@npm:2.3.3":
+  version: 2.3.3
+  resolution: "@envelop/response-cache@npm:2.3.3"
   dependencies:
     "@graphql-tools/utils": "npm:^8.6.1"
     fast-json-stable-stringify: "npm:^2.1.0"
     lru-cache: "npm:^6.0.0"
   peerDependencies:
-    "@envelop/core": ^2.3.1
+    "@envelop/core": ^2.3.3
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: cfe87aab94ae47e2241b00c6c495ebf04c9d856521eb53a0aae10c845b810c26f310c17cc87c691521531659f339fb2fccb017d11fc1e86e673eee0f76b09fec
+  checksum: 5d66e69e3bb8ebc199b4ab22c987c21fe29fce8dae648f6005db669e4db39394c5e3688bf1322d7d7d5234f26cc9e08646321647fb324ece0b7f171d88d79e84
   languageName: node
   linkType: hard
 
@@ -3050,7 +3050,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:16.2.4"
     "@commitlint/lint": "npm:16.2.4"
     "@envelop/depth-limit": "npm:1.5.3"
-    "@envelop/response-cache": "npm:2.3.1"
+    "@envelop/response-cache": "npm:2.3.3"
     "@graphql-yoga/node": "npm:2.9.2"
     "@pothos/core": "npm:3.10.1"
     "@pothos/plugin-prisma": "npm:3.10.0"
