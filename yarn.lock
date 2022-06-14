@@ -3078,7 +3078,7 @@ __metadata:
     esno: "npm:0.14.1"
     execa: "npm:6.1.0"
     fastify: "npm:3.29.0"
-    gacp: "npm:3.0.1"
+    gacp: "npm:3.0.2"
     graphql: "npm:16.5.0"
     graphql-scalars: "npm:1.17.0"
     husky: "npm:8.0.1"
@@ -3343,9 +3343,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gacp@npm:3.0.1":
-  version: 3.0.1
-  resolution: "gacp@npm:3.0.1"
+"gacp@npm:3.0.2":
+  version: 3.0.2
+  resolution: "gacp@npm:3.0.2"
   dependencies:
     "@commitlint/load": "npm:^12.0.0"
     "@commitlint/types": "npm:^12.0.0"
@@ -3365,7 +3365,7 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     gacp: lib/bin.js
-  checksum: 89d37b5b830d59720b116bf40608c2c5e7aa60505ebf2ace6e18c57ed6c088afe1ba59227c3364ae915dc89907e046568ce0306dd5b884fd229c6055b47c98b2
+  checksum: 4932b9b66fa7e3182c581b67263b2cf66f0c9cd4a4913b85e435f1eaa91e41f27d99b6b2961d91715bfccd8ae8993d06df9e56c1e15cdd6bbbae4ebda4123725
   languageName: node
   linkType: hard
 
