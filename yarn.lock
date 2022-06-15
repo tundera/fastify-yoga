@@ -3090,7 +3090,7 @@ __metadata:
     ts-node: "npm:10.8.1"
     tsconfig-paths: "npm:4.0.0"
     tsup: "npm:5.12.9"
-    typescript: "npm:4.6.4"
+    typescript: "npm:4.7.3"
     vite-tsconfig-paths: "npm:3.4.1"
     vitest: "npm:0.15.1"
   languageName: unknown
@@ -6908,7 +6908,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.6.4, typescript@npm:^4.4.3":
+"typescript@npm:4.7.3":
+  version: 4.7.3
+  resolution: "typescript@npm:4.7.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 4f2597ac203e792881e02db85cd01bcba0ff0edfdb467e16af5a35808d35c424fe4fbc99ce8cea3745b206e66dbbe67e9ca0a0b03117672d7d95cad7055bd2b6
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^4.4.3":
   version: 4.6.4
   resolution: "typescript@npm:4.6.4"
   bin:
@@ -6918,7 +6928,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A4.6.4#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^4.4.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A4.7.3#optional!builtin<compat/typescript>":
+  version: 4.7.3
+  resolution: "typescript@patch:typescript@npm%3A4.7.3#optional!builtin<compat/typescript>::version=4.7.3&hash=7ad353"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: fd3972aed0089d64c03235f4352a232eb62e5810e7b37e28ff804d1dbb728cda4c81b7e2d1e9b0e72d9fc8a7ccb1c211e044078b6b3774d4a18a6fcb9f16f86f
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^4.4.3#optional!builtin<compat/typescript>":
   version: 4.6.4
   resolution: "typescript@patch:typescript@npm%3A4.6.4#optional!builtin<compat/typescript>::version=4.6.4&hash=7ad353"
   bin:
