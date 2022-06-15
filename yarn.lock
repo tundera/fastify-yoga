@@ -363,20 +363,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "@eslint/eslintrc@npm:1.2.3"
+"@eslint/eslintrc@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@eslint/eslintrc@npm:1.3.0"
   dependencies:
     ajv: "npm:^6.12.4"
     debug: "npm:^4.3.2"
     espree: "npm:^9.3.2"
-    globals: "npm:^13.9.0"
+    globals: "npm:^13.15.0"
     ignore: "npm:^5.2.0"
     import-fresh: "npm:^3.2.1"
     js-yaml: "npm:^4.1.0"
     minimatch: "npm:^3.1.2"
     strip-json-comments: "npm:^3.1.1"
-  checksum: 5d61cf812c6089e0d92c824dcb327117d80ca3fbb4d4fa8c4b96533330965979883dbae9969dff806985da04c2e662cf8b71dd608e1c1fa5ab993e2acac01ea9
+  checksum: 9fae71dc1f49a92d64061a94c3c49ee9420ab386fbb5855edd18ee60186a1d72f0c0fde172f14987ffa6a6ab0313b24b2d491c9a337cc7a095bbe3d1c0b7b30f
   languageName: node
   linkType: hard
 
@@ -801,13 +801,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.4.2":
-  version: 8.4.2
-  resolution: "@types/eslint@npm:8.4.2"
+"@types/eslint@npm:8.4.3":
+  version: 8.4.3
+  resolution: "@types/eslint@npm:8.4.3"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 2cce3e57ba5befc7453aa308c032df8ad3a37565d62f0990287d9f651a8c7b67f4b92f8b8deee0d0b22deae3e7e87fa73096f1b9fbb09b68040a909c4eb0b03d
+  checksum: c63c2a5bf8950f53c77048a6e0afcbfa5d897b64b90e31c10be45b9689d4abaf33524384f430dcc8620cfcba838ffd3d5bae4f7b070e9fb51253b2bbfb394ca0
   languageName: node
   linkType: hard
 
@@ -2788,11 +2788,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.15.0":
-  version: 8.15.0
-  resolution: "eslint@npm:8.15.0"
+"eslint@npm:8.17.0":
+  version: 8.17.0
+  resolution: "eslint@npm:8.17.0"
   dependencies:
-    "@eslint/eslintrc": "npm:^1.2.3"
+    "@eslint/eslintrc": "npm:^1.3.0"
     "@humanwhocodes/config-array": "npm:^0.9.2"
     ajv: "npm:^6.10.0"
     chalk: "npm:^4.0.0"
@@ -2810,7 +2810,7 @@ __metadata:
     file-entry-cache: "npm:^6.0.1"
     functional-red-black-tree: "npm:^1.0.1"
     glob-parent: "npm:^6.0.1"
-    globals: "npm:^13.6.0"
+    globals: "npm:^13.15.0"
     ignore: "npm:^5.2.0"
     import-fresh: "npm:^3.0.0"
     imurmurhash: "npm:^0.1.4"
@@ -2829,7 +2829,7 @@ __metadata:
     v8-compile-cache: "npm:^2.0.3"
   bin:
     eslint: bin/eslint.js
-  checksum: 4e4ba06c9891053eabb4351a0b5c4506fa1418fa8a191e858ebfa667a6c56c748f5463c036a643670e1e6c67328aa13a8a2dbe706fc4560bed76f924d7153711
+  checksum: f5550dfcd64b4cf731955537e728d6d4bcafacb87a36fce8b69b64971c5747bbb3bc5a1ca6b6d6aa3c1746eb7d072157a6d7af147579511e133a2ec2b5bf5abe
   languageName: node
   linkType: hard
 
@@ -3056,7 +3056,7 @@ __metadata:
     "@pothos/plugin-prisma": "npm:3.10.0"
     "@pothos/plugin-relay": "npm:3.12.1"
     "@prisma/client": "npm:3.14.0"
-    "@types/eslint": "npm:8.4.2"
+    "@types/eslint": "npm:8.4.3"
     "@types/node": "npm:17.0.31"
     "@types/supertest": "npm:2.0.12"
     "@typescript-eslint/eslint-plugin": "npm:5.28.0"
@@ -3065,7 +3065,7 @@ __metadata:
     c8: "npm:7.11.3"
     dotenv: "npm:16.0.1"
     env-schema: "npm:4.0.0"
-    eslint: "npm:8.15.0"
+    eslint: "npm:8.17.0"
     eslint-config-prettier: "npm:8.5.0"
     eslint-import-resolver-node: "npm:0.3.6"
     eslint-import-resolver-typescript: "npm:2.7.1"
@@ -3541,12 +3541,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^13.6.0, globals@npm:^13.9.0":
-  version: 13.13.0
-  resolution: "globals@npm:13.13.0"
+"globals@npm:^13.15.0":
+  version: 13.15.0
+  resolution: "globals@npm:13.15.0"
   dependencies:
     type-fest: "npm:^0.20.2"
-  checksum: e83a1a60b3b2b36b39350b39504a34082419498c34efc73b257ce25e32fe4ce0381f4be54ee1b3cf0122da50c9c4956644fdb68d5c2bdd181f5cdf6c054ada50
+  checksum: d83d7abccb93d9b0f3d711f1a7ea3ac8554d8cece9abacbc5432b6ab97f1d7af3c348bc40835344e7dd8c5c8e0ff94d5ad60e7ad45098a364a7a86da7c935b59
   languageName: node
   linkType: hard
 
