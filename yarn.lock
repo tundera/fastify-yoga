@@ -1893,10 +1893,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^8.3.0":
-  version: 8.3.0
-  resolution: "commander@npm:8.3.0"
-  checksum: 8b043bb8322ea1c39664a1598a95e0495bfe4ca2fad0d84a92d7d1d8d213e2a155b441d2470c8e08de7c4a28cf2bc6e169211c49e1b21d9f7edc6ae4d9356060
+"commander@npm:^9.3.0":
+  version: 9.3.0
+  resolution: "commander@npm:9.3.0"
+  checksum: 4cf2f3a75358e620c3bfb515c5306b3be083463c752504788266a7ff0ed862c0fe3bf7f700154b50546c5c3eca0195f9ca99020184ff6f6128ae7ea87f24b5ba
   languageName: node
   linkType: hard
 
@@ -3093,7 +3093,7 @@ __metadata:
     graphql-scalars: "npm:1.17.0"
     husky: "npm:8.0.1"
     is-ci: "npm:3.0.1"
-    lint-staged: "npm:12.4.1"
+    lint-staged: "npm:12.5.0"
     pino: "npm:7.11.0"
     pino-pretty: "npm:7.6.1"
     prettier: "npm:2.6.2"
@@ -4398,14 +4398,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lilconfig@npm:2.0.4":
-  version: 2.0.4
-  resolution: "lilconfig@npm:2.0.4"
-  checksum: bdd3d4bd82c6381a3e600962cfc285610564888f126e2cec3cd0fdc41a1892266fa17f32f372a4a6c9c57c265d377ab58a36e2b68a91eedd377389b41334f112
-  languageName: node
-  linkType: hard
-
-"lilconfig@npm:^2.0.5":
+"lilconfig@npm:2.0.5, lilconfig@npm:^2.0.5":
   version: 2.0.5
   resolution: "lilconfig@npm:2.0.5"
   checksum: eed9afcecf1b864405f4b7299abefb87945edba250c70896de54b19b08b87333abc268cc6689539bc33f0e8d098139578704bf51af8077d358f1ac95d58beef0
@@ -4419,31 +4412,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:12.4.1":
-  version: 12.4.1
-  resolution: "lint-staged@npm:12.4.1"
+"lint-staged@npm:12.5.0":
+  version: 12.5.0
+  resolution: "lint-staged@npm:12.5.0"
   dependencies:
     cli-truncate: "npm:^3.1.0"
     colorette: "npm:^2.0.16"
-    commander: "npm:^8.3.0"
-    debug: "npm:^4.3.3"
+    commander: "npm:^9.3.0"
+    debug: "npm:^4.3.4"
     execa: "npm:^5.1.1"
-    lilconfig: "npm:2.0.4"
-    listr2: "npm:^4.0.1"
-    micromatch: "npm:^4.0.4"
+    lilconfig: "npm:2.0.5"
+    listr2: "npm:^4.0.5"
+    micromatch: "npm:^4.0.5"
     normalize-path: "npm:^3.0.0"
-    object-inspect: "npm:^1.12.0"
+    object-inspect: "npm:^1.12.2"
     pidtree: "npm:^0.5.0"
     string-argv: "npm:^0.3.1"
-    supports-color: "npm:^9.2.1"
+    supports-color: "npm:^9.2.2"
     yaml: "npm:^1.10.2"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: fb2225596f63c171f2d16d75b766a15c6902ccbe988b28472c8e4a912b89dd6ced6a5e812011754825b688dd6fa2afb6b841ab972f6ad5c55e1092e1c4e22e55
+  checksum: be813853b25f670a49af5ed0a89d7bc25e6117a73d1d2e671f08ac90a553f79c8d1252c62a245073997b6c3b77f8a9636b6c27206667767c34a12340b74509d3
   languageName: node
   linkType: hard
 
-"listr2@npm:^4.0.1":
+"listr2@npm:^4.0.5":
   version: 4.0.5
   resolution: "listr2@npm:4.0.5"
   dependencies:
@@ -4692,7 +4685,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.4":
+"micromatch@npm:^4.0.4, micromatch@npm:^4.0.5":
   version: 4.0.5
   resolution: "micromatch@npm:4.0.5"
   dependencies:
@@ -5090,6 +5083,13 @@ __metadata:
   version: 1.12.0
   resolution: "object-inspect@npm:1.12.0"
   checksum: 5ea7837f39f8da87b7cf25e81d14d21c45aae87ecbf0a5997a4d1950eacff363b85d39eab9ef6677ea36e862c708a4fe880ca2ffae1492acacdcbc963f2ee239
+  languageName: node
+  linkType: hard
+
+"object-inspect@npm:^1.12.2":
+  version: 1.12.2
+  resolution: "object-inspect@npm:1.12.2"
+  checksum: e1bd625f4c44a2f733bd69cfccce6469f71333fb09c6de151f4f346c16d658ef7555727b12652c108e20c2afb908ae7cd165f52ca53745a1d6cbf228cdb46ebe
   languageName: node
   linkType: hard
 
@@ -6514,7 +6514,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supports-color@npm:^9.2.1":
+"supports-color@npm:^9.2.2":
   version: 9.2.2
   resolution: "supports-color@npm:9.2.2"
   checksum: 630bfaba6144df9c92935c1a84d268aea4fdc58ada9bf54e2f4d2e38ac3239f892e8bbbd493f9d5be52f8a1ee84a7d830ead9ea9d3536446151f197b8a287fcf
