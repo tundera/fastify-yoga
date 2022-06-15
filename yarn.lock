@@ -3096,7 +3096,7 @@ __metadata:
     lint-staged: "npm:12.5.0"
     pino: "npm:7.11.0"
     pino-pretty: "npm:7.6.1"
-    prettier: "npm:2.6.2"
+    prettier: "npm:2.7.0"
     prettier-plugin-prisma: "npm:3.13.0"
     pretty-quick: "npm:3.1.3"
     prisma: "npm:3.14.0"
@@ -5529,12 +5529,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.6.2":
-  version: 2.6.2
-  resolution: "prettier@npm:2.6.2"
+"prettier@npm:2.7.0":
+  version: 2.7.0
+  resolution: "prettier@npm:2.7.0"
   bin:
     prettier: bin-prettier.js
-  checksum: 4a2717d0aca6b5b5c24570854fdf119c4184ff7422a1aa283364bdfe5394ecff4f6ac375663840dc2680ea09b1d5370329b83ac06579588db6f8bc71620e1267
+  checksum: 54591f56de63456624a82ddff3c4093051ed9f99118b83b36bb5805b9004419b166cab1077763e30ab65bd3a8dff2ae254c6701b3e6b1623d21f75462181066e
   languageName: node
   linkType: hard
 
