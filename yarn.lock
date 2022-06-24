@@ -1861,6 +1861,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"colorette@npm:^2.0.17":
+  version: 2.0.19
+  resolution: "colorette@npm:2.0.19"
+  checksum: 2bcc9134095750fece6e88167011499b964b78bf0ea953469130ddb1dba3c8fe6c03debb0ae181e710e2be10900d117460f980483a7df4ba4a1bac3b182ecb64
+  languageName: node
+  linkType: hard
+
 "combined-stream@npm:^1.0.8":
   version: 1.0.8
   resolution: "combined-stream@npm:1.0.8"
@@ -2904,7 +2911,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:6.1.0":
+"execa@npm:6.1.0, execa@npm:^6.1.0":
   version: 6.1.0
   resolution: "execa@npm:6.1.0"
   dependencies:
@@ -2938,7 +2945,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^5.0.0, execa@npm:^5.1.1":
+"execa@npm:^5.0.0":
   version: 5.1.1
   resolution: "execa@npm:5.1.1"
   dependencies:
@@ -3077,7 +3084,7 @@ __metadata:
     graphql-scalars: "npm:1.17.0"
     husky: "npm:8.0.1"
     is-ci: "npm:3.0.1"
-    lint-staged: "npm:12.5.0"
+    lint-staged: "npm:13.0.3"
     pino: "npm:7.11.0"
     pino-pretty: "npm:7.6.1"
     prettier: "npm:2.7.1"
@@ -4396,27 +4403,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:12.5.0":
-  version: 12.5.0
-  resolution: "lint-staged@npm:12.5.0"
+"lint-staged@npm:13.0.3":
+  version: 13.0.3
+  resolution: "lint-staged@npm:13.0.3"
   dependencies:
     cli-truncate: "npm:^3.1.0"
-    colorette: "npm:^2.0.16"
+    colorette: "npm:^2.0.17"
     commander: "npm:^9.3.0"
     debug: "npm:^4.3.4"
-    execa: "npm:^5.1.1"
+    execa: "npm:^6.1.0"
     lilconfig: "npm:2.0.5"
     listr2: "npm:^4.0.5"
     micromatch: "npm:^4.0.5"
     normalize-path: "npm:^3.0.0"
     object-inspect: "npm:^1.12.2"
-    pidtree: "npm:^0.5.0"
+    pidtree: "npm:^0.6.0"
     string-argv: "npm:^0.3.1"
-    supports-color: "npm:^9.2.2"
-    yaml: "npm:^1.10.2"
+    yaml: "npm:^2.1.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: be813853b25f670a49af5ed0a89d7bc25e6117a73d1d2e671f08ac90a553f79c8d1252c62a245073997b6c3b77f8a9636b6c27206667767c34a12340b74509d3
+  checksum: 5a836d57b225f88a15fdc6a4c87ebfe387eef5390613e046d16f56a0dfd0fe6507c741d809587d479b69407d78d658b68affa10b94a2bf07a4824490bbdb126d
   languageName: node
   linkType: hard
 
@@ -5349,12 +5355,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pidtree@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "pidtree@npm:0.5.0"
+"pidtree@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "pidtree@npm:0.6.0"
   bin:
     pidtree: bin/pidtree.js
-  checksum: 4004b1c7429d02be941ad7ca2eac3bd93afa5cd59119633113013a33de52d76887de09a06a81943475bc1de3efe0a639515a5fee314f5ba074e6d849499e4b4f
+  checksum: 0829ec4e9209e230f74ebf4265f5ccc9ebfb488334b525cb13f86ff801dca44b362c41252cd43ae4d7653a10a5c6ab3be39d2c79064d6895e0d78dc50a5ed6e9
   languageName: node
   linkType: hard
 
@@ -6498,13 +6504,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supports-color@npm:^9.2.2":
-  version: 9.2.2
-  resolution: "supports-color@npm:9.2.2"
-  checksum: 630bfaba6144df9c92935c1a84d268aea4fdc58ada9bf54e2f4d2e38ac3239f892e8bbbd493f9d5be52f8a1ee84a7d830ead9ea9d3536446151f197b8a287fcf
-  languageName: node
-  linkType: hard
-
 "supports-preserve-symlinks-flag@npm:^1.0.0":
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
@@ -7330,6 +7329,13 @@ __metadata:
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: 5c28b9eb7adc46544f28d9a8d20c5b3cb1215a886609a2fd41f51628d8aaa5878ccd628b755dbcd29f6bb4921bd04ffbc6dcc370689bb96e594e2f9813d2605f
+  languageName: node
+  linkType: hard
+
+"yaml@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "yaml@npm:2.1.1"
+  checksum: ef67e9d3e4b83234ba85bd5dc380164017620b7f1e1589fd0343c4c0ba500fe92388d75f5aba8af6346b02dda93a3ad0929eab210c41367bc6b786c0a0dca3af
   languageName: node
   linkType: hard
 
