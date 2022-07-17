@@ -23,7 +23,10 @@ const { PORT } = envSchema({
 })
 
 app
-  .listen(PORT as string, '0.0.0.0')
+  .listen({
+    port: PORT as number,
+    host: '0.0.0.0',
+  })
   .then((serverUrl) => {
     app.log.info(`GraphQL API located at ${serverUrl}/graphql`)
   })

@@ -10,9 +10,12 @@ if (!fs.existsSync(logDir)) {
 export const logger =
   process.env.NODE_ENV !== 'production'
     ? {
-        prettyPrint: {
-          translateTime: 'HH:MM:ss.l',
-          ignore: 'pid,hostname',
+        transport: {
+          target: 'pino-pretty',
+          options: {
+            translateTime: 'HH:MM:ss.l',
+            ignore: 'pid,hostname',
+          },
         },
       }
     : {
