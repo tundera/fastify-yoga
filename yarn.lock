@@ -3346,7 +3346,7 @@ __metadata:
     husky: "npm:8.0.1"
     is-ci: "npm:3.0.1"
     lint-staged: "npm:13.0.3"
-    pino: "npm:8.1.0"
+    pino: "npm:8.2.0"
     pino-pretty: "npm:8.1.0"
     prettier: "npm:2.7.1"
     prettier-plugin-prisma: "npm:4.1.0"
@@ -5727,7 +5727,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:8.1.0, pino@npm:^8.0.0":
+"pino-std-serializers@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "pino-std-serializers@npm:6.0.0"
+  checksum: 90bb910f2ff038e4b9cf5b82140b220b6e15675229786970f3c47df1726b44f6b528b709efd47b095f35ac4ad174844cb0e47ea78921ec298aad9f291bf3e683
+  languageName: node
+  linkType: hard
+
+"pino@npm:8.2.0":
+  version: 8.2.0
+  resolution: "pino@npm:8.2.0"
+  dependencies:
+    atomic-sleep: "npm:^1.0.0"
+    fast-redact: "npm:^3.1.1"
+    on-exit-leak-free: "npm:^2.1.0"
+    pino-abstract-transport: "npm:v1.0.0"
+    pino-std-serializers: "npm:^6.0.0"
+    process-warning: "npm:^2.0.0"
+    quick-format-unescaped: "npm:^4.0.3"
+    real-require: "npm:^0.1.0"
+    safe-stable-stringify: "npm:^2.3.1"
+    sonic-boom: "npm:^3.0.0"
+    thread-stream: "npm:^2.0.0"
+  bin:
+    pino: bin.js
+  checksum: 0cac113fb9b98669f6345ec63b372a851264641149cb633ecdd379bf449f1794b6205b366a7b4c5424ce7a983907d44496fa65f9660625dc222766bae4aebcf5
+  languageName: node
+  linkType: hard
+
+"pino@npm:^8.0.0":
   version: 8.1.0
   resolution: "pino@npm:8.1.0"
   dependencies:
@@ -6910,6 +6938,15 @@ __metadata:
   dependencies:
     real-require: "npm:^0.1.0"
   checksum: 1805e9da54635bdec7827845b573418cad422b4b9b6a580a08ad6dbd8ae4228832a472c29202f073f83ee389b7af5e54c9f38edc7969b1520b015aac04acebad
+  languageName: node
+  linkType: hard
+
+"thread-stream@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "thread-stream@npm:2.0.0"
+  dependencies:
+    real-require: "npm:^0.1.0"
+  checksum: 3bdfe87f91f65e7b8a570ba86fbb9ab30b74360710e6424365b88ae1ce25c5a8709753552de3a4d9f745899d14002fb377ccfc37de0f684cac1fe6b58c8a6e8b
   languageName: node
   linkType: hard
 
