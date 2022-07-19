@@ -700,17 +700,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@prisma/client@npm:4.0.0"
+"@prisma/client@npm:4.1.0":
+  version: 4.1.0
+  resolution: "@prisma/client@npm:4.1.0"
   dependencies:
-    "@prisma/engines-version": "npm:3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11"
+    "@prisma/engines-version": "npm:4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8"
   peerDependencies:
     prisma: "*"
   peerDependenciesMeta:
     prisma:
       optional: true
-  checksum: 05f388f1c7e666e1273046bd9ad989fb2d82828e4269067d8dc4fb58af83fa69927b7cc57fc08244dd79006fa57ac106a22fc0ed2e85bb4db99ee80444759e99
+  checksum: 9b7e0530fb63806384ff0329ae86a0e76919c723d3cda2461cab0d3615920287c0ab550d67af6242ebed875800489639fe42f89cd1e7a25c529e0ef79fb066fe
   languageName: node
   linkType: hard
 
@@ -725,10 +725,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines-version@npm:3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11":
-  version: 3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11
-  resolution: "@prisma/engines-version@npm:3.16.0-49.da41d2bb3406da22087b849f0e911199ba4fbf11"
-  checksum: b61728dced33b4aa19f61946256ad40661ab3a6e560fa811826bc8d02a5c34768db143278b2e6ff204cfa85ac3141fcd07d85020c34afa5113b401fb5e06d99c
+"@prisma/engines-version@npm:4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8":
+  version: 4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8
+  resolution: "@prisma/engines-version@npm:4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8"
+  checksum: 7c630a78a67d423efde3c2077bf3473dd3e81943d381db2578df4498c3e5127fe16096b06d4b0eaba52d9001f8310ff41281e2d5f2cd39c4b9039a8c84a49929
   languageName: node
   linkType: hard
 
@@ -3321,7 +3321,7 @@ __metadata:
     "@pothos/core": "npm:3.12.2"
     "@pothos/plugin-prisma": "npm:3.13.2"
     "@pothos/plugin-relay": "npm:3.16.0"
-    "@prisma/client": "npm:4.0.0"
+    "@prisma/client": "npm:4.1.0"
     "@types/eslint": "npm:8.4.5"
     "@types/node": "npm:18.0.5"
     "@types/supertest": "npm:2.0.12"

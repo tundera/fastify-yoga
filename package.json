@@ -48,7 +48,7 @@
     "@pothos/core": "3.12.2",
     "@pothos/plugin-prisma": "3.13.2",
     "@pothos/plugin-relay": "3.16.0",
-    "@prisma/client": "4.0.0",
+    "@prisma/client": "4.1.0",
     "env-schema": "5.0.0",
     "fastify": "4.2.1",
     "graphql": "16.5.0",
