@@ -491,9 +491,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-yoga/common@npm:^2.12.2":
-  version: 2.12.2
-  resolution: "@graphql-yoga/common@npm:2.12.2"
+"@graphql-yoga/common@npm:^2.12.3":
+  version: 2.12.3
+  resolution: "@graphql-yoga/common@npm:2.12.3"
   dependencies:
     "@envelop/core": "npm:^2.4.0"
     "@envelop/parser-cache": "npm:^4.4.0"
@@ -502,28 +502,28 @@ __metadata:
     "@graphql-tools/utils": "npm:^8.8.0"
     "@graphql-typed-document-node/core": "npm:^3.1.1"
     "@graphql-yoga/subscription": "npm:^2.2.2"
-    cross-undici-fetch: "npm:^0.4.2"
+    cross-undici-fetch: "npm:^0.4.13"
     dset: "npm:^3.1.1"
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: b6cd97e569341323b270e1f3c2fe904998e0821af4da90870a2500638ac9479a2dbac94efcf7c4b89252666474bb9044607fd378b7175ebc7b351a11faf66ef1
+  checksum: 807d04164d04cfb5af7528a0703db4eee7fb2999aa5e00d94f33ba26e978c1efcca8477be2be562c39baed544e7989fe2e21871d4d24ea3ad01d63e6cc79e0f2
   languageName: node
   linkType: hard
 
-"@graphql-yoga/node@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@graphql-yoga/node@npm:2.13.3"
+"@graphql-yoga/node@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@graphql-yoga/node@npm:2.13.4"
   dependencies:
     "@envelop/core": "npm:^2.4.0"
     "@graphql-tools/utils": "npm:^8.8.0"
-    "@graphql-yoga/common": "npm:^2.12.2"
+    "@graphql-yoga/common": "npm:^2.12.3"
     "@graphql-yoga/subscription": "npm:^2.2.2"
     cross-undici-fetch: "npm:^0.4.13"
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: 401104bdb7bcd8451a0673b221571bdf44dbdc80afa1db63a09f1cfe6ae5cd185879fd93377df40dbb49983e8e7f207a3d07c11e2670e0edabade78cf363727c
+  checksum: 5df329a95dd83ee238d64aad506206cca445b8003e9419ebd79a679c1ab398ca11f6a800e3c4b5b162f67b86f02bd18a0a3ffa0c17895b75bca6d9a45dad34a9
   languageName: node
   linkType: hard
 
@@ -2090,21 +2090,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-undici-fetch@npm:^0.4.2":
-  version: 0.4.3
-  resolution: "cross-undici-fetch@npm:0.4.3"
-  dependencies:
-    abort-controller: "npm:^3.0.0"
-    busboy: "npm:^1.6.0"
-    form-data-encoder: "npm:^1.7.1"
-    formdata-node: "npm:^4.3.1"
-    node-fetch: "npm:^2.6.7"
-    undici: "npm:^5.1.0"
-    web-streams-polyfill: "npm:^3.2.0"
-  checksum: 76212722889fff27fc43cfa987e62333adc3fa4cafac320258e845d5b6310edbe799d810428418a76ecdba7da94593fb6b644f7175a0666fa0e4af53c5fcc57a
-  languageName: node
-  linkType: hard
-
 "crypto-random-string@npm:^2.0.0":
   version: 2.0.0
   resolution: "crypto-random-string@npm:2.0.0"
@@ -3317,7 +3302,7 @@ __metadata:
     "@commitlint/lint": "npm:17.0.3"
     "@envelop/depth-limit": "npm:1.6.0"
     "@envelop/response-cache": "npm:3.0.0"
-    "@graphql-yoga/node": "npm:2.13.3"
+    "@graphql-yoga/node": "npm:2.13.4"
     "@pothos/core": "npm:3.12.2"
     "@pothos/plugin-prisma": "npm:3.13.2"
     "@pothos/plugin-relay": "npm:3.16.0"
@@ -7348,13 +7333,6 @@ __metadata:
   version: 5.5.1
   resolution: "undici@npm:5.5.1"
   checksum: 3818c32473e71f2d6405c7e202d239b5a85625faab4523e48918f324056402aa557b9764a8545a5f08b0d346088158efe1072a4061fd3d2d80e2d415618bb6ca
-  languageName: node
-  linkType: hard
-
-"undici@npm:^5.1.0":
-  version: 5.1.1
-  resolution: "undici@npm:5.1.1"
-  checksum: 7902dffe78f913501b88a7bf1244d9d4b0bbfea3f81ff7c0a175d9f0e19616190432786d430aa2dc382455b0aa88f5844d6d753deec5573b4606358f7bf13de1
   languageName: node
   linkType: hard
 
