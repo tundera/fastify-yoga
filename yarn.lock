@@ -3331,7 +3331,7 @@ __metadata:
     husky: "npm:8.0.1"
     is-ci: "npm:3.0.1"
     lint-staged: "npm:13.0.3"
-    pino: "npm:8.2.0"
+    pino: "npm:8.3.0"
     pino-pretty: "npm:8.1.0"
     prettier: "npm:2.7.1"
     prettier-plugin-prisma: "npm:4.1.0"
@@ -5719,9 +5719,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:8.2.0":
-  version: 8.2.0
-  resolution: "pino@npm:8.2.0"
+"pino@npm:8.3.0":
+  version: 8.3.0
+  resolution: "pino@npm:8.3.0"
   dependencies:
     atomic-sleep: "npm:^1.0.0"
     fast-redact: "npm:^3.1.1"
@@ -5732,11 +5732,11 @@ __metadata:
     quick-format-unescaped: "npm:^4.0.3"
     real-require: "npm:^0.1.0"
     safe-stable-stringify: "npm:^2.3.1"
-    sonic-boom: "npm:^3.0.0"
+    sonic-boom: "npm:^3.1.0"
     thread-stream: "npm:^2.0.0"
   bin:
     pino: bin.js
-  checksum: 0cac113fb9b98669f6345ec63b372a851264641149cb633ecdd379bf449f1794b6205b366a7b4c5424ce7a983907d44496fa65f9660625dc222766bae4aebcf5
+  checksum: 85863d42e9e202c72cd41c4997a2a06194adc9c98258f6a8848a0ed1eddef28d182ab7c070f9dc479082ab80cedd6fcb58b0a44815df2095d4d2c287ac8f0cb7
   languageName: node
   linkType: hard
 
@@ -6541,6 +6541,15 @@ __metadata:
   dependencies:
     atomic-sleep: "npm:^1.0.0"
   checksum: 53ead1776a8dec2811d527a38ed9c889c318bf5da90cceb68539f0060b9a7ea3a5c20d97a7681f2848c4a06232be8c8051e3ea333d4212cc1cc020242c237137
+  languageName: node
+  linkType: hard
+
+"sonic-boom@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "sonic-boom@npm:3.1.0"
+  dependencies:
+    atomic-sleep: "npm:^1.0.0"
+  checksum: a6b1a52e3bc898af33e8b5ffeeaeaebeeeff98225cdbf2bd42d5c633060e728942a117d80bb448cbad13d8a1409ce7da73366ac8abfbce636d15c819f2ee3350
   languageName: node
   linkType: hard
 
