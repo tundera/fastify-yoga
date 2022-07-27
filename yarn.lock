@@ -3392,7 +3392,7 @@ __metadata:
     husky: "npm:8.0.1"
     is-ci: "npm:3.0.1"
     lint-staged: "npm:13.0.3"
-    pino: "npm:8.3.0"
+    pino: "npm:8.3.1"
     pino-datadog: "npm:2.0.2"
     pino-pretty: "npm:8.1.0"
     prettier: "npm:2.7.1"
@@ -5809,9 +5809,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:8.3.0":
-  version: 8.3.0
-  resolution: "pino@npm:8.3.0"
+"pino@npm:8.3.1":
+  version: 8.3.1
+  resolution: "pino@npm:8.3.1"
   dependencies:
     atomic-sleep: "npm:^1.0.0"
     fast-redact: "npm:^3.1.1"
@@ -5820,13 +5820,13 @@ __metadata:
     pino-std-serializers: "npm:^6.0.0"
     process-warning: "npm:^2.0.0"
     quick-format-unescaped: "npm:^4.0.3"
-    real-require: "npm:^0.1.0"
+    real-require: "npm:^0.2.0"
     safe-stable-stringify: "npm:^2.3.1"
     sonic-boom: "npm:^3.1.0"
     thread-stream: "npm:^2.0.0"
   bin:
     pino: bin.js
-  checksum: 85863d42e9e202c72cd41c4997a2a06194adc9c98258f6a8848a0ed1eddef28d182ab7c070f9dc479082ab80cedd6fcb58b0a44815df2095d4d2c287ac8f0cb7
+  checksum: 1f0212a007c9a2dba729810300473f6991bbb1fb96967afb4d659dfa7bde754901dfd59a4a32589c3a2de7f0076acb6a334e5a48f6af083ad49ac2207aa5e0ef
   languageName: node
   linkType: hard
 
@@ -6164,6 +6164,13 @@ __metadata:
   version: 0.1.0
   resolution: "real-require@npm:0.1.0"
   checksum: c0f8ae531d1f51fe6343d47a2a1e5756e19b65a81b4a9642b9ebb4874e0d8b5f3799bc600bf4592838242477edc6f57778593f21b71d90f8ad0d8a317bbfae1c
+  languageName: node
+  linkType: hard
+
+"real-require@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "real-require@npm:0.2.0"
+  checksum: 23eea5623642f0477412ef8b91acd3969015a1501ed34992ada0e3af521d3c865bb2fe4cdbfec5fe4b505f6d1ef6a03e5c3652520837a8c3b53decff7e74b6a0
   languageName: node
   linkType: hard
 
