@@ -8,7 +8,7 @@ const { PORT } = envSchema({
   dotenv: true,
   schema: {
     type: 'object',
-    required: ['PORT', 'DATABASE_URL'],
+    required: ['PORT', 'DATABASE_URL', 'DATADOG_API_KEY'],
     properties: {
       PORT: {
         type: 'string',
