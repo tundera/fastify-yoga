@@ -298,15 +298,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@envelop/depth-limit@npm:1.6.0":
-  version: 1.6.0
-  resolution: "@envelop/depth-limit@npm:1.6.0"
+"@envelop/depth-limit@npm:1.6.1":
+  version: 1.6.1
+  resolution: "@envelop/depth-limit@npm:1.6.1"
   dependencies:
     graphql-depth-limit: "npm:^1.1.0"
   peerDependencies:
-    "@envelop/core": ^2.4.0
+    "@envelop/core": ^2.4.1
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: f73f319b0d0e5571c03f867b8659b8a92cc1cc1eb28fc660a37d9c61dd743debd11d05f95a785ffa3eee69daba1b43d29dd5c2a196603df0f1b6490bb73e0002
+  checksum: 4aacc4e6896eafe6862f851790a86cf2b7524286259cc1de4c869cd39431bf8b8121ad640d4e8addff2897895686dc89821f1c0cb879158bfad8fb71353a2861
   languageName: node
   linkType: hard
 
@@ -3360,7 +3360,7 @@ __metadata:
     "@commitlint/cli": "npm:17.0.3"
     "@commitlint/config-conventional": "npm:17.0.3"
     "@commitlint/lint": "npm:17.0.3"
-    "@envelop/depth-limit": "npm:1.6.0"
+    "@envelop/depth-limit": "npm:1.6.1"
     "@envelop/response-cache": "npm:3.0.0"
     "@graphql-yoga/node": "npm:2.13.4"
     "@pothos/core": "npm:3.13.0"
