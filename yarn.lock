@@ -1163,12 +1163,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:0.20.3":
-  version: 0.20.3
-  resolution: "@vitest/ui@npm:0.20.3"
+"@vitest/ui@npm:0.21.0":
+  version: 0.21.0
+  resolution: "@vitest/ui@npm:0.21.0"
   dependencies:
     sirv: "npm:^2.0.2"
-  checksum: 1c11d328a2e542ceba51e5d5a7b06dc3ab4da4703723e1475b6ed9360db956a04fdb9be1846e7291f9362dd473d58c2d9387fa0b199d03772783f867ceec994a
+  checksum: b571493a7d3b8a17960a138610106bdd1bb16160c44ac03959d3a75ea06a11896b6a950f8bada5e3a203458db8fe85b368a691a9b80b07ef48dd5f8d31dd2bd7
   languageName: node
   linkType: hard
 
@@ -3457,7 +3457,7 @@ __metadata:
     "@types/supertest": "npm:2.0.12"
     "@typescript-eslint/eslint-plugin": "npm:5.32.0"
     "@typescript-eslint/parser": "npm:5.32.0"
-    "@vitest/ui": "npm:0.20.3"
+    "@vitest/ui": "npm:0.21.0"
     c8: "npm:7.12.0"
     dotenv: "npm:16.0.1"
     env-schema: "npm:5.0.0"
