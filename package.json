@@ -42,7 +42,7 @@
     "commit": "gacp"
   },
   "dependencies": {
-    "@envelop/depth-limit": "1.6.1",
+    "@envelop/depth-limit": "1.6.2",
     "@envelop/response-cache": "3.0.1",
     "@graphql-yoga/node": "2.13.5",
     "@pothos/core": "3.13.0",
