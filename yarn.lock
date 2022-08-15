@@ -3719,7 +3719,7 @@ __metadata:
     tsup: "npm:6.2.2"
     typescript: "npm:4.7.4"
     vite-tsconfig-paths: "npm:3.5.0"
-    vitest: "npm:0.21.1"
+    vitest: "npm:0.22.0"
   languageName: unknown
   linkType: soft
 
@@ -7987,9 +7987,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.21.1":
-  version: 0.21.1
-  resolution: "vitest@npm:0.21.1"
+"vitest@npm:0.22.0":
+  version: 0.22.0
+  resolution: "vitest@npm:0.22.0"
   dependencies:
     "@types/chai": "npm:^4.3.3"
     "@types/chai-subset": "npm:^1.3.3"
@@ -8004,7 +8004,6 @@ __metadata:
     "@edge-runtime/vm": "*"
     "@vitest/browser": "*"
     "@vitest/ui": "*"
-    c8: "*"
     happy-dom: "*"
     jsdom: "*"
   peerDependenciesMeta:
@@ -8014,15 +8013,13 @@ __metadata:
       optional: true
     "@vitest/ui":
       optional: true
-    c8:
-      optional: true
     happy-dom:
       optional: true
     jsdom:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 4f42cf74971df6e4315f57364f4e09c5e2ee701264e6ca9a4254cd706a24f772c3bc7f6ea52ee22079ba5b81c986c624d80df8b3d516bfb7a84a9b0329f53e06
+  checksum: 219e18f350b3072896d84a7d2fb4b32744d4d91b5a3db07a338d681a421a0ca153405c250afa6bfcfa23b8367756893948ab5d2a965535bc8a54a93446c891dc
   languageName: node
   linkType: hard
 
