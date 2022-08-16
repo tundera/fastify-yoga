@@ -3710,7 +3710,7 @@ __metadata:
     execa: "npm:6.1.0"
     fastify: "npm:4.4.0"
     gacp: "npm:3.0.2"
-    graphql: "npm:16.5.0"
+    graphql: "npm:16.6.0"
     graphql-scalars: "npm:1.18.0"
     husky: "npm:8.0.1"
     is-ci: "npm:3.0.1"
@@ -4309,10 +4309,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:16.5.0":
-  version: 16.5.0
-  resolution: "graphql@npm:16.5.0"
-  checksum: 082bad733549a032fe313dd94b780c0e2a46a6a362183e02e2050f6e083fb49722afb1413b069314d5ba1bc3fa14e22817820a9e61e2bbcba8d35f925d0de60e
+"graphql@npm:16.6.0":
+  version: 16.6.0
+  resolution: "graphql@npm:16.6.0"
+  checksum: 3a2c15ff58b69d017618d2b224fa6f3c4a7937e1f711c3a5e0948db536b4931e6e649560b53de7cc26735e027ceea6e2d0a6bb7c29fc4639b290313e3aa71618
   languageName: node
   linkType: hard
 
