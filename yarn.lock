@@ -809,10 +809,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/prisma-fmt-wasm@npm:4.1.0-12.09f9659a3d73d5ed2aac8298e2856b8be910cd66":
-  version: 4.1.0-12.09f9659a3d73d5ed2aac8298e2856b8be910cd66
-  resolution: "@prisma/prisma-fmt-wasm@npm:4.1.0-12.09f9659a3d73d5ed2aac8298e2856b8be910cd66"
-  checksum: 6507eea93fc7437bc1456ae3cc7e9081bd17760faf48c22659d8aa91481f47e96a1efad665ebe4302c885c9007e41221a56bcd5b1cf6abe48b6e01dd410b4383
+"@prisma/prisma-fmt-wasm@npm:4.2.0-33.2920a97877e12e055c1333079b8d19cee7f33826":
+  version: 4.2.0-33.2920a97877e12e055c1333079b8d19cee7f33826
+  resolution: "@prisma/prisma-fmt-wasm@npm:4.2.0-33.2920a97877e12e055c1333079b8d19cee7f33826"
+  checksum: d2beb97e5c19299ec589e96c207ad34676c3de9aeb68cfc42d3688c41c1d03beaea8d52eae4ec6397160d9b4a9e98b9f184faa78dbfbd60dd987e9264f942e9a
   languageName: node
   linkType: hard
 
@@ -3709,7 +3709,7 @@ __metadata:
     pino-datadog: "npm:2.0.2"
     pino-pretty: "npm:8.1.0"
     prettier: "npm:2.7.1"
-    prettier-plugin-prisma: "npm:4.1.0"
+    prettier-plugin-prisma: "npm:4.2.0"
     pretty-quick: "npm:3.1.3"
     prisma: "npm:4.2.1"
     prisma-repl: "npm:1.3.0"
@@ -6230,14 +6230,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-prisma@npm:4.1.0":
-  version: 4.1.0
-  resolution: "prettier-plugin-prisma@npm:4.1.0"
+"prettier-plugin-prisma@npm:4.2.0":
+  version: 4.2.0
+  resolution: "prettier-plugin-prisma@npm:4.2.0"
   dependencies:
-    "@prisma/prisma-fmt-wasm": "npm:4.1.0-12.09f9659a3d73d5ed2aac8298e2856b8be910cd66"
+    "@prisma/prisma-fmt-wasm": "npm:4.2.0-33.2920a97877e12e055c1333079b8d19cee7f33826"
   peerDependencies:
     prettier: ">=2"
-  checksum: b49913c0e7c1dd5ecaa01e940ceb3bca74bb8a1826b0d33e2401ae5b924bdc48d923d9b08e47a97a551643c04712168c965e654cc3ac50230049dc5b78144d94
+  checksum: 0bc3e8ff496e79ad1a800b5ddad35f522421a47c37b953c267571259f3b8af940058ba200ae0c4dd829a9f6ff5fd1aa283f90abc95b92a597fe1e35c77e1bb2c
   languageName: node
   linkType: hard
 
