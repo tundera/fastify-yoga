@@ -939,15 +939,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/fs-extra@npm:^9.0.0":
-  version: 9.0.13
-  resolution: "@types/fs-extra@npm:9.0.13"
-  dependencies:
-    "@types/node": "npm:*"
-  checksum: 576d4e9d382393316ed815c593f7f5c157408ec5e184521d077fcb15d514b5a985245f153ef52142b9b976cb9bd8f801850d51238153ebd0dc9e96b7a7548588
-  languageName: node
-  linkType: hard
-
 "@types/istanbul-lib-coverage@npm:^2.0.1":
   version: 2.0.4
   resolution: "@types/istanbul-lib-coverage@npm:2.0.4"
@@ -1197,14 +1188,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vivaxy/git@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@vivaxy/git@npm:4.2.0"
+"@vivaxy/git@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "@vivaxy/git@npm:4.2.1"
   dependencies:
-    "@types/fs-extra": "npm:^9.0.0"
     execa: "npm:^5.0.0"
-    fs-extra: "npm:^10.0.0"
-  checksum: a49c6330281f801e1e2bdb5e90e7c1a19422e9eb95ecddd22e4b139a7363e85a464e78e99f63fd0e6c3004127ac08e45d933a820e62dd467015caabd71aadf49
+    fs-extra: "npm:^10.1.0"
+  checksum: bfca899522d7101200d50914e545defa36d336164faf708fc7d6dbb13b2940469c32dfcbc25c8d0b6a9847a7758b656b3d5116ab9e3f5fddcc6640e3319173bc
   languageName: node
   linkType: hard
 
@@ -3709,7 +3699,7 @@ __metadata:
     esno: "npm:0.16.3"
     execa: "npm:6.1.0"
     fastify: "npm:4.4.0"
-    gacp: "npm:3.0.2"
+    gacp: "npm:3.0.3"
     graphql: "npm:16.6.0"
     graphql-scalars: "npm:1.18.0"
     husky: "npm:8.0.1"
@@ -3915,7 +3905,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^10.0.0":
+"fs-extra@npm:^10.0.0, fs-extra@npm:^10.1.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
   dependencies:
@@ -3975,13 +3965,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gacp@npm:3.0.2":
-  version: 3.0.2
-  resolution: "gacp@npm:3.0.2"
+"gacp@npm:3.0.3":
+  version: 3.0.3
+  resolution: "gacp@npm:3.0.3"
   dependencies:
     "@commitlint/load": "npm:^12.0.0"
     "@commitlint/types": "npm:^12.0.0"
-    "@vivaxy/git": "npm:^4.2.0"
+    "@vivaxy/git": "npm:^4.2.1"
     chalk: "npm:^4.0.0"
     conventional-commit-types: "npm:^3.0.0"
     cosmiconfig: "npm:^7.0.0"
@@ -3997,7 +3987,7 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     gacp: lib/bin.js
-  checksum: 4932b9b66fa7e3182c581b67263b2cf66f0c9cd4a4913b85e435f1eaa91e41f27d99b6b2961d91715bfccd8ae8993d06df9e56c1e15cdd6bbbae4ebda4123725
+  checksum: 7d1bbb3e562295b67fbede349d060bd609b22a939799bc4a4f909f84b1ee3ab8eb7028ccf064e30d8d189a36ed8615703588fb63be737c7950118ced6edec3de
   languageName: node
   linkType: hard
 
