@@ -3698,7 +3698,7 @@ __metadata:
     eslint-plugin-prettier: "npm:4.2.1"
     esno: "npm:0.16.3"
     execa: "npm:6.1.0"
-    fastify: "npm:4.5.1"
+    fastify: "npm:4.5.2"
     gacp: "npm:3.0.3"
     graphql: "npm:16.6.0"
     graphql-scalars: "npm:1.18.0"
@@ -3724,9 +3724,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"fastify@npm:4.5.1":
-  version: 4.5.1
-  resolution: "fastify@npm:4.5.1"
+"fastify@npm:4.5.2":
+  version: 4.5.2
+  resolution: "fastify@npm:4.5.2"
   dependencies:
     "@fastify/ajv-compiler": "npm:^3.1.1"
     "@fastify/error": "npm:^3.0.0"
@@ -3742,7 +3742,7 @@ __metadata:
     secure-json-parse: "npm:^2.4.0"
     semver: "npm:^7.3.7"
     tiny-lru: "npm:^8.0.2"
-  checksum: 596a16753bf1999f0eb9ee13d61a863fa761d663d4501dbb2992ab69d2e011e0f16d00b78c7296930d0fa4950d4fd500621a07ccce1ac77ba97182676adbe118
+  checksum: 919e2740ed7ca0809d9d5b06d10cad788310648456c73a3ef153d238cc7795cba9223c819e6bbf1283941459821ded46bf0a43048ad7cd18835946dc45ce4b6e
   languageName: node
   linkType: hard
 
