@@ -732,9 +732,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pothos/plugin-prisma@npm:3.24.0":
-  version: 3.24.0
-  resolution: "@pothos/plugin-prisma@npm:3.24.0"
+"@pothos/plugin-prisma@npm:3.25.0":
+  version: 3.25.0
+  resolution: "@pothos/plugin-prisma@npm:3.25.0"
   dependencies:
     "@prisma/generator-helper": "npm:^4.1.1"
   peerDependencies:
@@ -744,7 +744,7 @@ __metadata:
     typescript: ">=4.7.2"
   bin:
     prisma-pothos-types: bin/generator.js
-  checksum: 672bb5df0912f01f4e8a2f8b3374b0e5faf365583309bff3f77f22e7352e71e84f7ca4ccd1eb2cfb3bb8325a69210742e1752cc23f54a08495694b99e450b555
+  checksum: e24376a9b284540e9e20e570f9b531965ff5e6fa0def25a60fd42745955488633ae2559724331f9f2406f79ffbe95bdf9b13c358494a4622fc88c7be295d75eb
   languageName: node
   linkType: hard
 
@@ -3677,7 +3677,7 @@ __metadata:
     "@envelop/response-cache": "npm:3.1.0"
     "@graphql-yoga/node": "npm:2.13.8"
     "@pothos/core": "npm:3.16.0"
-    "@pothos/plugin-prisma": "npm:3.24.0"
+    "@pothos/plugin-prisma": "npm:3.25.0"
     "@pothos/plugin-relay": "npm:3.21.0"
     "@prisma/client": "npm:4.2.1"
     "@types/eslint": "npm:8.4.6"
