@@ -3269,21 +3269,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:3.4.2":
-  version: 3.4.2
-  resolution: "eslint-import-resolver-typescript@npm:3.4.2"
+"eslint-import-resolver-typescript@npm:3.5.0":
+  version: 3.5.0
+  resolution: "eslint-import-resolver-typescript@npm:3.5.0"
   dependencies:
     debug: "npm:^4.3.4"
     enhanced-resolve: "npm:^5.10.0"
     get-tsconfig: "npm:^4.2.0"
     globby: "npm:^13.1.2"
-    is-core-module: "npm:^2.9.0"
+    is-core-module: "npm:^2.10.0"
     is-glob: "npm:^4.0.3"
     synckit: "npm:^0.8.3"
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
-  checksum: 83e26e69678e043894afa6acfa0f3b0aae5121a428a75378dec0ae6b39ae9c34ee4b038f1ad50ab3a91d85330cff28f42b735bee02156059c9fab16f6d91554e
+  checksum: 9f4a0355587eeb243e81a761185ef0cbd1d378d966645537ab9a0bd8045d74cfdd11bd81e3a505832f84511ffffc1bf8e1a8c396589e0505f29577e8b1e8c602
   languageName: node
   linkType: hard
 
@@ -3693,7 +3693,7 @@ __metadata:
     eslint: "npm:8.22.0"
     eslint-config-prettier: "npm:8.5.0"
     eslint-import-resolver-node: "npm:0.3.6"
-    eslint-import-resolver-typescript: "npm:3.4.2"
+    eslint-import-resolver-typescript: "npm:3.5.0"
     eslint-plugin-import: "npm:2.26.0"
     eslint-plugin-prettier: "npm:4.2.1"
     esno: "npm:0.16.3"
@@ -4669,6 +4669,15 @@ __metadata:
   bin:
     is-ci: bin.js
   checksum: 17de4e2cd8f993c56c86472dd53dd9e2c7f126d0ee55afe610557046cdd64de0e8feadbad476edc9eeff63b060523b8673d9094ed2ab294b59efb5a66dd05a9a
+  languageName: node
+  linkType: hard
+
+"is-core-module@npm:^2.10.0":
+  version: 2.10.0
+  resolution: "is-core-module@npm:2.10.0"
+  dependencies:
+    has: "npm:^1.0.3"
+  checksum: af7c3b24cb3375688a84306dcfa71c9305fd03af6548aaeb51ed345f85abafe22e071835b3a5f4bb1e87b434404410ec31ee45749f617a7acf2a4dcb9f677ae7
   languageName: node
   linkType: hard
 
