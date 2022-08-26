@@ -509,9 +509,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-yoga/common@npm:^2.12.8":
-  version: 2.12.8
-  resolution: "@graphql-yoga/common@npm:2.12.8"
+"@graphql-yoga/common@npm:^2.12.9":
+  version: 2.12.9
+  resolution: "@graphql-yoga/common@npm:2.12.9"
   dependencies:
     "@envelop/core": "npm:^2.5.0"
     "@envelop/parser-cache": "npm:^4.6.0"
@@ -520,28 +520,28 @@ __metadata:
     "@graphql-tools/utils": "npm:^8.8.0"
     "@graphql-typed-document-node/core": "npm:^3.1.1"
     "@graphql-yoga/subscription": "npm:^2.2.3"
-    "@whatwg-node/fetch": "npm:^0.2.6"
+    "@whatwg-node/fetch": "npm:^0.3.0"
     dset: "npm:^3.1.1"
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: b9f621225682242a3e5b4b1094797fb7b3f5e313bc7ee27383b3fd25baecdaa0e71fead1f16fc9ced68a52cfd5821959378e41a4d0cf8f58e8c6f391bfb3639f
+  checksum: 7dfa40502b988ab3cfd89ebb6dda7625746fae7a6765a2a61f4c6d0fd277a4a5b35d66948e40193b9d3f343552d24f5bdc741a31a62bd699dba79de4ab7720ff
   languageName: node
   linkType: hard
 
-"@graphql-yoga/node@npm:2.13.9":
-  version: 2.13.9
-  resolution: "@graphql-yoga/node@npm:2.13.9"
+"@graphql-yoga/node@npm:2.13.10":
+  version: 2.13.10
+  resolution: "@graphql-yoga/node@npm:2.13.10"
   dependencies:
     "@envelop/core": "npm:^2.5.0"
     "@graphql-tools/utils": "npm:^8.8.0"
-    "@graphql-yoga/common": "npm:^2.12.8"
+    "@graphql-yoga/common": "npm:^2.12.9"
     "@graphql-yoga/subscription": "npm:^2.2.3"
-    "@whatwg-node/fetch": "npm:^0.2.6"
+    "@whatwg-node/fetch": "npm:^0.3.0"
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: 7cd3a19976334b5a910d122f0c887be4ecf16c900314a37f8f6850dbcbd2b792ac08de7b8bb8594b030b3e330db0eef5ade0ff51935603fa65e75fd3fe24464f
+  checksum: 38bafacd3095beac891c22f5b9755762487cbc3b45c67659b6f1ce407b20fcf245597562ff5371c198604b5a959baa232e103163047a6495809430e3b9041ad7
   languageName: node
   linkType: hard
 
@@ -1198,9 +1198,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@whatwg-node/fetch@npm:^0.2.6":
-  version: 0.2.6
-  resolution: "@whatwg-node/fetch@npm:0.2.6"
+"@whatwg-node/fetch@npm:^0.3.0":
+  version: 0.3.2
+  resolution: "@whatwg-node/fetch@npm:0.3.2"
   dependencies:
     "@peculiar/webcrypto": "npm:^1.4.0"
     abort-controller: "npm:^3.0.0"
@@ -1211,7 +1211,7 @@ __metadata:
     node-fetch: "npm:^2.6.7"
     undici: "npm:^5.8.0"
     web-streams-polyfill: "npm:^3.2.0"
-  checksum: f3290dfd09d7aadaa9586dc4ab50413b7595cb8884c3c6ad98021e6c6a0b8a8a9496f96f25cd72f01d2aaf538da93e9ac84cf2c83f3654f621edef06711e01b3
+  checksum: 9acb9e1c598c3917256b44ce820dd5196d5e430f214eebcf9f9930e56a7ff7e764dcd9ebc9310a324f2759b5fcde65eb4bc6494b7d1dd7a8c32fc90f7bf528b8
   languageName: node
   linkType: hard
 
@@ -3675,7 +3675,7 @@ __metadata:
     "@commitlint/lint": "npm:17.0.3"
     "@envelop/depth-limit": "npm:1.7.0"
     "@envelop/response-cache": "npm:3.1.0"
-    "@graphql-yoga/node": "npm:2.13.9"
+    "@graphql-yoga/node": "npm:2.13.10"
     "@pothos/core": "npm:3.19.0"
     "@pothos/plugin-prisma": "npm:3.28.0"
     "@pothos/plugin-relay": "npm:3.23.0"
