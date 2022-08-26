@@ -509,9 +509,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-yoga/common@npm:^2.12.9":
-  version: 2.12.9
-  resolution: "@graphql-yoga/common@npm:2.12.9"
+"@graphql-yoga/common@npm:^2.12.10":
+  version: 2.12.10
+  resolution: "@graphql-yoga/common@npm:2.12.10"
   dependencies:
     "@envelop/core": "npm:^2.5.0"
     "@envelop/parser-cache": "npm:^4.6.0"
@@ -525,23 +525,23 @@ __metadata:
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: 7dfa40502b988ab3cfd89ebb6dda7625746fae7a6765a2a61f4c6d0fd277a4a5b35d66948e40193b9d3f343552d24f5bdc741a31a62bd699dba79de4ab7720ff
+  checksum: 2af27718da07e82018673f2e8a65a239e859a11a7aae2d6777afd21f4acafef7b63ee16641cded7a5d3a48a57227f1a52a53fba57439467e4a43e58cf3e37ea6
   languageName: node
   linkType: hard
 
-"@graphql-yoga/node@npm:2.13.10":
-  version: 2.13.10
-  resolution: "@graphql-yoga/node@npm:2.13.10"
+"@graphql-yoga/node@npm:2.13.11":
+  version: 2.13.11
+  resolution: "@graphql-yoga/node@npm:2.13.11"
   dependencies:
     "@envelop/core": "npm:^2.5.0"
     "@graphql-tools/utils": "npm:^8.8.0"
-    "@graphql-yoga/common": "npm:^2.12.9"
+    "@graphql-yoga/common": "npm:^2.12.10"
     "@graphql-yoga/subscription": "npm:^2.2.3"
     "@whatwg-node/fetch": "npm:^0.3.0"
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: 38bafacd3095beac891c22f5b9755762487cbc3b45c67659b6f1ce407b20fcf245597562ff5371c198604b5a959baa232e103163047a6495809430e3b9041ad7
+  checksum: 2f4c5d5d004d5afdaaf9049d265d68d2c1dd481dbbda1af11046162befb07c5708011c988e8c3f25886d6e65d743b6f78502ee3dec66f815598e6be335ba3c86
   languageName: node
   linkType: hard
 
@@ -3675,7 +3675,7 @@ __metadata:
     "@commitlint/lint": "npm:17.0.3"
     "@envelop/depth-limit": "npm:1.7.0"
     "@envelop/response-cache": "npm:3.1.0"
-    "@graphql-yoga/node": "npm:2.13.10"
+    "@graphql-yoga/node": "npm:2.13.11"
     "@pothos/core": "npm:3.19.0"
     "@pothos/plugin-prisma": "npm:3.28.0"
     "@pothos/plugin-relay": "npm:3.23.0"
