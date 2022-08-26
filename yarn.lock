@@ -3698,7 +3698,7 @@ __metadata:
     eslint-plugin-prettier: "npm:4.2.1"
     esno: "npm:0.16.3"
     execa: "npm:6.1.0"
-    fastify: "npm:4.5.2"
+    fastify: "npm:4.5.3"
     gacp: "npm:3.0.3"
     graphql: "npm:16.6.0"
     graphql-scalars: "npm:1.18.0"
@@ -3724,9 +3724,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"fastify@npm:4.5.2":
-  version: 4.5.2
-  resolution: "fastify@npm:4.5.2"
+"fastify@npm:4.5.3":
+  version: 4.5.3
+  resolution: "fastify@npm:4.5.3"
   dependencies:
     "@fastify/ajv-compiler": "npm:^3.1.1"
     "@fastify/error": "npm:^3.0.0"
@@ -3734,7 +3734,7 @@ __metadata:
     abstract-logging: "npm:^2.0.1"
     avvio: "npm:^8.1.3"
     find-my-way: "npm:^7.0.0"
-    light-my-request: "npm:^5.0.0"
+    light-my-request: "npm:^5.5.1"
     pino: "npm:^8.0.0"
     process-warning: "npm:^2.0.0"
     proxy-addr: "npm:^2.0.7"
@@ -3742,7 +3742,7 @@ __metadata:
     secure-json-parse: "npm:^2.4.0"
     semver: "npm:^7.3.7"
     tiny-lru: "npm:^8.0.2"
-  checksum: 919e2740ed7ca0809d9d5b06d10cad788310648456c73a3ef153d238cc7795cba9223c819e6bbf1283941459821ded46bf0a43048ad7cd18835946dc45ce4b6e
+  checksum: dffe88193908664a5437fb06bab14f4d420cf652c93a8b536271a9f6d8665949eccf0e42de5c9e0edf5d773747310a5ee2f61738d3efb7273675cba7119adee8
   languageName: node
   linkType: hard
 
@@ -5075,14 +5075,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"light-my-request@npm:^5.0.0":
-  version: 5.1.0
-  resolution: "light-my-request@npm:5.1.0"
+"light-my-request@npm:^5.5.1":
+  version: 5.5.1
+  resolution: "light-my-request@npm:5.5.1"
   dependencies:
     cookie: "npm:^0.5.0"
     process-warning: "npm:^2.0.0"
     set-cookie-parser: "npm:^2.4.1"
-  checksum: 0672ed2668a12b562b4ef7d780434291f2f66d6f6eea17a106bfb74b92c16d81f4a0ec5fa17eeac876992127e4ff87d9993d9f11af5dc00f8365ceb250771095
+  checksum: 6f45a39c648f406b7f8aaf90f79d19ac5db53d46a70b8d308fa5d6f3b87ad04d38aef46c8a5cb7f5c7e065c7478d92b61aecf09b6aa23003c885d165dc1e36ec
   languageName: node
   linkType: hard
 
