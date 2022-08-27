@@ -39,14 +39,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:17.0.3":
-  version: 17.0.3
-  resolution: "@commitlint/cli@npm:17.0.3"
+"@commitlint/cli@npm:17.1.1":
+  version: 17.1.1
+  resolution: "@commitlint/cli@npm:17.1.1"
   dependencies:
     "@commitlint/format": "npm:^17.0.0"
-    "@commitlint/lint": "npm:^17.0.3"
-    "@commitlint/load": "npm:^17.0.3"
-    "@commitlint/read": "npm:^17.0.0"
+    "@commitlint/lint": "npm:^17.1.0"
+    "@commitlint/load": "npm:^17.1.1"
+    "@commitlint/read": "npm:^17.1.0"
     "@commitlint/types": "npm:^17.0.0"
     execa: "npm:^5.0.0"
     lodash: "npm:^4.17.19"
@@ -55,26 +55,26 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: d468119d24ac2e7974f68fb84e8abe4800a27db6789f65eafe9c87714906f62b9b96fee1cd611110519f63662a9b88a669768ed39c65623c3ce1a703e15057f4
+  checksum: cf2ebef9ddad9111c63fe321f32be2af8fb78ea4aed253f7f1769bfe71a31bb854c0a3cd820e53902f099c4a448daee1c7369974dc9f8fd7f440dafa41e28034
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:17.0.3":
-  version: 17.0.3
-  resolution: "@commitlint/config-conventional@npm:17.0.3"
+"@commitlint/config-conventional@npm:17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/config-conventional@npm:17.1.0"
   dependencies:
     conventional-changelog-conventionalcommits: "npm:^5.0.0"
-  checksum: f64a67c5082062a4837a5a5f3fbccee1e0bfe29b801d653d00ff0886bdf62136094d24d29932bbdbe75150c9db996a152c3795b917df71a499b27ea84fe20883
+  checksum: 45511bc58f99be7d5380926fcc043f50746d45b8cda428427ae8e8466b910c16fae0acd4344b1354a42652763c575663c19edd8b76617c0530ca3258aa3f9948
   languageName: node
   linkType: hard
 
-"@commitlint/config-validator@npm:^17.0.3":
-  version: 17.0.3
-  resolution: "@commitlint/config-validator@npm:17.0.3"
+"@commitlint/config-validator@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/config-validator@npm:17.1.0"
   dependencies:
     "@commitlint/types": "npm:^17.0.0"
     ajv: "npm:^8.11.0"
-  checksum: d7d5da3f224a956a43ca7694e66190bc2e466b2d577db836d00705914f4ea7f62166c8f1f02038aaf9df1dd6fc69586049342f73ec4870d75e9b007963e98b67
+  checksum: 4e0702af802116daf1b86d216d4996e732674ccc90376b501dcc6836e5132fb4e9da56b035058825d298314b50b66076e7b486558090c02304e96d333143d36d
   languageName: node
   linkType: hard
 
@@ -112,25 +112,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/is-ignored@npm:^17.0.3":
-  version: 17.0.3
-  resolution: "@commitlint/is-ignored@npm:17.0.3"
+"@commitlint/is-ignored@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/is-ignored@npm:17.1.0"
   dependencies:
     "@commitlint/types": "npm:^17.0.0"
     semver: "npm:7.3.7"
-  checksum: 4623c694c07a2d54ce27ef1e54c92693f0dd37c779f599fd11a80bb0b37d6babd5e4594a930e4d94b90c3d13332143b67e6ff01688c3efcc8e2f5e396c03406b
+  checksum: 48e2adc193e2bf40de348316eda3cf6481d691d518e30a0cdf9f7630b42f5eb1a88f675fbb8e9281572d73ade972db5f6fec4b55fa3dae3e95c97fd1bc4fbc47
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:17.0.3, @commitlint/lint@npm:^17.0.3":
-  version: 17.0.3
-  resolution: "@commitlint/lint@npm:17.0.3"
+"@commitlint/lint@npm:17.1.0, @commitlint/lint@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/lint@npm:17.1.0"
   dependencies:
-    "@commitlint/is-ignored": "npm:^17.0.3"
+    "@commitlint/is-ignored": "npm:^17.1.0"
     "@commitlint/parse": "npm:^17.0.0"
     "@commitlint/rules": "npm:^17.0.0"
     "@commitlint/types": "npm:^17.0.0"
-  checksum: 76884ae43e5c40888b72a16b1005ef1bf64192a8c972e3a60101cdf65f7ff16724f6c4ba2182e43fe54b619ac1ca92ec932c6ee0c940ab78c90af0f0ad5ddeba
+  checksum: cec71b271989fcc1465c664699f8c50a2ec1823c6953d5e90def0d0f4a39479783517a1ee18a3102a7cc674e7a1ac3a47b58b443b514e17041d62bcb9cb3e5a9
   languageName: node
   linkType: hard
 
@@ -149,22 +149,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^17.0.3":
-  version: 17.0.3
-  resolution: "@commitlint/load@npm:17.0.3"
+"@commitlint/load@npm:^17.1.1":
+  version: 17.1.1
+  resolution: "@commitlint/load@npm:17.1.1"
   dependencies:
-    "@commitlint/config-validator": "npm:^17.0.3"
+    "@commitlint/config-validator": "npm:^17.1.0"
     "@commitlint/execute-rule": "npm:^17.0.0"
-    "@commitlint/resolve-extends": "npm:^17.0.3"
+    "@commitlint/resolve-extends": "npm:^17.1.0"
     "@commitlint/types": "npm:^17.0.0"
-    "@types/node": "npm:>=12"
+    "@types/node": "npm:^14.0.0"
     chalk: "npm:^4.1.0"
     cosmiconfig: "npm:^7.0.0"
-    cosmiconfig-typescript-loader: "npm:^2.0.0"
+    cosmiconfig-typescript-loader: "npm:^3.0.0"
     lodash: "npm:^4.17.19"
     resolve-from: "npm:^5.0.0"
     typescript: "npm:^4.6.4"
-  checksum: c93736858fa7e8b17e6e31d972d6f46b079a547d794eb98eb7a79fbcc12c54cface47a42d29537bee3d10fb90177cba5b753e42dc06d6ad786d8e51dd0c53f12
+  peerDependencies:
+    ts-node: ">=10"
+  checksum: 69a8e3d0d7d5809855ad0e9aab5f87bc353db551b940636b12c58a8fe179bfd64ee7d586d0dbbcd50a772142f7c4188ae011594227782d309e59454da2cf510a
   languageName: node
   linkType: hard
 
@@ -186,15 +188,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@commitlint/read@npm:17.0.0"
+"@commitlint/read@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/read@npm:17.1.0"
   dependencies:
     "@commitlint/top-level": "npm:^17.0.0"
     "@commitlint/types": "npm:^17.0.0"
     fs-extra: "npm:^10.0.0"
     git-raw-commits: "npm:^2.0.0"
-  checksum: 4a700a7e85a4af9149b5e64fdcba7df4b464050f277be5ade6eb0717e22010ea96bb3407019ff3706b7ee50b44e3fd108961091b826dd2e20914f3de0306a35a
+    minimist: "npm:^1.2.6"
+  checksum: 1d3d0d3c00490f40428584734cf48fde3837280abe8fb3ce2543a2a6806d5adea9e5cd8c4675ec159c07b0c23aa846cd1303b841432da87fc0abbd3c22d5c3b1
   languageName: node
   linkType: hard
 
@@ -210,17 +213,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/resolve-extends@npm:^17.0.3":
-  version: 17.0.3
-  resolution: "@commitlint/resolve-extends@npm:17.0.3"
+"@commitlint/resolve-extends@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@commitlint/resolve-extends@npm:17.1.0"
   dependencies:
-    "@commitlint/config-validator": "npm:^17.0.3"
+    "@commitlint/config-validator": "npm:^17.1.0"
     "@commitlint/types": "npm:^17.0.0"
     import-fresh: "npm:^3.0.0"
     lodash: "npm:^4.17.19"
     resolve-from: "npm:^5.0.0"
     resolve-global: "npm:^1.0.0"
-  checksum: 85e412cea3c859452fa774f92f6c16df82b0c7df9a2dd85c456cab0ebfb9a04107b5264f7bb00a557d10d724316425e1a4b3c298feed7b7ff21f5d84b6b42bb7
+  checksum: 97caa2e6a75f037e5ffe724781eb98cafc2a6255ae160d3fd8cc1959880181a3c41c90f06c48d8c488cf32512308fd62d945046a18b6095664900588d6772829
   languageName: node
   linkType: hard
 
@@ -997,7 +1000,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=12":
+"@types/node@npm:*":
   version: 17.0.30
   resolution: "@types/node@npm:17.0.30"
   checksum: 705beaeb751f9dfa0202147726edb5d0d29c6f4f147315903b914ddc1d6e2250cf29cbbca5c87813c8b8bda7f533c4bb047b739f57c954a57389c4430a059918
@@ -1008,6 +1011,13 @@ __metadata:
   version: 18.0.5
   resolution: "@types/node@npm:18.0.5"
   checksum: 1912aa65c4811bddb1d09dce81f1e760d61b613ddd31ffb89cf6bd1aa998ca42deb3a93ec6642f201b407022df12ad1aa4f54b268d689a6930645b6f8d949962
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.0.0":
+  version: 14.18.26
+  resolution: "@types/node@npm:14.18.26"
+  checksum: 81fd7f0ccf4ebd8acb66647467cde7e282b48b66722157fa0a54ea99832ae0c55a9b2e6905833d6299bf179b9304f7412b258d5f9398d78bcdcdac3211dd03de
   languageName: node
   linkType: hard
 
@@ -2163,21 +2173,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig-typescript-loader@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "cosmiconfig-typescript-loader@npm:2.0.1"
-  dependencies:
-    cosmiconfig: "npm:^7"
-    ts-node: "npm:^10.8.0"
+"cosmiconfig-typescript-loader@npm:^3.0.0":
+  version: 3.1.2
+  resolution: "cosmiconfig-typescript-loader@npm:3.1.2"
   peerDependencies:
     "@types/node": "*"
     cosmiconfig: ">=7"
+    ts-node: ">=10"
     typescript: ">=3"
-  checksum: 5932d8ac800a677880371e2daf307cdb0ba84ee92c9439126cf9516af4f4aeacd93dbafa0db2e45893b8d5ef401fe87243b86fb20b46bc8ecd86ecda63609b32
+  checksum: 17313f3700bf3eba6d5a9418fca769651f205c517b998cfc9c66c0fc7388862fced65edc20738ab188b3e873c4efaec817a30bd5ffb7c11624da41d99906e691
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^7, cosmiconfig@npm:^7.0.0":
+"cosmiconfig@npm:^7.0.0":
   version: 7.0.1
   resolution: "cosmiconfig@npm:7.0.1"
   dependencies:
@@ -3666,9 +3674,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "fastify-yoga@workspace:."
   dependencies:
-    "@commitlint/cli": "npm:17.0.3"
-    "@commitlint/config-conventional": "npm:17.0.3"
-    "@commitlint/lint": "npm:17.0.3"
+    "@commitlint/cli": "npm:17.1.1"
+    "@commitlint/config-conventional": "npm:17.1.0"
+    "@commitlint/lint": "npm:17.1.0"
     "@envelop/depth-limit": "npm:1.7.0"
     "@envelop/response-cache": "npm:3.1.0"
     "@graphql-yoga/node": "npm:2.13.11"
@@ -7572,44 +7580,6 @@ __metadata:
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
   checksum: 95187932fb83f3901e22546bd2feeac7d2feb4f412f42ac3a595f049a23e8dcf70516dffb51866391228ea2dbcfaea039e250fb2bb334d48a86ab2b6aea0ae2d
-  languageName: node
-  linkType: hard
-
-"ts-node@npm:^10.8.0":
-  version: 10.8.1
-  resolution: "ts-node@npm:10.8.1"
-  dependencies:
-    "@cspotcode/source-map-support": "npm:^0.8.0"
-    "@tsconfig/node10": "npm:^1.0.7"
-    "@tsconfig/node12": "npm:^1.0.7"
-    "@tsconfig/node14": "npm:^1.0.0"
-    "@tsconfig/node16": "npm:^1.0.2"
-    acorn: "npm:^8.4.1"
-    acorn-walk: "npm:^8.1.1"
-    arg: "npm:^4.1.0"
-    create-require: "npm:^1.1.0"
-    diff: "npm:^4.0.1"
-    make-error: "npm:^1.1.1"
-    v8-compile-cache-lib: "npm:^3.0.1"
-    yn: "npm:3.1.1"
-  peerDependencies:
-    "@swc/core": ">=1.2.50"
-    "@swc/wasm": ">=1.2.50"
-    "@types/node": "*"
-    typescript: ">=2.7"
-  peerDependenciesMeta:
-    "@swc/core":
-      optional: true
-    "@swc/wasm":
-      optional: true
-  bin:
-    ts-node: dist/bin.js
-    ts-node-cwd: dist/bin-cwd.js
-    ts-node-esm: dist/bin-esm.js
-    ts-node-script: dist/bin-script.js
-    ts-node-transpile-only: dist/bin-transpile.js
-    ts-script: dist/bin-script-deprecated.js
-  checksum: 47e23f5c11ce4a1a3f64c49ce8433ebb053e8ec3b1bdddc190f959df511af2c99d5964eaff848572cdce810ee6809fa4edc892cb15dc6997a25fde06756edfa4
   languageName: node
   linkType: hard
 
