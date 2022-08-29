@@ -39,13 +39,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:17.1.1":
-  version: 17.1.1
-  resolution: "@commitlint/cli@npm:17.1.1"
+"@commitlint/cli@npm:17.1.2":
+  version: 17.1.2
+  resolution: "@commitlint/cli@npm:17.1.2"
   dependencies:
     "@commitlint/format": "npm:^17.0.0"
     "@commitlint/lint": "npm:^17.1.0"
-    "@commitlint/load": "npm:^17.1.1"
+    "@commitlint/load": "npm:^17.1.2"
     "@commitlint/read": "npm:^17.1.0"
     "@commitlint/types": "npm:^17.0.0"
     execa: "npm:^5.0.0"
@@ -55,7 +55,7 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: cf2ebef9ddad9111c63fe321f32be2af8fb78ea4aed253f7f1769bfe71a31bb854c0a3cd820e53902f099c4a448daee1c7369974dc9f8fd7f440dafa41e28034
+  checksum: ff5a8848e777e1e099787efd9b0dc53f533b6155261c8921e140de1e57c295d785cbb04f78b55c292ccd3bb4ce3553e9ae88e09d22eb856d29c1de6ee4fbde02
   languageName: node
   linkType: hard
 
@@ -149,9 +149,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^17.1.1":
-  version: 17.1.1
-  resolution: "@commitlint/load@npm:17.1.1"
+"@commitlint/load@npm:^17.1.2":
+  version: 17.1.2
+  resolution: "@commitlint/load@npm:17.1.2"
   dependencies:
     "@commitlint/config-validator": "npm:^17.1.0"
     "@commitlint/execute-rule": "npm:^17.0.0"
@@ -160,13 +160,12 @@ __metadata:
     "@types/node": "npm:^14.0.0"
     chalk: "npm:^4.1.0"
     cosmiconfig: "npm:^7.0.0"
-    cosmiconfig-typescript-loader: "npm:^3.0.0"
+    cosmiconfig-typescript-loader: "npm:^4.0.0"
     lodash: "npm:^4.17.19"
     resolve-from: "npm:^5.0.0"
+    ts-node: "npm:^10.8.1"
     typescript: "npm:^4.6.4"
-  peerDependencies:
-    ts-node: ">=10"
-  checksum: 69a8e3d0d7d5809855ad0e9aab5f87bc353db551b940636b12c58a8fe179bfd64ee7d586d0dbbcd50a772142f7c4188ae011594227782d309e59454da2cf510a
+  checksum: 059628843d858dfdadfffd8bd7afeb3c6a162a17c10e184ac30bd68948b49882c0060979b1289fcb9ae39d5a72a3ccc368876725ad3d5e5e56b1e15d28eade8f
   languageName: node
   linkType: hard
 
@@ -2173,15 +2172,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig-typescript-loader@npm:^3.0.0":
-  version: 3.1.2
-  resolution: "cosmiconfig-typescript-loader@npm:3.1.2"
+"cosmiconfig-typescript-loader@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "cosmiconfig-typescript-loader@npm:4.0.0"
   peerDependencies:
     "@types/node": "*"
     cosmiconfig: ">=7"
     ts-node: ">=10"
     typescript: ">=3"
-  checksum: 17313f3700bf3eba6d5a9418fca769651f205c517b998cfc9c66c0fc7388862fced65edc20738ab188b3e873c4efaec817a30bd5ffb7c11624da41d99906e691
+  checksum: 07e35fb7b446722d88244d080da938d87609aa187f2789e73c332be0c2ceb490369b3196f45c5f5077f229354e0aacb0890f80f40318b08b4a0a385332b63bd0
   languageName: node
   linkType: hard
 
@@ -3674,7 +3673,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "fastify-yoga@workspace:."
   dependencies:
-    "@commitlint/cli": "npm:17.1.1"
+    "@commitlint/cli": "npm:17.1.2"
     "@commitlint/config-conventional": "npm:17.1.0"
     "@commitlint/lint": "npm:17.1.0"
     "@envelop/depth-limit": "npm:1.7.0"
@@ -7545,7 +7544,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:10.9.1":
+"ts-node@npm:10.9.1, ts-node@npm:^10.8.1":
   version: 10.9.1
   resolution: "ts-node@npm:10.9.1"
   dependencies:
