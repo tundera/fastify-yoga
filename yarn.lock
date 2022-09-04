@@ -1294,7 +1294,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.8.0":
+"acorn@npm:^8.7.1, acorn@npm:^8.8.0":
   version: 8.8.0
   resolution: "acorn@npm:8.8.0"
   bin:
@@ -3726,7 +3726,7 @@ __metadata:
     tsup: "npm:6.2.3"
     typescript: "npm:4.8.2"
     vite-tsconfig-paths: "npm:3.5.0"
-    vitest: "npm:0.22.1"
+    vitest: "npm:0.23.0"
   languageName: unknown
   linkType: soft
 
@@ -7247,6 +7247,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"strip-literal@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "strip-literal@npm:0.4.0"
+  dependencies:
+    acorn: "npm:^8.7.1"
+  checksum: 9c6280942ec51e60882270b26aea18abd21fca9b305141aa0ebb5c825ee3d17f9b65e2675a64bd544a60625ae6d1c1af93a22fb06c3f85fbfbbe7720a636c828
+  languageName: node
+  linkType: hard
+
 "sucrase@npm:^3.20.3":
   version: 3.21.0
   resolution: "sucrase@npm:3.21.0"
@@ -7459,6 +7468,13 @@ __metadata:
   version: 8.0.2
   resolution: "tiny-lru@npm:8.0.2"
   checksum: 32dc73db748ae50bf43498f81150ed23922c924d7a3665ea240c7041abbbd5e8667c05328fd520ca923b4d10b89e69a4ba671365eaac221c6f7eb8b898530506
+  languageName: node
+  linkType: hard
+
+"tinybench@npm:^2.1.3":
+  version: 2.1.4
+  resolution: "tinybench@npm:2.1.4"
+  checksum: 197d4162ccaff22eab8e11759377be64e8adcb31dec38848579bff55a7bec3d1d5809adc1f2032bddfa29f68056b4945564772a19f59cfb6d9b038fb14f4d89f
   languageName: node
   linkType: hard
 
@@ -7978,9 +7994,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.22.1":
-  version: 0.22.1
-  resolution: "vitest@npm:0.22.1"
+"vitest@npm:0.23.0":
+  version: 0.23.0
+  resolution: "vitest@npm:0.23.0"
   dependencies:
     "@types/chai": "npm:^4.3.3"
     "@types/chai-subset": "npm:^1.3.3"
@@ -7988,6 +8004,8 @@ __metadata:
     chai: "npm:^4.3.6"
     debug: "npm:^4.3.4"
     local-pkg: "npm:^0.4.2"
+    strip-literal: "npm:^0.4.0"
+    tinybench: "npm:^2.1.3"
     tinypool: "npm:^0.2.4"
     tinyspy: "npm:^1.0.2"
     vite: "npm:^2.9.12 || ^3.0.0-0"
@@ -8010,7 +8028,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 944d50ca7368636a20a49c22d3c9e217e5312f3531bee7ae2ec3cf70e06e83fdb79d991cd586bbacce7a2b11e28a27d4d01b6a8665fb7372f6844eeef9ee493b
+  checksum: f2f7dedefa84e8bf07a96f6c79084fbf4f149368aec6cfb45054df4d95cf62d08af8b7be5f06b01563d02d8815ccb4e197cab4ae4c68e026ea9bc89d31d759ce
   languageName: node
   linkType: hard
 
