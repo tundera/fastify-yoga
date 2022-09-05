@@ -513,9 +513,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-yoga/common@npm:^2.12.11":
-  version: 2.12.11
-  resolution: "@graphql-yoga/common@npm:2.12.11"
+"@graphql-yoga/common@npm:^2.12.12":
+  version: 2.12.12
+  resolution: "@graphql-yoga/common@npm:2.12.12"
   dependencies:
     "@envelop/core": "npm:^2.5.0"
     "@envelop/parser-cache": "npm:^4.6.0"
@@ -529,23 +529,23 @@ __metadata:
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: 8d9d11252aa86cb01a1d59f75d1255e83cc212e05d19b10b2f05103f884fa6b57218dbee2a4ab2db1ec4fcc5cb697111892d4b2ef7b5a187987c547c522b7689
+  checksum: 009bb4c3ede7dc983f1dffdcc288c0845356af2e2a1afda8700b2de79aba1639e5c254afb7c2851ecf62b18e2d806e1145d0b330834b33293f9fe0430f186910
   languageName: node
   linkType: hard
 
-"@graphql-yoga/node@npm:2.13.12":
-  version: 2.13.12
-  resolution: "@graphql-yoga/node@npm:2.13.12"
+"@graphql-yoga/node@npm:2.13.13":
+  version: 2.13.13
+  resolution: "@graphql-yoga/node@npm:2.13.13"
   dependencies:
     "@envelop/core": "npm:^2.5.0"
     "@graphql-tools/utils": "npm:^8.8.0"
-    "@graphql-yoga/common": "npm:^2.12.11"
+    "@graphql-yoga/common": "npm:^2.12.12"
     "@graphql-yoga/subscription": "npm:^2.2.3"
     "@whatwg-node/fetch": "npm:^0.3.0"
     tslib: "npm:^2.3.1"
   peerDependencies:
     graphql: ^15.2.0 || ^16.0.0
-  checksum: d13e19f541c952a7d58acbea0e7c6fcee0c7876180bd89471472a5d00cf4dce05c030756555a3a6ede89841615230b5434721b910e131941a1d36ede47d0d9c6
+  checksum: 584391f520dc6646c826f326f2bdc83d916f48805dda47fd19541cd469eeb4c4bd8675641129793668ac496664183fa937912d57a68d27fd14ab23f396415c8f
   languageName: node
   linkType: hard
 
@@ -3681,7 +3681,7 @@ __metadata:
     "@commitlint/lint": "npm:17.1.0"
     "@envelop/depth-limit": "npm:1.8.0"
     "@envelop/response-cache": "npm:3.2.0"
-    "@graphql-yoga/node": "npm:2.13.12"
+    "@graphql-yoga/node": "npm:2.13.13"
     "@pothos/core": "npm:3.20.0"
     "@pothos/plugin-prisma": "npm:3.32.0"
     "@pothos/plugin-relay": "npm:3.26.0"
