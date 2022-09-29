@@ -759,13 +759,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pothos/plugin-relay@npm:3.27.1":
-  version: 3.27.1
-  resolution: "@pothos/plugin-relay@npm:3.27.1"
+"@pothos/plugin-relay@npm:3.28.0":
+  version: 3.28.0
+  resolution: "@pothos/plugin-relay@npm:3.28.0"
   peerDependencies:
     "@pothos/core": "*"
     graphql: ">=15.1.0"
-  checksum: 100599a3e8b8dbf20f4d2a71cc13d33a908254fbd613a8f9b329f85e2476386ca930eb5c225b424a38bac0e65340985c39aefafb3add33d82c6fbcd225c10973
+  checksum: 33c6bdb08af7477067138d35ba26f69965e69c43def6c0f2266bd5bcb87ea050ac78c69104b962ae0e7953a9f5d91b6e3023de475beb21b8324b47ba074c90bc
   languageName: node
   linkType: hard
 
@@ -3683,7 +3683,7 @@ __metadata:
     "@graphql-yoga/node": "npm:2.13.13"
     "@pothos/core": "npm:3.22.0"
     "@pothos/plugin-prisma": "npm:3.35.0"
-    "@pothos/plugin-relay": "npm:3.27.1"
+    "@pothos/plugin-relay": "npm:3.28.0"
     "@prisma/client": "npm:4.4.0"
     "@types/eslint": "npm:8.4.6"
     "@types/node": "npm:18.0.5"
