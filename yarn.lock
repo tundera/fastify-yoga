@@ -3734,7 +3734,7 @@ __metadata:
     pretty-quick: "npm:3.1.3"
     prisma: "npm:4.4.0"
     prisma-repl: "npm:1.4.0"
-    supertest: "npm:6.2.4"
+    supertest: "npm:6.3.0"
     tasuku: "npm:2.0.0"
     ts-node: "npm:10.9.1"
     tsconfig-paths: "npm:4.1.0"
@@ -7287,13 +7287,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supertest@npm:6.2.4":
-  version: 6.2.4
-  resolution: "supertest@npm:6.2.4"
+"supertest@npm:6.3.0":
+  version: 6.3.0
+  resolution: "supertest@npm:6.3.0"
   dependencies:
     methods: "npm:^1.1.2"
     superagent: "npm:^8.0.0"
-  checksum: c86dc99ed23061087ea4cc1808b464b8950c49785c928aa4623419df562351efac8b3ff3446c4a949e6ba390b9d1ab37b2ec97c884a75309ce06b9bdf3fd5146
+  checksum: d898be7083766cfc564b4674ee90f8e8d9e827adb758a458ac1d80b7647ec60c1452bcfde95e24cf100025daff8f2b800d2a86b11b09620844cf9a2d75a67a77
   languageName: node
   linkType: hard
 
