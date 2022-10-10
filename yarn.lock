@@ -3753,7 +3753,7 @@ __metadata:
     tsup: "npm:6.2.3"
     typescript: "npm:4.8.4"
     vite-tsconfig-paths: "npm:3.5.1"
-    vitest: "npm:0.24.0"
+    vitest: "npm:0.24.1"
   languageName: unknown
   linkType: soft
 
@@ -7469,7 +7469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinybench@npm:^2.2.1":
+"tinybench@npm:^2.3.0":
   version: 2.3.0
   resolution: "tinybench@npm:2.3.0"
   checksum: c11f9d692cd64db375ad9962eb9d98c1cf9a84fd624eac4df5155930493e28739c8c4720d50218be53ebc7e7064ae6d99eebe9703ac2d9ed6820373e01fd4f09
@@ -7992,9 +7992,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.24.0":
-  version: 0.24.0
-  resolution: "vitest@npm:0.24.0"
+"vitest@npm:0.24.1":
+  version: 0.24.1
+  resolution: "vitest@npm:0.24.1"
   dependencies:
     "@types/chai": "npm:^4.3.3"
     "@types/chai-subset": "npm:^1.3.3"
@@ -8003,7 +8003,7 @@ __metadata:
     debug: "npm:^4.3.4"
     local-pkg: "npm:^0.4.2"
     strip-literal: "npm:^0.4.2"
-    tinybench: "npm:^2.2.1"
+    tinybench: "npm:^2.3.0"
     tinypool: "npm:^0.3.0"
     tinyspy: "npm:^1.0.2"
     vite: "npm:^3.0.0"
@@ -8026,7 +8026,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 72279d6cbb64c3353fee530b6e8733d5a924e89431323832a536b836a3f6e4c6e98b2126c14bee0f9cb99d610203c5322da88c36ab6f41d67aa413fdec912a28
+  checksum: 62cd2495778909f092e56e9b48209706af891ef0d79c079a9c6a6993e61e4a1e29406fdf6071c9da2a905ecb3c194f6d5e0578b2a6fcb046f549e47ab4bfdadf
   languageName: node
   linkType: hard
 
