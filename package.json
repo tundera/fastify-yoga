@@ -94,7 +94,7 @@
     "tsconfig-paths": "4.1.0",
     "tsup": "6.2.3",
     "vite-tsconfig-paths": "3.5.1",
-    "vitest": "0.24.1"
+    "vitest": "0.24.2"
   },
   "lint-staged": {
     "*.{js,ts}": [

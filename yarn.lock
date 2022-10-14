@@ -3754,7 +3754,7 @@ __metadata:
     tsup: "npm:6.2.3"
     typescript: "npm:4.8.4"
     vite-tsconfig-paths: "npm:3.5.1"
-    vitest: "npm:0.24.1"
+    vitest: "npm:0.24.2"
   languageName: unknown
   linkType: soft
 
@@ -7993,9 +7993,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.24.1":
-  version: 0.24.1
-  resolution: "vitest@npm:0.24.1"
+"vitest@npm:0.24.2":
+  version: 0.24.2
+  resolution: "vitest@npm:0.24.2"
   dependencies:
     "@types/chai": "npm:^4.3.3"
     "@types/chai-subset": "npm:^1.3.3"
@@ -8027,7 +8027,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 62cd2495778909f092e56e9b48209706af891ef0d79c079a9c6a6993e61e4a1e29406fdf6071c9da2a905ecb3c194f6d5e0578b2a6fcb046f549e47ab4bfdadf
+  checksum: b33fae4ffecbc0f2aa024f43639a0b941f53c946879ec8dc53d850f098a3b2ca8d355343a7e2a8bf910efb626f4a6e534c3e9f1ebf8cf572d46d9a8d071157cd
   languageName: node
   linkType: hard
 
