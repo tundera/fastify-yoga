@@ -3751,7 +3751,7 @@ __metadata:
     tasuku: "npm:2.0.0"
     ts-node: "npm:10.9.1"
     tsconfig-paths: "npm:4.1.0"
-    tsup: "npm:6.2.3"
+    tsup: "npm:6.3.0"
     typescript: "npm:4.8.4"
     vite-tsconfig-paths: "npm:3.5.1"
     vitest: "npm:0.24.3"
@@ -7648,9 +7648,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsup@npm:6.2.3":
-  version: 6.2.3
-  resolution: "tsup@npm:6.2.3"
+"tsup@npm:6.3.0":
+  version: 6.3.0
+  resolution: "tsup@npm:6.3.0"
   dependencies:
     bundle-require: "npm:^3.1.0"
     cac: "npm:^6.7.12"
@@ -7680,7 +7680,7 @@ __metadata:
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: b346d50ba32b79946936629252a202fda7d4eef0bac76380819a69c882939f51cb2e2875ea314e27ee4370e06ca10edded6f4f50a309945b255d21cbaee1b720
+  checksum: fc60bc67ab93d0e59ebb028d980d853cc22328ba05ec0a09b3e6a0ea21bb2078a68e8c6978a2a1f9bd03090a8cbe77400c8c750bfdb639b47bab1bfea7232a2a
   languageName: node
   linkType: hard
 
