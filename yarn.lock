@@ -720,9 +720,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkgr/utils@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "@pkgr/utils@npm:2.3.0"
+"@pkgr/utils@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@pkgr/utils@npm:2.3.1"
   dependencies:
     cross-spawn: "npm:^7.0.3"
     is-glob: "npm:^4.0.3"
@@ -730,7 +730,7 @@ __metadata:
     picocolors: "npm:^1.0.0"
     tiny-glob: "npm:^0.2.9"
     tslib: "npm:^2.4.0"
-  checksum: 61215701bc60bc33979ebaed659ebc49d624f9db77846e082bf37df88558dcb6998545000c713b741f3b1ed1214a379b29aabfe4efe2bde9acb8cf96d916033c
+  checksum: 50c2480c3580c0f75b9325271deeb4f4cb24f6a29f1ebc5a7de0c6991380e23625fd554ecdbc7d7e93ad6dab92532a254f7490433cf2b8f1b18d75c9e01636ea
   languageName: node
   linkType: hard
 
@@ -3307,9 +3307,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:3.5.1":
-  version: 3.5.1
-  resolution: "eslint-import-resolver-typescript@npm:3.5.1"
+"eslint-import-resolver-typescript@npm:3.5.2":
+  version: 3.5.2
+  resolution: "eslint-import-resolver-typescript@npm:3.5.2"
   dependencies:
     debug: "npm:^4.3.4"
     enhanced-resolve: "npm:^5.10.0"
@@ -3317,11 +3317,11 @@ __metadata:
     globby: "npm:^13.1.2"
     is-core-module: "npm:^2.10.0"
     is-glob: "npm:^4.0.3"
-    synckit: "npm:^0.8.3"
+    synckit: "npm:^0.8.4"
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
-  checksum: e2e9ee100776db6f778cd4c7bae04e68867208fe654c54c9d91c5ec937c027faa129ba1a1606275826f27bcd43aa5012f81710f0b5a3fd0d2e24d6bb9c294a4c
+  checksum: 7947cccc80d439132cb75ec7a74bf710fef72b3b0d6d804246265836f143e86520608a5a3c3313aec0e21a8b0ca0eb99101236895ea89b71559d0cf9c9ac377a
   languageName: node
   linkType: hard
 
@@ -3735,7 +3735,7 @@ __metadata:
     eslint: "npm:8.25.0"
     eslint-config-prettier: "npm:8.5.0"
     eslint-import-resolver-node: "npm:0.3.6"
-    eslint-import-resolver-typescript: "npm:3.5.1"
+    eslint-import-resolver-typescript: "npm:3.5.2"
     eslint-plugin-import: "npm:2.26.0"
     eslint-plugin-prettier: "npm:4.2.1"
     esno: "npm:0.16.3"
@@ -7343,13 +7343,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.8.3":
-  version: 0.8.3
-  resolution: "synckit@npm:0.8.3"
+"synckit@npm:^0.8.4":
+  version: 0.8.4
+  resolution: "synckit@npm:0.8.4"
   dependencies:
-    "@pkgr/utils": "npm:^2.3.0"
+    "@pkgr/utils": "npm:^2.3.1"
     tslib: "npm:^2.4.0"
-  checksum: e69e7878d3efa73166af979203e0bd6d1e9fe70ea73e98f9ce0295e8329b33b69342781b6d9c61a709cc2b13bbb81d3e5f7139e0c3d8aaabc3b387c6428d655d
+  checksum: cd2444b7879b010b220721874527dbf3231a05cd42a47b24260db9c9427e9c3d3e481bd41175112434267dec3402166cfde417c4ae254937b5cc3b0cd994b992
   languageName: node
   linkType: hard
 
