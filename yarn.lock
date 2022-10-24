@@ -3756,7 +3756,7 @@ __metadata:
     pretty-quick: "npm:3.1.3"
     prisma: "npm:4.5.0"
     prisma-repl: "npm:1.4.0"
-    supertest: "npm:6.3.0"
+    supertest: "npm:6.3.1"
     tasuku: "npm:2.0.0"
     ts-node: "npm:10.9.1"
     tsconfig-paths: "npm:4.1.0"
@@ -6446,12 +6446,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.10.3":
-  version: 6.10.3
-  resolution: "qs@npm:6.10.3"
+"qs@npm:^6.11.0":
+  version: 6.11.0
+  resolution: "qs@npm:6.11.0"
   dependencies:
     side-channel: "npm:^1.0.4"
-  checksum: c6684df925fd2c6f0940b8fbfe5d8b5a8634dc96c0908309655cbe61a3fbf94cedc6b11e669fca1971b53459b6f732cccd4eeb6484b5b77b405ad0cfb936e6fe
+  checksum: 4e4875e4d7c7c31c233d07a448e7e4650f456178b9dd3766b7cfa13158fdb24ecb8c4f059fa91e820dc6ab9f2d243721d071c9c0378892dcdad86e9e9a27c68f
   languageName: node
   linkType: hard
 
@@ -6892,6 +6892,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.3.8":
+  version: 7.3.8
+  resolution: "semver@npm:7.3.8"
+  dependencies:
+    lru-cache: "npm:^6.0.0"
+  bin:
+    semver: bin/semver.js
+  checksum: 7e581d679530db31757301c2117721577a2bb36a301a443aac833b8efad372cda58e7f2a464fe4412ae1041cc1f63a6c1fe0ced8c57ce5aca1e0b57bb0d627b9
+  languageName: node
+  linkType: hard
+
 "set-blocking@npm:^2.0.0":
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
@@ -7311,9 +7322,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"superagent@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "superagent@npm:8.0.0"
+"superagent@npm:^8.0.3":
+  version: 8.0.3
+  resolution: "superagent@npm:8.0.3"
   dependencies:
     component-emitter: "npm:^1.3.0"
     cookiejar: "npm:^2.1.3"
@@ -7323,20 +7334,19 @@ __metadata:
     formidable: "npm:^2.0.1"
     methods: "npm:^1.1.2"
     mime: "npm:2.6.0"
-    qs: "npm:^6.10.3"
-    readable-stream: "npm:^3.6.0"
-    semver: "npm:^7.3.7"
-  checksum: 9e1334de4b26a098dbafa6a5240d7c4309cb7283d2e828f2c0ea9d1ce862644d7121df62a84a96f791aea917e9d5ed4aa97e3282cf08002b39e545c6fb7a945d
+    qs: "npm:^6.11.0"
+    semver: "npm:^7.3.8"
+  checksum: d10544c86d32059e602930eb8b7d3bf531b302516bef00d426ca5e2064a8308114807a7cfd16ea3b8b8e2875007481de20275e7b3d57dc5a54005485af2fa741
   languageName: node
   linkType: hard
 
-"supertest@npm:6.3.0":
-  version: 6.3.0
-  resolution: "supertest@npm:6.3.0"
+"supertest@npm:6.3.1":
+  version: 6.3.1
+  resolution: "supertest@npm:6.3.1"
   dependencies:
     methods: "npm:^1.1.2"
-    superagent: "npm:^8.0.0"
-  checksum: d898be7083766cfc564b4674ee90f8e8d9e827adb758a458ac1d80b7647ec60c1452bcfde95e24cf100025daff8f2b800d2a86b11b09620844cf9a2d75a67a77
+    superagent: "npm:^8.0.3"
+  checksum: c20c244a25c34cb3c4998b4b7458d110a3aad53d85ff92bbf99210e78dac9826925b5ce08ab036c6023737d59003e26e29c3a7009bf9178400cee926469bfa70
   languageName: node
   linkType: hard
 
