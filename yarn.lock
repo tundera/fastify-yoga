@@ -940,13 +940,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.4.7":
-  version: 8.4.7
-  resolution: "@types/eslint@npm:8.4.7"
+"@types/eslint@npm:8.4.8":
+  version: 8.4.8
+  resolution: "@types/eslint@npm:8.4.8"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 8fa7cea6ec0e3a288ba5548e9d3cb8f79d2f6f9a7a176f1dd4ca92ea04de0d2a779976b2011da00dea5871183a3068849f0631f2951e80422b5feb8922935c58
+  checksum: 42b6857b9673c6e881805c130ab6730e5440a3e8bc932fc71b8a8e42ac23c64e34e74484ec3551e07e47d0eeb99cebc9e94160e36ac3c3c087e8fbaf1c2e5b56
   languageName: node
   linkType: hard
 
@@ -3723,7 +3723,7 @@ __metadata:
     "@pothos/plugin-prisma": "npm:3.35.6"
     "@pothos/plugin-relay": "npm:3.28.6"
     "@prisma/client": "npm:4.5.0"
-    "@types/eslint": "npm:8.4.7"
+    "@types/eslint": "npm:8.4.8"
     "@types/node": "npm:18.11.5"
     "@types/pino-datadog": "npm:2.0.1"
     "@types/supertest": "npm:2.0.12"
