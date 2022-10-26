@@ -1015,10 +1015,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.11.6":
-  version: 18.11.6
-  resolution: "@types/node@npm:18.11.6"
-  checksum: c0bc5e2072e9296ebd02b0da89c90912bf0f4465b1405fa1f9b6978199630c736a543fc236a566aad71a641dfd8a1addb210d3229bfb00c5b87d204b83fff7d1
+"@types/node@npm:18.11.7":
+  version: 18.11.7
+  resolution: "@types/node@npm:18.11.7"
+  checksum: 65e95517d3a601ab1d2b473a2e7989da8c87681cbc201ea9a8bf1f2b50227bc8755e07a4b00258376c6a4df614c270ff059f08135397261c9dd6f12601ec8fd6
   languageName: node
   linkType: hard
 
@@ -3724,7 +3724,7 @@ __metadata:
     "@pothos/plugin-relay": "npm:3.28.6"
     "@prisma/client": "npm:4.5.0"
     "@types/eslint": "npm:8.4.8"
-    "@types/node": "npm:18.11.6"
+    "@types/node": "npm:18.11.7"
     "@types/pino-datadog": "npm:2.0.1"
     "@types/supertest": "npm:2.0.12"
     "@typescript-eslint/eslint-plugin": "npm:5.41.0"
