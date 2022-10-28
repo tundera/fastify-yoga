@@ -61,7 +61,7 @@
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
     "@commitlint/lint": "17.1.0",
-    "@types/eslint": "8.4.8",
+    "@types/eslint": "8.4.9",
     "@types/node": "18.11.7",
     "@types/pino-datadog": "2.0.1",
     "@types/supertest": "2.0.12",
