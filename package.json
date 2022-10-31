@@ -67,7 +67,7 @@
     "@types/supertest": "2.0.12",
     "@typescript-eslint/eslint-plugin": "5.41.0",
     "@typescript-eslint/parser": "5.41.0",
-    "@vitest/ui": "0.24.3",
+    "@vitest/ui": "0.24.4",
     "c8": "7.12.0",
     "dotenv": "16.0.3",
     "eslint": "8.26.0",
@@ -94,7 +94,7 @@
     "tsconfig-paths": "4.1.0",
     "tsup": "6.3.0",
     "vite-tsconfig-paths": "3.5.2",
-    "vitest": "0.24.3"
+    "vitest": "0.24.4"
   },
   "lint-staged": {
     "*.{js,ts}": [
