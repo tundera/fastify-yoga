@@ -1699,14 +1699,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bundle-require@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "bundle-require@npm:3.1.0"
+"bundle-require@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "bundle-require@npm:3.1.2"
   dependencies:
     load-tsconfig: "npm:^0.2.0"
   peerDependencies:
     esbuild: ">=0.13"
-  checksum: 6bd8f68caeb191dfa7348d9da75f9599989babf335c67c8dc1a5372c773967c76010bdd8971cae19c6bc807e82a540314cb89abfbe6fa1d9c27e14e093b6d0ec
+  checksum: 73f77df391a46f2cefc3bfc4777cd0169a47db1e69a64a16cb6a37208a03992ef68f02921e18ae4fba3387e076f37bcac8388077cba316ce9fd96105aec43f89
   languageName: node
   linkType: hard
 
@@ -3761,7 +3761,7 @@ __metadata:
     tasuku: "npm:2.0.0"
     ts-node: "npm:10.9.1"
     tsconfig-paths: "npm:4.1.0"
-    tsup: "npm:6.3.0"
+    tsup: "npm:6.4.0"
     typescript: "npm:4.8.4"
     vite-tsconfig-paths: "npm:3.5.2"
     vitest: "npm:0.24.5"
@@ -6765,9 +6765,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.74.1":
-  version: 2.75.6
-  resolution: "rollup@npm:2.75.6"
+"rollup@npm:^3.2.5":
+  version: 3.2.5
+  resolution: "rollup@npm:3.2.5"
   dependencies:
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -6775,7 +6775,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 74cd92d5441b550646b5e26bae7c1c0cdb6b89d4b54be237920ebc320550bfc276fa2bdb3252fcc7f4c0f8cea33e7e5af1df59cf2856ea03fb3dff7d6503cebf
+  checksum: f9332142d6f9298cc634a472ba913205edec518f165c6f1d31934585df5d4d6582c20d3ab88ca98a4325ee9a150597c3a548e3ed904180485cd60e0f813dd66f
   languageName: node
   linkType: hard
 
@@ -7696,11 +7696,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsup@npm:6.3.0":
-  version: 6.3.0
-  resolution: "tsup@npm:6.3.0"
+"tsup@npm:6.4.0":
+  version: 6.4.0
+  resolution: "tsup@npm:6.4.0"
   dependencies:
-    bundle-require: "npm:^3.1.0"
+    bundle-require: "npm:^3.1.2"
     cac: "npm:^6.7.12"
     chokidar: "npm:^3.5.1"
     debug: "npm:^4.3.1"
@@ -7710,7 +7710,7 @@ __metadata:
     joycon: "npm:^3.0.1"
     postcss-load-config: "npm:^3.0.1"
     resolve-from: "npm:^5.0.0"
-    rollup: "npm:^2.74.1"
+    rollup: "npm:^3.2.5"
     source-map: "npm:0.8.0-beta.0"
     sucrase: "npm:^3.20.3"
     tree-kill: "npm:^1.2.2"
@@ -7728,7 +7728,7 @@ __metadata:
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: fc60bc67ab93d0e59ebb028d980d853cc22328ba05ec0a09b3e6a0ea21bb2078a68e8c6978a2a1f9bd03090a8cbe77400c8c750bfdb639b47bab1bfea7232a2a
+  checksum: fd745b8669ad56eb96fe76afd482afab01020ee8c9f6f12b7796627862d98e9c0ed1b19cfdac3a5127afc1421ef5495f80f688f76dfb136f2b136ba23b9fe8a3
   languageName: node
   linkType: hard
 
