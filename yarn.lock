@@ -1214,12 +1214,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:0.24.5":
-  version: 0.24.5
-  resolution: "@vitest/ui@npm:0.24.5"
+"@vitest/ui@npm:0.25.0":
+  version: 0.25.0
+  resolution: "@vitest/ui@npm:0.25.0"
   dependencies:
     sirv: "npm:^2.0.2"
-  checksum: 166a23742fd21254964178357d16b44e6cdceb5a1968c6d9f1ba373630939bc43954b8adc302dde50ee629669d1169571f7c6a3b963fb9f097ecbfd3af3bd14d
+  checksum: f8a181e8283e7b78164a27e16a048874c0d17144780046133abe4bd9722bcf4172da74690e8bfd888407e8258976797a9755827af5e545614715e7e9be17b47f
   languageName: node
   linkType: hard
 
@@ -1294,7 +1294,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn-walk@npm:^8.1.1":
+"acorn-walk@npm:^8.1.1, acorn-walk@npm:^8.2.0":
   version: 8.2.0
   resolution: "acorn-walk@npm:8.2.0"
   checksum: dbe92f5b2452c93e960c5594e666dd1fae141b965ff2cb4a1e1d0381e3e4db4274c5ce4ffa3d681a86ca2a8d4e29d5efc0670a08e23fd2800051ea387df56ca2
@@ -3730,7 +3730,7 @@ __metadata:
     "@types/supertest": "npm:2.0.12"
     "@typescript-eslint/eslint-plugin": "npm:5.42.1"
     "@typescript-eslint/parser": "npm:5.42.1"
-    "@vitest/ui": "npm:0.24.5"
+    "@vitest/ui": "npm:0.25.0"
     c8: "npm:7.12.0"
     dotenv: "npm:16.0.3"
     env-schema: "npm:5.1.0"
@@ -3764,7 +3764,7 @@ __metadata:
     tsup: "npm:6.4.0"
     typescript: "npm:4.8.4"
     vite-tsconfig-paths: "npm:3.5.2"
-    vitest: "npm:0.24.5"
+    vitest: "npm:0.25.0"
   languageName: unknown
   linkType: soft
 
@@ -7095,7 +7095,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.6.0":
+"source-map@npm:^0.6.0, source-map@npm:^0.6.1":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: ab55398007c5e5532957cb0beee2368529618ac0ab372d789806f5718123cc4367d57de3904b4e6a4170eb5a0b0f41373066d02ca0735a0c4d75c7d328d3e011
@@ -8041,16 +8041,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.24.5":
-  version: 0.24.5
-  resolution: "vitest@npm:0.24.5"
+"vitest@npm:0.25.0":
+  version: 0.25.0
+  resolution: "vitest@npm:0.25.0"
   dependencies:
     "@types/chai": "npm:^4.3.3"
     "@types/chai-subset": "npm:^1.3.3"
     "@types/node": "npm:*"
+    acorn: "npm:^8.8.0"
+    acorn-walk: "npm:^8.2.0"
     chai: "npm:^4.3.6"
     debug: "npm:^4.3.4"
     local-pkg: "npm:^0.4.2"
+    source-map: "npm:^0.6.1"
     strip-literal: "npm:^0.4.2"
     tinybench: "npm:^2.3.1"
     tinypool: "npm:^0.3.0"
@@ -8075,7 +8078,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: b8941b6f7b18a9dc1f4df7fddfc05ba340897ca0089aaab56ce9178bd6f435fe960f824233f01c4c7bc526bbd279203967d30b514559fb78f0b2f8e07f185fbe
+  checksum: e235cb5a210748e26f50e437e4539351e18fb07e448e1bca6bd70d867fb437d615d1b1c8965dc8c1a53a53306bfee49b76b3f03e3c300a2ff0aa727febf5a16d
   languageName: node
   linkType: hard
 
