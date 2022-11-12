@@ -2542,14 +2542,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"env-schema@npm:5.1.0":
-  version: 5.1.0
-  resolution: "env-schema@npm:5.1.0"
+"env-schema@npm:5.1.1":
+  version: 5.1.1
+  resolution: "env-schema@npm:5.1.1"
   dependencies:
     ajv: "npm:^8.0.0"
     dotenv: "npm:^16.0.0"
     dotenv-expand: "npm:^9.0.0"
-  checksum: dda2343951d9c61646880c229aa2894b9c14231280297702773f3e13ecf91e77e4aa94aa5287c6717f3ae8bd12598d5f54d53b0620910fa7735417cf7a68b350
+  checksum: 302bfa4daddea88c29ade09e0db15b1a8eb1d1a853f7e3b61128fae4a69bd7f2e4e78fa186ddd335bf5e19a8e01159862acd747e96cf6efe6d45994c64187a38
   languageName: node
   linkType: hard
 
@@ -3733,7 +3733,7 @@ __metadata:
     "@vitest/ui": "npm:0.25.1"
     c8: "npm:7.12.0"
     dotenv: "npm:16.0.3"
-    env-schema: "npm:5.1.0"
+    env-schema: "npm:5.1.1"
     eslint: "npm:8.27.0"
     eslint-config-prettier: "npm:8.5.0"
     eslint-import-resolver-node: "npm:0.3.6"
