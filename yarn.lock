@@ -3742,7 +3742,7 @@ __metadata:
     eslint-plugin-prettier: "npm:4.2.1"
     esno: "npm:0.16.3"
     execa: "npm:6.1.0"
-    fastify: "npm:4.9.2"
+    fastify: "npm:4.10.0"
     gacp: "npm:3.0.3"
     graphql: "npm:16.6.0"
     graphql-scalars: "npm:1.20.1"
@@ -3768,9 +3768,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"fastify@npm:4.9.2":
-  version: 4.9.2
-  resolution: "fastify@npm:4.9.2"
+"fastify@npm:4.10.0":
+  version: 4.10.0
+  resolution: "fastify@npm:4.10.0"
   dependencies:
     "@fastify/ajv-compiler": "npm:^3.3.1"
     "@fastify/error": "npm:^3.0.0"
@@ -3785,8 +3785,8 @@ __metadata:
     rfdc: "npm:^1.3.0"
     secure-json-parse: "npm:^2.5.0"
     semver: "npm:^7.3.7"
-    tiny-lru: "npm:^9.0.2"
-  checksum: 6be84b9182f03c219bf9ff6eb96812779010526d24b98844c99f5d47af454a21af8de2d2854e07dfdee983a41113b42cda2f92c25d4b712da3eba4c8f4668215
+    tiny-lru: "npm:^10.0.0"
+  checksum: 0cc3bbefedc1dd6840e197436969c7507ef1ff7062a7bee370ccafa279a3a7d1c476323bdda287009bb321d4311076e06bf11e02c700f1a956147378cfea9224
   languageName: node
   linkType: hard
 
@@ -7511,10 +7511,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tiny-lru@npm:^9.0.2":
-  version: 9.0.2
-  resolution: "tiny-lru@npm:9.0.2"
-  checksum: 48aa41c07070dab66069b91e1811f75953233daa31880ec33d545a685c1acac1f5640559eac4e0ccb6c0fe3c84f8b25ef5a1b768d698f90d9f291fce556ca672
+"tiny-lru@npm:^10.0.0":
+  version: 10.0.1
+  resolution: "tiny-lru@npm:10.0.1"
+  checksum: 37cbb0419044026cf3d701734bd03e360315aba338f346736a46d8aaaafec8b4f1054c2e4e614a34ab19a5ad04673ee95fdd2d7b97e2b5e7cf9db2426f00d114
   languageName: node
   linkType: hard
 
