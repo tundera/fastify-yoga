@@ -756,11 +756,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pothos/plugin-prisma@npm:3.36.0":
-  version: 3.36.0
-  resolution: "@pothos/plugin-prisma@npm:3.36.0"
+"@pothos/plugin-prisma@npm:3.37.0":
+  version: 3.37.0
+  resolution: "@pothos/plugin-prisma@npm:3.37.0"
   dependencies:
-    "@prisma/generator-helper": "npm:^4.5.0"
+    "@prisma/generator-helper": "npm:^4.6.1"
   peerDependencies:
     "@pothos/core": "*"
     "@prisma/client": "*"
@@ -768,7 +768,7 @@ __metadata:
     typescript: ">=4.7.2"
   bin:
     prisma-pothos-types: bin/generator.js
-  checksum: fd6d2d6c446b40b3474b359534936da825f3840aaba1d5045e9565a70dea1011f5f2b579a1ab74d48887e57a7193a0fcf4e1f13b3f25fa8c112816f9936865d3
+  checksum: d4ac7685d620b1df6c4b54c4ac0b35ffd6c55fc257a27c3c5dedaf2d00c46ecc9fcc3f0ed9e49c3e9f4fc479cd235f28e04244c143cbde9d491ebb471934d3d4
   languageName: node
   linkType: hard
 
@@ -796,14 +796,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/debug@npm:4.5.0":
-  version: 4.5.0
-  resolution: "@prisma/debug@npm:4.5.0"
+"@prisma/debug@npm:4.6.1":
+  version: 4.6.1
+  resolution: "@prisma/debug@npm:4.6.1"
   dependencies:
     "@types/debug": "npm:4.1.7"
     debug: "npm:4.3.4"
     strip-ansi: "npm:6.0.1"
-  checksum: 9889f5efb201416b9237e82f8b49606699f7e8a498da4635f77a81c4b24d41b2bb4bb3bfd5852cb9b98db11e9d24df36c2d89d71d5a45cfc5524430e06b5bf91
+  checksum: 07459c5d7bc5ef3de94b3d4f25bb3a244af0ab5ed261627fe4e8a941d6747e1af41eca9f0a8bf504dddc049ebb622de331aa1b4685a5adea10dbf612e8c10cf7
   languageName: node
   linkType: hard
 
@@ -821,15 +821,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/generator-helper@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "@prisma/generator-helper@npm:4.5.0"
+"@prisma/generator-helper@npm:^4.6.1":
+  version: 4.6.1
+  resolution: "@prisma/generator-helper@npm:4.6.1"
   dependencies:
-    "@prisma/debug": "npm:4.5.0"
+    "@prisma/debug": "npm:4.6.1"
     "@types/cross-spawn": "npm:6.0.2"
     chalk: "npm:4.1.2"
     cross-spawn: "npm:7.0.3"
-  checksum: 1ce30220997a492b5b8ee4d2b676ce58c218ce4e21b77b79c623a09ca621937e7d2b6e4efb7bd2060b917eab4cb8b288b34e92663dd4df3c05a4241a05869c72
+  checksum: 44580231e21a48ce484991104e870909099dd6f1b800eb99f393db510eec73b0ecab1dc50fd1a830a1b9847c0ed49b3e5f92d5da3d07073d8d653944271f1a38
   languageName: node
   linkType: hard
 
@@ -3734,7 +3734,7 @@ __metadata:
     "@envelop/response-cache": "npm:3.2.0"
     "@graphql-yoga/node": "npm:2.13.13"
     "@pothos/core": "npm:3.23.0"
-    "@pothos/plugin-prisma": "npm:3.36.0"
+    "@pothos/plugin-prisma": "npm:3.37.0"
     "@pothos/plugin-relay": "npm:3.29.0"
     "@prisma/client": "npm:4.6.1"
     "@types/eslint": "npm:8.4.10"
