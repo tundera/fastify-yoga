@@ -3766,7 +3766,7 @@ __metadata:
     supertest: "npm:6.3.1"
     tasuku: "npm:2.0.0"
     ts-node: "npm:10.9.1"
-    tsconfig-paths: "npm:4.1.0"
+    tsconfig-paths: "npm:4.1.1"
     tsup: "npm:6.5.0"
     typescript: "npm:4.9.3"
     vite-tsconfig-paths: "npm:3.6.0"
@@ -7725,14 +7725,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-paths@npm:4.1.0":
-  version: 4.1.0
-  resolution: "tsconfig-paths@npm:4.1.0"
+"tsconfig-paths@npm:4.1.1":
+  version: 4.1.1
+  resolution: "tsconfig-paths@npm:4.1.1"
   dependencies:
     json5: "npm:^2.2.1"
     minimist: "npm:^1.2.6"
     strip-bom: "npm:^3.0.0"
-  checksum: cadfd6a856c1e6cb96336b2802a3f3d064baee31b5d4ecaeb8bb4397cdc1e9fc5f2f085cc753042a8c8552323ad8ff7a3c98686567e1148a77acc3092ab7b328
+  checksum: 1076aeea08a613b3e36b465b17bebbf2b2aa88300f940ec689294e78b451bf99e0994d7467689e5ecb3c4912b69e45f190e468137efc21fee760259fa50471fe
   languageName: node
   linkType: hard
 
