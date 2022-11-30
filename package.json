@@ -91,7 +91,7 @@
     "supertest": "6.3.1",
     "tasuku": "2.0.0",
     "ts-node": "10.9.1",
-    "tsconfig-paths": "4.1.0",
+    "tsconfig-paths": "4.1.1",
     "tsup": "6.5.0",
     "vite-tsconfig-paths": "3.6.0",
     "vitest": "0.25.3"
