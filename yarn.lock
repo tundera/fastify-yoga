@@ -1220,12 +1220,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:0.25.4":
-  version: 0.25.4
-  resolution: "@vitest/ui@npm:0.25.4"
+"@vitest/ui@npm:0.25.5":
+  version: 0.25.5
+  resolution: "@vitest/ui@npm:0.25.5"
   dependencies:
     sirv: "npm:^2.0.2"
-  checksum: b2b581a08ce3d82339a75880b2ee18b89b905cb74359854c4cf4e742184600c334cee17e09d328dfd02f926d99b7ba948e1270c173a601ed6dddee8171f03859
+  checksum: 39b091d0d322119e1a88ae7d5fb5953975ba9753fc9f3ee1edd33d58df3613d53ecc94458b411c5e421533ec8998ad806806ff38aa018252a79aff402aa66d10
   languageName: node
   linkType: hard
 
@@ -3745,7 +3745,7 @@ __metadata:
     "@types/supertest": "npm:2.0.12"
     "@typescript-eslint/eslint-plugin": "npm:5.45.1"
     "@typescript-eslint/parser": "npm:5.45.1"
-    "@vitest/ui": "npm:0.25.4"
+    "@vitest/ui": "npm:0.25.5"
     c8: "npm:7.12.0"
     dotenv: "npm:16.0.3"
     env-schema: "npm:5.2.0"
@@ -3779,7 +3779,7 @@ __metadata:
     tsup: "npm:6.5.0"
     typescript: "npm:4.9.3"
     vite-tsconfig-paths: "npm:3.6.0"
-    vitest: "npm:0.25.4"
+    vitest: "npm:0.25.5"
   languageName: unknown
   linkType: soft
 
@@ -8127,9 +8127,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.25.4":
-  version: 0.25.4
-  resolution: "vitest@npm:0.25.4"
+"vitest@npm:0.25.5":
+  version: 0.25.5
+  resolution: "vitest@npm:0.25.5"
   dependencies:
     "@types/chai": "npm:^4.3.3"
     "@types/chai-subset": "npm:^1.3.3"
@@ -8164,7 +8164,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: fbfb9b918cfee6b7f685adee86212e82b25b92733603569387e1d0f495f502437a4c8a752b00fe6b015708791cfef8d756a65b2804289a2f3544fdccf4fcdb56
+  checksum: d56db8cb763c069037595e78808c3fa38d381f3b723fc51990a05edf0a747e19a6d6a7312ae6808e5ea4dcd21330540b0d4678a50289e61c1d9d29bbce538035
   languageName: node
   linkType: hard
 
