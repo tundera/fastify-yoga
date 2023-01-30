@@ -3313,7 +3313,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:0.3.6, eslint-import-resolver-node@npm:^0.3.6":
+"eslint-import-resolver-node@npm:0.3.7":
+  version: 0.3.7
+  resolution: "eslint-import-resolver-node@npm:0.3.7"
+  dependencies:
+    debug: "npm:^3.2.7"
+    is-core-module: "npm:^2.11.0"
+    resolve: "npm:^1.22.1"
+  checksum: 39c562b59ec8dfd6b85ffa52273dbf0edb661b616463e2c453c60b2398b0a76f268f15f949a1648046c9c996d29599b57f6266df4b5d3562bff1088ded3672d5
+  languageName: node
+  linkType: hard
+
+"eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6"
   dependencies:
@@ -3751,7 +3762,7 @@ __metadata:
     env-schema: "npm:5.2.0"
     eslint: "npm:8.29.0"
     eslint-config-prettier: "npm:8.5.0"
-    eslint-import-resolver-node: "npm:0.3.6"
+    eslint-import-resolver-node: "npm:0.3.7"
     eslint-import-resolver-typescript: "npm:3.5.2"
     eslint-plugin-import: "npm:2.26.0"
     eslint-plugin-prettier: "npm:4.2.1"
@@ -4732,6 +4743,15 @@ __metadata:
   dependencies:
     has: "npm:^1.0.3"
   checksum: af7c3b24cb3375688a84306dcfa71c9305fd03af6548aaeb51ed345f85abafe22e071835b3a5f4bb1e87b434404410ec31ee45749f617a7acf2a4dcb9f677ae7
+  languageName: node
+  linkType: hard
+
+"is-core-module@npm:^2.11.0":
+  version: 2.11.0
+  resolution: "is-core-module@npm:2.11.0"
+  dependencies:
+    has: "npm:^1.0.3"
+  checksum: fd8f78ef4e243c295deafa809f89381d89aff5aaf38bb63266b17ee6e34b6a051baa5bdc2365456863336d56af6a59a4c1df1256b4eff7d6b4afac618586b004
   languageName: node
   linkType: hard
 
