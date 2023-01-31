@@ -3786,7 +3786,7 @@ __metadata:
     supertest: "npm:6.3.3"
     tasuku: "npm:2.0.1"
     ts-node: "npm:10.9.1"
-    tsconfig-paths: "npm:4.1.1"
+    tsconfig-paths: "npm:4.1.2"
     tsup: "npm:6.5.0"
     typescript: "npm:4.9.3"
     vite-tsconfig-paths: "npm:3.6.0"
@@ -5091,6 +5091,15 @@ __metadata:
   bin:
     json5: lib/cli.js
   checksum: a7174bc4e146613750a04a8a7fe2bc4ab6f4cad20486f8d7026cc4546b3ee1dc3762fc5e7377557ae99414745aac782486e409f31c363084a455e05cb495ce7a
+  languageName: node
+  linkType: hard
+
+"json5@npm:^2.2.2":
+  version: 2.2.3
+  resolution: "json5@npm:2.2.3"
+  bin:
+    json5: lib/cli.js
+  checksum: 5a04eed94810fa55c5ea138b2f7a5c12b97c3750bc63d11e511dcecbfef758003861522a070c2272764ee0f4e3e323862f386945aeb5b85b87ee43f084ba586c
   languageName: node
   linkType: hard
 
@@ -7747,14 +7756,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-paths@npm:4.1.1":
-  version: 4.1.1
-  resolution: "tsconfig-paths@npm:4.1.1"
+"tsconfig-paths@npm:4.1.2":
+  version: 4.1.2
+  resolution: "tsconfig-paths@npm:4.1.2"
   dependencies:
-    json5: "npm:^2.2.1"
+    json5: "npm:^2.2.2"
     minimist: "npm:^1.2.6"
     strip-bom: "npm:^3.0.0"
-  checksum: 1076aeea08a613b3e36b465b17bebbf2b2aa88300f940ec689294e78b451bf99e0994d7467689e5ecb3c4912b69e45f190e468137efc21fee760259fa50471fe
+  checksum: 8993f3e160aaca196a5e1e65c26167a6d026cb48c8b80bfe41c1a37a280a471a23611a9ee85ae913714968a75f75314d580726b6b8f08486fe08a0f0161f1930
   languageName: node
   linkType: hard
 
