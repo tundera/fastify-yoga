@@ -3808,7 +3808,7 @@ __metadata:
     husky: "npm:8.0.3"
     is-ci: "npm:3.0.1"
     lint-staged: "npm:13.1.0"
-    pino: "npm:8.7.0"
+    pino: "npm:8.8.0"
     pino-datadog: "npm:2.0.2"
     pino-pretty: "npm:8.1.0"
     prettier: "npm:2.8.3"
@@ -6379,9 +6379,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:8.7.0":
-  version: 8.7.0
-  resolution: "pino@npm:8.7.0"
+"pino@npm:8.8.0":
+  version: 8.8.0
+  resolution: "pino@npm:8.8.0"
   dependencies:
     atomic-sleep: "npm:^1.0.0"
     fast-redact: "npm:^3.1.1"
@@ -6396,7 +6396,7 @@ __metadata:
     thread-stream: "npm:^2.0.0"
   bin:
     pino: bin.js
-  checksum: a1bf199b1b542eb6ff8c4dcd961db2ae97f85e7a3a913c7a79ad7dda624c725abf063c43cefb441b00af77855bac9b4ae7933983cf01549793ff0ffb40a92fb3
+  checksum: b7d9e62b068ef28a5850fdb990ff0a229012bf312f423ea279bc8beaac43c0a333209b4e2b1b54d78e97e88457cac87efb6fa1b5b9ebe9bb670d6a3e1d706289
   languageName: node
   linkType: hard
 
