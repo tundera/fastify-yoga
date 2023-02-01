@@ -2144,13 +2144,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"content-type@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "content-type@npm:1.0.4"
-  checksum: 19e08f406f9ae3f80fb4607c75fbde1f22546647877e8047c9fa0b1c61e38f3ede853f51e915c95fd499c2e1c7478cb23c35cfb804d0e8e0495e8db88cfaed75
-  languageName: node
-  linkType: hard
-
 "conventional-changelog-angular@npm:^5.0.11":
   version: 5.0.13
   resolution: "conventional-changelog-angular@npm:5.0.13"
@@ -3664,6 +3657,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-content-type-parse@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "fast-content-type-parse@npm:1.0.0"
+  checksum: 4267249a0d4b26de4c39eb41cfc891bd9f295008e42cc7368129a74ff8b316adc0b4999bb5cd8ee7569031663832edf77c2298bf3ab275bda093ee207bfa3a99
+  languageName: node
+  linkType: hard
+
 "fast-copy@npm:^2.1.1":
   version: 2.1.3
   resolution: "fast-copy@npm:2.1.3"
@@ -3801,7 +3801,7 @@ __metadata:
     eslint-plugin-prettier: "npm:4.2.1"
     esno: "npm:0.16.3"
     execa: "npm:6.1.0"
-    fastify: "npm:4.10.2"
+    fastify: "npm:4.12.0"
     gacp: "npm:3.0.3"
     graphql: "npm:16.6.0"
     graphql-scalars: "npm:1.20.1"
@@ -3827,16 +3827,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"fastify@npm:4.10.2":
-  version: 4.10.2
-  resolution: "fastify@npm:4.10.2"
+"fastify@npm:4.12.0":
+  version: 4.12.0
+  resolution: "fastify@npm:4.12.0"
   dependencies:
     "@fastify/ajv-compiler": "npm:^3.3.1"
     "@fastify/error": "npm:^3.0.0"
     "@fastify/fast-json-stringify-compiler": "npm:^4.1.0"
     abstract-logging: "npm:^2.0.1"
     avvio: "npm:^8.2.0"
-    content-type: "npm:^1.0.4"
+    fast-content-type-parse: "npm:^1.0.0"
     find-my-way: "npm:^7.3.0"
     light-my-request: "npm:^5.6.1"
     pino: "npm:^8.5.0"
@@ -3846,7 +3846,7 @@ __metadata:
     secure-json-parse: "npm:^2.5.0"
     semver: "npm:^7.3.7"
     tiny-lru: "npm:^10.0.0"
-  checksum: ace25d52843c8a8e5c896c56c08a4434c327cb85823509edfdcc9a1f6a3e90a1a36b0d7468a638c6aa4b9ff8522e47c55ef560b49b7fd8a73c97c9ece341ea7a
+  checksum: 42b6f5ddd7ddc31ee01c425efc684b2bfd710656c4103c43de2c212a755a56859944bbc733a766b7665add781671250c3d51314e0f4bc99a6326fcded5a4c898
   languageName: node
   linkType: hard
 
