@@ -3734,10 +3734,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-copy@npm:^2.1.1":
-  version: 2.1.3
-  resolution: "fast-copy@npm:2.1.3"
-  checksum: 4bbef451b53d3e555b96bef015c1e3a6a7dfe18d33fe2084c274f332ffa72006641a0d1a548702201002f19f93bc38eca34934dce7c8b1534a58afaa36c0b0e3
+"fast-copy@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "fast-copy@npm:3.0.1"
+  checksum: a8310dbcc4c94ed001dc3e0bbc3c3f0491bb04e6c17163abe441a54997ba06cdf1eb532c2f05e54777c6f072c84548c23ef0ecd54665cd611be1d42f37eca258
   languageName: node
   linkType: hard
 
@@ -3893,7 +3893,7 @@ __metadata:
     lint-staged: "npm:13.1.0"
     pino: "npm:8.8.0"
     pino-datadog: "npm:2.0.2"
-    pino-pretty: "npm:8.1.0"
+    pino-pretty: "npm:9.4.0"
     prettier: "npm:2.8.3"
     prettier-plugin-prisma: "npm:4.9.0"
     pretty-quick: "npm:3.1.3"
@@ -6201,13 +6201,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"on-exit-leak-free@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "on-exit-leak-free@npm:1.0.0"
-  checksum: f97a73751760a459e7b20dbd8f8ae46c9d0a17307e83492c48cd06e7f9f11f59a08f41b8251e573f3577f9f9996ef9d661a2cf42102386bccf0a27c9e05b569d
-  languageName: node
-  linkType: hard
-
 "on-exit-leak-free@npm:^2.1.0":
   version: 2.1.0
   resolution: "on-exit-leak-free@npm:2.1.0"
@@ -6482,18 +6475,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino-pretty@npm:8.1.0":
-  version: 8.1.0
-  resolution: "pino-pretty@npm:8.1.0"
+"pino-pretty@npm:9.4.0":
+  version: 9.4.0
+  resolution: "pino-pretty@npm:9.4.0"
   dependencies:
     colorette: "npm:^2.0.7"
     dateformat: "npm:^4.6.3"
-    fast-copy: "npm:^2.1.1"
+    fast-copy: "npm:^3.0.0"
     fast-safe-stringify: "npm:^2.1.1"
     help-me: "npm:^4.0.1"
     joycon: "npm:^3.1.1"
     minimist: "npm:^1.2.6"
-    on-exit-leak-free: "npm:^1.0.0"
+    on-exit-leak-free: "npm:^2.1.0"
     pino-abstract-transport: "npm:^1.0.0"
     pump: "npm:^3.0.0"
     readable-stream: "npm:^4.0.0"
@@ -6502,7 +6495,7 @@ __metadata:
     strip-json-comments: "npm:^3.1.1"
   bin:
     pino-pretty: bin.js
-  checksum: 81c4c4baa1fa3ff796c8ad2bc96995ed54c95d202241f9ded8ad70c9355a06f3484424bcdccc72d6b7f0909e107d861b63b840586026a364dd1a259e11e4197d
+  checksum: 4b110e64869db781fe4be6eb13a0f9329136466886088b8bd42d289906804aed7a5404257e46f7e5ce80520f3cebae35bb1420bbb76c9f38cea0099321a3c083
   languageName: node
   linkType: hard
 
