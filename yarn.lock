@@ -1942,9 +1942,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"c8@npm:7.12.0":
-  version: 7.12.0
-  resolution: "c8@npm:7.12.0"
+"c8@npm:7.13.0":
+  version: 7.13.0
+  resolution: "c8@npm:7.13.0"
   dependencies:
     "@bcoe/v8-coverage": "npm:^0.2.3"
     "@istanbuljs/schema": "npm:^0.1.3"
@@ -1960,7 +1960,7 @@ __metadata:
     yargs-parser: "npm:^20.2.9"
   bin:
     c8: bin/c8.js
-  checksum: 4939095767be901170efec3e160221997711f2e62e1745a2ae42eef68933ec55f9ad7cdec074a0fd8948bdd24c860d0872741101fba16741ab6e239454243355
+  checksum: 9c53fdd7062a36a72f426d245f7646053c6e314f6e88bc64fa7d458c6c37801371d5894cdb0617a9b7cbb17f85aac5523b4d15cf42d40612136d5080b73d3212
   languageName: node
   linkType: hard
 
@@ -3873,7 +3873,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:5.50.0"
     "@typescript-eslint/parser": "npm:5.50.0"
     "@vitest/ui": "npm:0.28.3"
-    c8: "npm:7.12.0"
+    c8: "npm:7.13.0"
     dotenv: "npm:16.0.3"
     env-schema: "npm:5.2.0"
     eslint: "npm:8.33.0"
