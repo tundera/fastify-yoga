@@ -600,14 +600,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fastify/ajv-compiler@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "@fastify/ajv-compiler@npm:3.3.1"
+"@fastify/ajv-compiler@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "@fastify/ajv-compiler@npm:3.5.0"
   dependencies:
     ajv: "npm:^8.11.0"
     ajv-formats: "npm:^2.1.1"
     fast-uri: "npm:^2.0.0"
-  checksum: 67bcac52ea56c8f89c20c12523cd1556c994c7b1bdc817fa7479f8711f684766c8d8b992398521a11e09e026564046f860cdb3fbb4163840caf79450889b1e40
+  checksum: d10df76b7016984bf70bc6aca99962468ec43e0be5772d4aa3a7735ae78be44fdbcb2c078fe0cfdffec076080dfb7cbdbf4b729e52b168039477126f9d023af0
   languageName: node
   linkType: hard
 
@@ -3910,7 +3910,7 @@ __metadata:
     eslint-plugin-prettier: "npm:4.2.1"
     esno: "npm:0.16.3"
     execa: "npm:6.1.0"
-    fastify: "npm:4.12.0"
+    fastify: "npm:4.14.1"
     gacp: "npm:3.0.3"
     graphql: "npm:16.6.0"
     graphql-scalars: "npm:1.20.4"
@@ -3936,11 +3936,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"fastify@npm:4.12.0":
-  version: 4.12.0
-  resolution: "fastify@npm:4.12.0"
+"fastify@npm:4.14.1":
+  version: 4.14.1
+  resolution: "fastify@npm:4.14.1"
   dependencies:
-    "@fastify/ajv-compiler": "npm:^3.3.1"
+    "@fastify/ajv-compiler": "npm:^3.5.0"
     "@fastify/error": "npm:^3.0.0"
     "@fastify/fast-json-stringify-compiler": "npm:^4.1.0"
     abstract-logging: "npm:^2.0.1"
@@ -3955,7 +3955,7 @@ __metadata:
     secure-json-parse: "npm:^2.5.0"
     semver: "npm:^7.3.7"
     tiny-lru: "npm:^10.0.0"
-  checksum: 42b6f5ddd7ddc31ee01c425efc684b2bfd710656c4103c43de2c212a755a56859944bbc733a766b7665add781671250c3d51314e0f4bc99a6326fcded5a4c898
+  checksum: 1e75cd10ae6de7e88554bd6e41bad4e79c895b0f36ab65d75cf3c08d2445313f65128870d67312fd954b194f21928e4585ad368c52e8aaaa23c89dc237eb64dc
   languageName: node
   linkType: hard
 
