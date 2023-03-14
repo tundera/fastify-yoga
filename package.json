@@ -62,7 +62,7 @@
     "@commitlint/config-conventional": "17.4.4",
     "@commitlint/lint": "17.4.4",
     "@types/eslint": "8.4.10",
-    "@types/node": "18.11.18",
+    "@types/node": "18.15.2",
     "@types/pino-datadog": "2.0.1",
     "@types/supertest": "2.0.12",
     "@typescript-eslint/eslint-plugin": "5.50.0",
