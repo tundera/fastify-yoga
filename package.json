@@ -92,7 +92,7 @@
     "tasuku": "2.0.1",
     "ts-node": "10.9.1",
     "tsconfig-paths": "4.1.2",
-    "tsup": "6.5.0",
+    "tsup": "6.6.3",
     "vite-tsconfig-paths": "3.6.0",
     "vitest": "0.28.3"
   },
