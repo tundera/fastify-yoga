@@ -3937,7 +3937,7 @@ __metadata:
     fastify: "npm:4.15.0"
     gacp: "npm:3.0.3"
     graphql: "npm:16.6.0"
-    graphql-scalars: "npm:1.20.4"
+    graphql-scalars: "npm:1.21.3"
     husky: "npm:8.0.3"
     is-ci: "npm:3.0.1"
     lint-staged: "npm:13.2.1"
@@ -4585,14 +4585,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-scalars@npm:1.20.4":
-  version: 1.20.4
-  resolution: "graphql-scalars@npm:1.20.4"
+"graphql-scalars@npm:1.21.3":
+  version: 1.21.3
+  resolution: "graphql-scalars@npm:1.21.3"
   dependencies:
-    tslib: "npm:~2.5.0"
+    tslib: "npm:^2.5.0"
   peerDependencies:
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: cf097b27ed4f8a97f5ede40d4ee103e527fde177f58e81aaa0d8574e50651f25dd6dc20c2de859c868be30a09d75bd9a9a7fa078cc36d9d1da2a9d1aff17f0c8
+  checksum: f9b29d403f02f98c29b4eb6505b0099b54c093d7a34d7028e310c4ed4991abedca4e05a6fdb67f820b10b0e09992244aefc3fc183e3d19cf73643183fc20d4d9
   languageName: node
   linkType: hard
 
@@ -8141,7 +8141,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.5.0, tslib@npm:~2.5.0":
+"tslib@npm:^2.5.0":
   version: 2.5.0
   resolution: "tslib@npm:2.5.0"
   checksum: e32fc99cc730dd514e53c44e668d76016e738f0bcc726aad5dbd2d335cf19b87a95a9b1e4f0a9993e370f1d702b5e471cdd4acabcac428a3099d496b9af2021e
