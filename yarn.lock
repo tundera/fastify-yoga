@@ -3953,7 +3953,7 @@ __metadata:
     tasuku: "npm:2.0.1"
     ts-node: "npm:10.9.1"
     tsconfig-paths: "npm:4.2.0"
-    tsup: "npm:6.6.3"
+    tsup: "npm:6.7.0"
     typescript: "npm:4.9.5"
     vite-tsconfig-paths: "npm:3.6.0"
     vitest: "npm:0.29.2"
@@ -8148,9 +8148,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsup@npm:6.6.3":
-  version: 6.6.3
-  resolution: "tsup@npm:6.6.3"
+"tsup@npm:6.7.0":
+  version: 6.7.0
+  resolution: "tsup@npm:6.7.0"
   dependencies:
     bundle-require: "npm:^4.0.0"
     cac: "npm:^6.7.12"
@@ -8169,7 +8169,7 @@ __metadata:
   peerDependencies:
     "@swc/core": ^1
     postcss: ^8.4.12
-    typescript: ^4.1.0
+    typescript: ">=4.1.0"
   peerDependenciesMeta:
     "@swc/core":
       optional: true
@@ -8180,7 +8180,7 @@ __metadata:
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: 1ea9d14c100dd7e22de9c9e36336b432e7c2ce4b9a1f9d80af5318525ffa8b5291fcb828e68d20ba7ec12b0de934e6552b5d2ba61a7cdcf164c3d20305c6330c
+  checksum: f6ab9a191b91c68d2bcac9a4df062d26343a9253d5577ee617fa3409e306cb6373ffa6cdb3f6a772e7222a5cf945e330bf6ad9455a7ae3c47aa9eb13f98ac812
   languageName: node
   linkType: hard
 
