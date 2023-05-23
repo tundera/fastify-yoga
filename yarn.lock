@@ -3984,7 +3984,7 @@ __metadata:
     graphql-scalars: "npm:1.21.3"
     husky: "npm:8.0.3"
     is-ci: "npm:3.0.1"
-    lint-staged: "npm:13.2.1"
+    lint-staged: "npm:13.2.2"
     pino: "npm:8.11.0"
     pino-datadog: "npm:2.0.2"
     pino-pretty: "npm:8.1.0"
@@ -5530,9 +5530,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:13.2.1":
-  version: 13.2.1
-  resolution: "lint-staged@npm:13.2.1"
+"lint-staged@npm:13.2.2":
+  version: 13.2.2
+  resolution: "lint-staged@npm:13.2.2"
   dependencies:
     chalk: "npm:5.2.0"
     cli-truncate: "npm:^3.1.0"
@@ -5546,10 +5546,10 @@ __metadata:
     object-inspect: "npm:^1.12.3"
     pidtree: "npm:^0.6.0"
     string-argv: "npm:^0.3.1"
-    yaml: "npm:^2.2.1"
+    yaml: "npm:^2.2.2"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 324f3b9511e581a7032c36b70386dcd54892cb3558bdfda8713fe3d42ffd6087233592016354e24af0186f1ecce1096ca93207e803312891c4788c6dd3670d6e
+  checksum: a3f43ad7a88b57cbdd5e15a6b484955092ecf8bfbb38b009ec47d52ef8d16961785ce85fd6fb49a2d57ec7feb54d6724f1b0b2732f425d0e39b17206a88f7f96
   languageName: node
   linkType: hard
 
@@ -8902,10 +8902,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "yaml@npm:2.2.1"
-  checksum: 12f3a73f2d28970d146184b1425d32a63f65e9f4840eeab09155a4d23a15be8401ac7a3a09b6626895ccf853c1b9069450957c0ad82cfe591369aaa58d1593d6
+"yaml@npm:^2.2.2":
+  version: 2.3.0
+  resolution: "yaml@npm:2.3.0"
+  checksum: eddd19ac2d3f1f79c28cd91360fcf26f11d25760501a342f6b84148930b9903abd7db32a5abff1565fee7ff96b8a623e6cf12813c891b3d088babcc25694f468
   languageName: node
   linkType: hard
 
