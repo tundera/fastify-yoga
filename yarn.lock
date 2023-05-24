@@ -772,12 +772,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fastify/fast-json-stringify-compiler@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@fastify/fast-json-stringify-compiler@npm:4.2.0"
+"@fastify/fast-json-stringify-compiler@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@fastify/fast-json-stringify-compiler@npm:4.3.0"
   dependencies:
-    fast-json-stringify: "npm:^5.0.0"
-  checksum: adcf9b5814ed004085bee6c18187f8cd8841771d4871b2f3ec15e39d19309dcc97a49346c5a302d8a073b034a80441890dabaa7ee7f53b64d2a0150bce373d41
+    fast-json-stringify: "npm:^5.7.0"
+  checksum: 513ef296f5ed682f7a460cfa6c5fb917a32fc540111b873c9937f944558e021492b18f30f9fd8dd20db252381a4428adbcc9f03a077f16c86d02f081eb490c7b
   languageName: node
   linkType: hard
 
@@ -3895,16 +3895,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-json-stringify@npm:^5.0.0":
-  version: 5.1.0
-  resolution: "fast-json-stringify@npm:5.1.0"
+"fast-json-stringify@npm:^5.7.0":
+  version: 5.7.0
+  resolution: "fast-json-stringify@npm:5.7.0"
   dependencies:
     "@fastify/deepmerge": "npm:^1.0.0"
     ajv: "npm:^8.10.0"
     ajv-formats: "npm:^2.1.1"
+    fast-deep-equal: "npm:^3.1.3"
     fast-uri: "npm:^2.1.0"
     rfdc: "npm:^1.2.0"
-  checksum: c241a3fc9472b49a30c38b5bad2ec5a77af37f9bda07a21b6c17a9fb43840b1bc4c912cf2c4d8bdade5b5782dabaa930b1f2271a9d65d5530a47f1bb8349ac1b
+  checksum: 1c955b677e2cbae573217a22231a27fdf695ab916cc69ff5e0a944b984ebbedad4b6827eae7b1a4cd792fc967d5039f52f0e25471be555aec7ef87b5f62e70dc
   languageName: node
   linkType: hard
 
@@ -3977,7 +3978,7 @@ __metadata:
     eslint-plugin-prettier: "npm:4.2.1"
     esno: "npm:0.16.3"
     execa: "npm:6.1.0"
-    fastify: "npm:4.15.0"
+    fastify: "npm:4.17.0"
     gacp: "npm:3.0.3"
     graphql: "npm:16.6.0"
     graphql-scalars: "npm:1.21.3"
@@ -4003,16 +4004,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"fastify@npm:4.15.0":
-  version: 4.15.0
-  resolution: "fastify@npm:4.15.0"
+"fastify@npm:4.17.0":
+  version: 4.17.0
+  resolution: "fastify@npm:4.17.0"
   dependencies:
     "@fastify/ajv-compiler": "npm:^3.5.0"
     "@fastify/error": "npm:^3.0.0"
-    "@fastify/fast-json-stringify-compiler": "npm:^4.2.0"
+    "@fastify/fast-json-stringify-compiler": "npm:^4.3.0"
     abstract-logging: "npm:^2.0.1"
     avvio: "npm:^8.2.0"
     fast-content-type-parse: "npm:^1.0.0"
+    fast-json-stringify: "npm:^5.7.0"
     find-my-way: "npm:^7.6.0"
     light-my-request: "npm:^5.6.1"
     pino: "npm:^8.5.0"
@@ -4021,8 +4023,8 @@ __metadata:
     rfdc: "npm:^1.3.0"
     secure-json-parse: "npm:^2.5.0"
     semver: "npm:^7.3.7"
-    tiny-lru: "npm:^10.0.0"
-  checksum: b688126a2de1b6cb6f74bcb6b7ec1a69e46ff83f0bc671774fb109e0b23814b0ecd8fe795de2ce42648c36e4160e512c5234f262b83649025a6a20eadcb70916
+    tiny-lru: "npm:^11.0.1"
+  checksum: 0ebabd390be88b4c73d3f3f3d702eb583095ce2335a98d291ba65f27f1e70c49f566c3e6e60bfa4662c68f0fd1c3f162a770d1448fdb3591937901adf2521f82
   languageName: node
   linkType: hard
 
@@ -8049,10 +8051,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tiny-lru@npm:^10.0.0":
-  version: 10.0.1
-  resolution: "tiny-lru@npm:10.0.1"
-  checksum: 37cbb0419044026cf3d701734bd03e360315aba338f346736a46d8aaaafec8b4f1054c2e4e614a34ab19a5ad04673ee95fdd2d7b97e2b5e7cf9db2426f00d114
+"tiny-lru@npm:^11.0.1":
+  version: 11.0.1
+  resolution: "tiny-lru@npm:11.0.1"
+  checksum: f1b4c61dcf822747daafc2ec9f6de6722b7c8f028532d89a878315d0c82001fd9c9386916b6af96ee754ed327d3136ba7b55d319ffc1b4c108a34fdd923fd13b
   languageName: node
   linkType: hard
 
