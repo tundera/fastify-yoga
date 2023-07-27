@@ -3743,20 +3743,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:6.1.0":
-  version: 6.1.0
-  resolution: "execa@npm:6.1.0"
+"execa@npm:7.2.0":
+  version: 7.2.0
+  resolution: "execa@npm:7.2.0"
   dependencies:
     cross-spawn: "npm:^7.0.3"
     get-stream: "npm:^6.0.1"
-    human-signals: "npm:^3.0.1"
+    human-signals: "npm:^4.3.0"
     is-stream: "npm:^3.0.0"
     merge-stream: "npm:^2.0.0"
     npm-run-path: "npm:^5.1.0"
     onetime: "npm:^6.0.0"
     signal-exit: "npm:^3.0.7"
     strip-final-newline: "npm:^3.0.0"
-  checksum: 004ee32092af745766a1b0352fdba8701a4001bc3fe08e63101c04276d4c860bbe11bb8ab85f37acdff13d3da83d60e044041dcf24bd7e25e645a543828d9c41
+  checksum: 098cd6a1bc26d509e5402c43f4971736450b84d058391820c6f237aeec6436963e006fd8423c9722f148c53da86aa50045929c7278b5522197dff802d10f9885
   languageName: node
   linkType: hard
 
@@ -3979,7 +3979,7 @@ __metadata:
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-prettier: "npm:4.2.1"
     esno: "npm:0.16.3"
-    execa: "npm:6.1.0"
+    execa: "npm:7.2.0"
     fastify: "npm:4.17.0"
     gacp: "npm:3.0.3"
     graphql: "npm:16.6.0"
@@ -4826,13 +4826,6 @@ __metadata:
   version: 2.1.0
   resolution: "human-signals@npm:2.1.0"
   checksum: 695edb3edfcfe9c8b52a76926cd31b36978782062c0ed9b1192b36bebc75c4c87c82e178dfcb0ed0fc27ca59d434198aac0bd0be18f5781ded775604db22304a
-  languageName: node
-  linkType: hard
-
-"human-signals@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "human-signals@npm:3.0.1"
-  checksum: 0bb27e72aea1666322f69ab9816e05df952ef2160346f2293f98f45d472edb1b62d0f1a596697b50d48d8f8222e6db3b9f9dc0b6bf6113866121001f0a8e48e9
   languageName: node
   linkType: hard
 
