@@ -58,9 +58,9 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.6.3",
-    "@commitlint/config-conventional": "17.6.3",
-    "@commitlint/lint": "17.6.3",
+    "@commitlint/cli": "17.7.1",
+    "@commitlint/config-conventional": "17.7.0",
+    "@commitlint/lint": "17.7.0",
     "@types/eslint": "8.40.0",
     "@types/node": "18.16.14",
     "@types/pino-datadog": "2.0.1",
