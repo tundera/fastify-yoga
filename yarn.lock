@@ -1306,10 +1306,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/prisma-fmt-wasm@npm:4.13.0-52.integration-mobc-upstream-d100a9299fcb9cffb064301998e9a94ce2722c49":
-  version: 4.13.0-52.integration-mobc-upstream-d100a9299fcb9cffb064301998e9a94ce2722c49
-  resolution: "@prisma/prisma-fmt-wasm@npm:4.13.0-52.integration-mobc-upstream-d100a9299fcb9cffb064301998e9a94ce2722c49"
-  checksum: ac6897de183adc873e6082fee294644055df88469e421307814fdbf4829cb626fd93163fbcbd81fd3e584819a4f3548e8dfad90f0ca8033b97e1bf892c631c0a
+"@prisma/prisma-fmt-wasm@npm:4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085":
+  version: 4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085
+  resolution: "@prisma/prisma-fmt-wasm@npm:4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085"
+  checksum: 34c0df88a6a62121fabf7e7159d5a9efe5fa2f044b99933b4e4a9ca006701b23e60af8da2bed1604e8475504bb1cebbcb998557618e0e8b0d0a861a6e9cfa22f
   languageName: node
   linkType: hard
 
@@ -4146,7 +4146,7 @@ __metadata:
     pino-datadog: "npm:2.0.2"
     pino-pretty: "npm:8.1.0"
     prettier: "npm:2.8.8"
-    prettier-plugin-prisma: "npm:4.13.0"
+    prettier-plugin-prisma: "npm:4.17.0"
     pretty-quick: "npm:3.1.3"
     prisma: "npm:4.14.1"
     prisma-repl: "npm:1.4.0"
@@ -6922,14 +6922,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-prisma@npm:4.13.0":
-  version: 4.13.0
-  resolution: "prettier-plugin-prisma@npm:4.13.0"
+"prettier-plugin-prisma@npm:4.17.0":
+  version: 4.17.0
+  resolution: "prettier-plugin-prisma@npm:4.17.0"
   dependencies:
-    "@prisma/prisma-fmt-wasm": "npm:4.13.0-52.integration-mobc-upstream-d100a9299fcb9cffb064301998e9a94ce2722c49"
+    "@prisma/prisma-fmt-wasm": "npm:4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085"
   peerDependencies:
-    prettier: ">=2"
-  checksum: 48fde1532e031a620d9a1a13f26d075f728996d01fa558d35bbf5ac48e74e8ba9db8866a761dc9337b0477ae0bd70282ccf239c14076f15feb09dc265f183ceb
+    prettier: ">=2 || >=3"
+  checksum: 6853ee8e61644605edb85f76f5e0e168e5308e96abca025b915d942b03decdcace207018f2b9a2a5f36d9a116f9b49bbf0456d64ada90012fc97290fc074d5b4
   languageName: node
   linkType: hard
 
