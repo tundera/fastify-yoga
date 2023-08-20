@@ -4142,7 +4142,7 @@ __metadata:
     husky: "npm:8.0.3"
     is-ci: "npm:3.0.1"
     lint-staged: "npm:13.3.0"
-    pino: "npm:8.14.1"
+    pino: "npm:8.15.0"
     pino-datadog: "npm:2.0.2"
     pino-pretty: "npm:8.1.0"
     prettier: "npm:2.8.8"
@@ -6831,28 +6831,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:8.14.1":
-  version: 8.14.1
-  resolution: "pino@npm:8.14.1"
-  dependencies:
-    atomic-sleep: "npm:^1.0.0"
-    fast-redact: "npm:^3.1.1"
-    on-exit-leak-free: "npm:^2.1.0"
-    pino-abstract-transport: "npm:v1.0.0"
-    pino-std-serializers: "npm:^6.0.0"
-    process-warning: "npm:^2.0.0"
-    quick-format-unescaped: "npm:^4.0.3"
-    real-require: "npm:^0.2.0"
-    safe-stable-stringify: "npm:^2.3.1"
-    sonic-boom: "npm:^3.1.0"
-    thread-stream: "npm:^2.0.0"
-  bin:
-    pino: bin.js
-  checksum: 0903238577141814b7bcab0278e0a249078e6cf8198630c9bb7a0dfba555ea303660632ea289d9bd721d8b964939adbfe90fd5a39dee7a6c9f967c0c5e3df8ae
-  languageName: node
-  linkType: hard
-
-"pino@npm:^8.12.0":
+"pino@npm:8.15.0, pino@npm:^8.12.0":
   version: 8.15.0
   resolution: "pino@npm:8.15.0"
   dependencies:
