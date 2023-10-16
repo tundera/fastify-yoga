@@ -64,7 +64,7 @@
     "@types/eslint": "8.44.2",
     "@types/node": "18.17.15",
     "@types/pino-datadog": "2.0.1",
-    "@types/supertest": "2.0.12",
+    "@types/supertest": "2.0.14",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "@vitest/ui": "0.34.4",
