@@ -4366,7 +4366,7 @@ __metadata:
     husky: "npm:8.0.3"
     is-ci: "npm:3.0.1"
     lint-staged: "npm:13.3.0"
-    pino: "npm:8.15.1"
+    pino: "npm:8.16.0"
     pino-datadog: "npm:2.0.2"
     pino-pretty: "npm:8.1.0"
     prettier: "npm:2.8.8"
@@ -7078,28 +7078,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:8.15.1":
-  version: 8.15.1
-  resolution: "pino@npm:8.15.1"
-  dependencies:
-    atomic-sleep: "npm:^1.0.0"
-    fast-redact: "npm:^3.1.1"
-    on-exit-leak-free: "npm:^2.1.0"
-    pino-abstract-transport: "npm:v1.1.0"
-    pino-std-serializers: "npm:^6.0.0"
-    process-warning: "npm:^2.0.0"
-    quick-format-unescaped: "npm:^4.0.3"
-    real-require: "npm:^0.2.0"
-    safe-stable-stringify: "npm:^2.3.1"
-    sonic-boom: "npm:^3.1.0"
-    thread-stream: "npm:^2.0.0"
-  bin:
-    pino: bin.js
-  checksum: d2a5392da372d279f2ff0465d6a6f2033303d7cf8d2020938ae5e00e750a006388148edb8bad2c3f41227e365c3b179fb692d220566fe79e32ac5ed051bd4183
-  languageName: node
-  linkType: hard
-
-"pino@npm:^8.16.0":
+"pino@npm:8.16.0, pino@npm:^8.16.0":
   version: 8.16.0
   resolution: "pino@npm:8.16.0"
   dependencies:
@@ -8070,15 +8049,6 @@ __metadata:
   dependencies:
     atomic-sleep: "npm:^1.0.0"
   checksum: 53ead1776a8dec2811d527a38ed9c889c318bf5da90cceb68539f0060b9a7ea3a5c20d97a7681f2848c4a06232be8c8051e3ea333d4212cc1cc020242c237137
-  languageName: node
-  linkType: hard
-
-"sonic-boom@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "sonic-boom@npm:3.1.0"
-  dependencies:
-    atomic-sleep: "npm:^1.0.0"
-  checksum: a6b1a52e3bc898af33e8b5ffeeaeaebeeeff98225cdbf2bd42d5c633060e728942a117d80bb448cbad13d8a1409ce7da73366ac8abfbce636d15c819f2ee3350
   languageName: node
   linkType: hard
 
