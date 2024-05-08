@@ -1692,12 +1692,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/pino-datadog@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@types/pino-datadog@npm:2.0.1"
+"@types/pino-datadog@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@types/pino-datadog@npm:2.0.3"
   dependencies:
     "@types/node": "npm:*"
-  checksum: 2be0189d32b21966188ba506ef70d4fceb816d8042a8a084019e99a653ce02ef73b87b142eef6c5b246811a536803512d4f86163ccfbca44db24465ee50151b0
+  checksum: 37bc88abaabb512111415639b16e69259e263c5a7cd95622c3855f4cee3427f90edb949a4be2e744da8edc0626f0a813e57927027894f3f9a9a68cef19920bc1
   languageName: node
   linkType: hard
 
@@ -4343,7 +4343,7 @@ __metadata:
     "@prisma/client": "npm:4.16.2"
     "@types/eslint": "npm:8.44.4"
     "@types/node": "npm:18.18.5"
-    "@types/pino-datadog": "npm:2.0.1"
+    "@types/pino-datadog": "npm:2.0.3"
     "@types/supertest": "npm:2.0.14"
     "@typescript-eslint/eslint-plugin": "npm:5.62.0"
     "@typescript-eslint/parser": "npm:5.62.0"
