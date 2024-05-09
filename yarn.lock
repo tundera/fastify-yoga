@@ -1727,12 +1727,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/supertest@npm:2.0.14":
-  version: 2.0.14
-  resolution: "@types/supertest@npm:2.0.14"
+"@types/supertest@npm:2.0.16":
+  version: 2.0.16
+  resolution: "@types/supertest@npm:2.0.16"
   dependencies:
     "@types/superagent": "npm:*"
-  checksum: 33ea559dd0e0187b75a630172c07530896f2297924cf57487da63b00ada3b42926e0acf2bfc0086b8348aef665e21000908994d17fce35272a9adba8edba5db5
+  checksum: e1b4a4d788c19cd92a3f2e6d0979fb0f679c49aefae2011895a4d9c35aa960d43463aca8783a0b3382bbf0b4eb7ceaf8752d7dc80b8f5a9644fa14e1b1bdbc90
   languageName: node
   linkType: hard
 
@@ -4344,7 +4344,7 @@ __metadata:
     "@types/eslint": "npm:8.44.4"
     "@types/node": "npm:18.18.5"
     "@types/pino-datadog": "npm:2.0.3"
-    "@types/supertest": "npm:2.0.14"
+    "@types/supertest": "npm:2.0.16"
     "@typescript-eslint/eslint-plugin": "npm:5.62.0"
     "@typescript-eslint/parser": "npm:5.62.0"
     "@vitest/ui": "npm:0.34.6"
