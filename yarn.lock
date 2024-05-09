@@ -3240,10 +3240,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-expand@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "dotenv-expand@npm:9.0.0"
-  checksum: b689d464826c350c403f04396d5bb39dad75afff2b2451c8ea18de033f93789c7ebc31e65e397c825fc0263b2fd2461ea211539ea56b35a8f5b852db73ce17b3
+"dotenv-expand@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "dotenv-expand@npm:10.0.0"
+  checksum: 298f5018e29cfdcb0b5f463ba8e8627749103fbcf6cf81c561119115754ed582deee37b49dfc7253028aaba875ab7aea5fa90e5dac88e511d009ab0e6677924e
   languageName: node
   linkType: hard
 
@@ -3350,14 +3350,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"env-schema@npm:5.2.0":
-  version: 5.2.0
-  resolution: "env-schema@npm:5.2.0"
+"env-schema@npm:5.2.1":
+  version: 5.2.1
+  resolution: "env-schema@npm:5.2.1"
   dependencies:
     ajv: "npm:^8.0.0"
     dotenv: "npm:^16.0.0"
-    dotenv-expand: "npm:^9.0.0"
-  checksum: 5a1e02510b7769ba7df5fba2281fe42ba6f93bc43fab639e1a8963a877302feab67621cf339053ba56cadc408144c4e7f8272dc52539d1d9fc0a2865c9127ee6
+    dotenv-expand: "npm:^10.0.0"
+  checksum: bc79b7157f0ba98df95226512acdfa18781523e1dea0715954638042dcdffadcc9497946d87bea95ff4bb6b47b666a9fca02da621a487f085a08dd196f3058f7
   languageName: node
   linkType: hard
 
@@ -4361,7 +4361,7 @@ __metadata:
     "@vitest/ui": "npm:0.34.7"
     c8: "npm:7.14.0"
     dotenv: "npm:16.3.1"
-    env-schema: "npm:5.2.0"
+    env-schema: "npm:5.2.1"
     eslint: "npm:8.51.0"
     eslint-config-prettier: "npm:8.10.0"
     eslint-import-resolver-node: "npm:0.3.9"
