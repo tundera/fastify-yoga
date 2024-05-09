@@ -4422,7 +4422,7 @@ __metadata:
     fastify: "npm:4.27.0"
     gacp: "npm:3.0.3"
     graphql: "npm:16.8.1"
-    graphql-scalars: "npm:1.22.4"
+    graphql-scalars: "npm:1.23.0"
     husky: "npm:8.0.3"
     is-ci: "npm:3.0.1"
     lint-staged: "npm:13.3.0"
@@ -5128,14 +5128,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-scalars@npm:1.22.4":
-  version: 1.22.4
-  resolution: "graphql-scalars@npm:1.22.4"
+"graphql-scalars@npm:1.23.0":
+  version: 1.23.0
+  resolution: "graphql-scalars@npm:1.23.0"
   dependencies:
     tslib: "npm:^2.5.0"
   peerDependencies:
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: d7df28c7bcd274049ee2b93536036b22bc2591bdb86a627a46d4557161965df96c8da6c4f7dc01684d46580d75c7b2fbba7fc5042b763b5b6cba879dc79e010e
+  checksum: 7666c305b8367528c4fbb583a2731d93d52f36043d71f4957ecc1d2db71d710d268e25535243beb1b2497db921daa94d3cfa83daaf4a3101a667f358ddbf3436
   languageName: node
   linkType: hard
 
